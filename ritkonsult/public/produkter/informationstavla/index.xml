@@ -6,7 +6,6 @@
     <description>Recent content in Informationstavla on Ritkonsult</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv</language>
-    <copyright>Copyright © :YEAR: Ritkonsult</copyright>
-    <lastBuildDate>Thu, 15 Dec 2022 23:20:03 +0100</lastBuildDate><atom:link href="https://ritkonsult.net/produkter/informationstavla/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © :YEAR: Ritkonsult</copyright><atom:link href="https://ritkonsult.net/produkter/informationstavla/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

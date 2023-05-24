@@ -239,6 +239,8 @@
                 href="https://ritkonsult.net/guider/insatsplan-enkel/ledning-branfarliggas-v%C3%A4tska/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/guider/brandlarmsritning/symboler/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/symboler/</loc>
     <xhtml:link
                 rel="alternate"
@@ -310,6 +312,8 @@
                 href="https://ritkonsult.net/guider/kontrollritning/text-i-rum/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/guider/brandlarmsritning/symbolnummer/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/symbolnummer/</loc>
   </url><url>
     <loc>https://ritkonsult.net/blanketter/</loc>
@@ -378,6 +382,8 @@
                 />
   </url><url>
     <loc>https://ritkonsult.net/produkter/3d/</loc>
+  </url><url>
+    <loc>https://ritkonsult.net/guider/brandlarmsritning/text-i-rum/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/text-i-rum/</loc>
     <xhtml:link
@@ -457,6 +463,8 @@
                 href="https://ritkonsult.net/guider/utrymningsplan/text-i-rum/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/produkter/informationstavla/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/utrymningsplan/situationsplan/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/text-sida/</loc>
@@ -490,6 +498,11 @@
                 hreflang="sv"
                 href="https://ritkonsult.net/guider/insatsplan-enkel/text-sida/"
                 />
+  </url><url>
+    <loc>https://ritkonsult.net/produkter/ramar/</loc>
+    <lastmod>2022-12-15T23:20:03+01:00</lastmod>
+  </url><url>
+    <loc>https://ritkonsult.net/guider/brandlarmsritning/skicka-ordern/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/skicka-ordern/</loc>
     <xhtml:link
@@ -587,13 +600,9 @@
                 href="https://ritkonsult.net/"
                 />
   </url><url>
-    <loc>https://ritkonsult.net/produkter/informationstavla/</loc>
-    <lastmod>2022-12-15T23:20:03+01:00</lastmod>
-  </url><url>
-    <loc>https://ritkonsult.net/produkter/ramar/</loc>
-    <lastmod>2022-12-15T23:20:03+01:00</lastmod>
-  </url><url>
     <loc>https://ritkonsult.net/guider/avs%C3%B6kningsplan/</loc>
+  </url><url>
+    <loc>https://ritkonsult.net/guider/brandlarmsritning/</loc>
   </url><url>
     <loc>https://ritkonsult.net/erbjudanden/</loc>
     <xhtml:link

@@ -579,23 +579,22 @@ Utrymningsväg med endast pil Tillfartsväg Tillfartsväg markeras ut med en pil
     </item>
     
     <item>
+      <title>Avsökningsplan</title>
+      <link>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</guid>
+      <description>På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggningar, m.fl. är det vid utrymning mycket svårt att ha full kontroll på om alla som vistats i lokalen verkligen är ute och befinner sig på den bestämda återsamlingsplatsen. Därför har vi tagit fram ett stöd till utrymningsledarna i form av avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.
+Design Vi delar in byggnaden i olika färgade områden/mönster. Du kan välja på dessa färger.</description>
+    </item>
+    
+    <item>
       <title>Brandcellsgräns</title>
       <link>https://ritkonsult.net/guider/insatsplan-enkel/brandcellsgr%C3%A4ns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ritkonsult.net/guider/insatsplan-enkel/brandcellsgr%C3%A4ns/</guid>
       <description>Använd en röd/rosa överstrykningspenna och markera väggarna som ska vara brandvägg. För att göra det tydligare kan ett streck dras till väggen som är markerad och ha nr för brandcellsgräns skriven där&amp;hellip;..</description>
-    </item>
-    
-    <item>
-      <title>Kontrollritning</title>
-      <link>https://ritkonsult.net/produkter/kontrollritning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ritkonsult.net/produkter/kontrollritning/</guid>
-      <description>Design Vi ritar idag hundratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell. Kontrollritningar är en del av det systematiska brandskyddsarbetet. Det finns idag ingen svensk standard för hur en kontrollritning ska se ut, vilket gör att det finns flera olika typer av kontrollritningar.
-Vi har därför tagit fram en egen mall för kontrollritningar där varje kontrollpunkt anges med en symbol (se bilden ovan).
-Vi ritar vanligtvis i CorelDraw men om ni önskar kan vi även leverera CAD-filer.</description>
     </item>
     
     <item>
@@ -807,6 +806,17 @@ Trappor som används för utrymning Funktionsanpassad utrymning Utrymning som ä
       
       <guid></guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Kontrollritning</title>
+      <link>https://ritkonsult.net/produkter/kontrollritning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ritkonsult.net/produkter/kontrollritning/</guid>
+      <description>Design Vi ritar idag hundratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell. Kontrollritningar är en del av det systematiska brandskyddsarbetet. Det finns idag ingen svensk standard för hur en kontrollritning ska se ut, vilket gör att det finns flera olika typer av kontrollritningar.
+Vi har därför tagit fram en egen mall för kontrollritningar där varje kontrollpunkt anges med en symbol (se bilden ovan).
+Vi ritar vanligtvis i CorelDraw men om ni önskar kan vi även leverera CAD-filer.</description>
     </item>
     
     <item>
@@ -1041,6 +1051,17 @@ Unik per sida Vill ni istället ha unik innehållsförteckning på varje sida s�
       
       <guid></guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Brandlarmsritning</title>
+      <link>https://ritkonsult.net/produkter/brandlarmsritning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ritkonsult.net/produkter/brandlarmsritning/</guid>
+      <description>Design Brandlarmsritningar är en enklare version av orienteringsritning. En orienteringsritning (OR/SR) ska ritas enligt SBF 1021:2 som på 38 sidor i detalj går igenom hur en denna ska ritas. Dessa ritningar används för anläggningar som besiktigas av SBSC certifierat besiktningsföretag. Vår brandlarmsritning vänder sig till dig som vill ha en enklare ritning till en betydligt lägre kostnad.
+Följande saker gäller för brandlarmsritngar:
+Vi ritar inte enligt en viss skala. Design och storlek på symboler följer inte SBF 1021:2 dock använder vi samma eller liknande symboler.</description>
     </item>
     
     <item>
@@ -1421,6 +1442,18 @@ Trappor som används för utrymning </description>
     </item>
     
     <item>
+      <title>3D</title>
+      <link>https://ritkonsult.net/produkter/3d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ritkonsult.net/produkter/3d/</guid>
+      <description>Vi har arbetat med utrymningsplaner i 3D sedan 2006 och erbjuder även andra tjänster inom 3D och 3D visualisering. Vi ritar i Sketchup och Blender.
+Du kan få din 3D model levererat som en bild eller 3D-fil. Om du vill kan vi hjälpa dig ta fram bilder.. manualer/installationer&amp;amp;navigerings kartor
+Byggnader Objekt En ide du vill visaullisera i 3d. Bilder du kan använda för manualer..
+Planritningar Butiksplaner Hyllor och butiks inredning kan göras i 3D.</description>
+    </item>
+    
+    <item>
       <title>Hjärtstartare</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1778,17 +1811,6 @@ Plexiram Våra plexiglasramar finns i A3 och A4 storlek. De röda punkterna ange
     </item>
     
     <item>
-      <title>Brandlarmsritning</title>
-      <link>https://ritkonsult.net/produkter/brandlarmsritning/</link>
-      <pubDate>Thu, 15 Dec 2022 23:20:03 +0100</pubDate>
-      
-      <guid>https://ritkonsult.net/produkter/brandlarmsritning/</guid>
-      <description>Design Brandlarmsritningar är en enklare version av orienteringsritning. En orienteringsritning (OR/SR) ska ritas enligt SBF 1021:2 som på 38 sidor i detalj går igenom hur en denna ska ritas. Dessa ritningar används för anläggningar som besiktigas av SBSC certifierat besiktningsföretag. Vår brandlarmsritning vänder sig till dig som vill ha en enklare ritning till en betydligt lägre kostnad.
-Följande saker gäller för brandlarmsritngar:
-Vi ritar inte enligt en viss skala. Design och storlek på symboler följer inte SBF 1021:2 dock använder vi samma eller liknande symboler.</description>
-    </item>
-    
-    <item>
       <title>CAD</title>
       <link>https://ritkonsult.net/produkter/cad/</link>
       <pubDate>Thu, 15 Dec 2022 23:20:03 +0100</pubDate>
@@ -1823,34 +1845,12 @@ A4, A3 och A2 ramen har exakt samma avstånd mellan fästena på baksidan vilket
     </item>
     
     <item>
-      <title>3D</title>
-      <link>https://ritkonsult.net/produkter/3d/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ritkonsult.net/produkter/3d/</guid>
-      <description>Vi har arbetat med utrymningsplaner i 3D sedan 2006 och erbjuder även andra tjänster inom 3D och 3D visualisering. Vi ritar i Sketchup och Blender.
-Du kan få din 3D model levererat som en bild eller 3D-fil. Om du vill kan vi hjälpa dig ta fram bilder.. manualer/installationer&amp;amp;navigerings kartor
-Byggnader Objekt En ide du vill visaullisera i 3d. Bilder du kan använda för manualer..
-Planritningar Butiksplaner Hyllor och butiks inredning kan göras i 3D.</description>
-    </item>
-    
-    <item>
       <title>4 olika ramar</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid></guid>
       <description>Vi erbjuder fyra olika inramningar. Matt aluminiumram som standard, snäppram om man enkelt vill kunna sätta i utrymningsplanen, prisvärd plastram eller vår exklusiva plexiglasram som hänger ut från väggen.</description>
-    </item>
-    
-    <item>
-      <title>Avsökningsplan</title>
-      <link>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</guid>
-      <description>På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggningar, m.fl. är det vid utrymning mycket svårt att ha full kontroll på om alla som vistats i lokalen verkligen är ute och befinner sig på den bestämda återsamlingsplatsen. Därför har vi tagit fram ett stöd till utrymningsledarna i form av avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.
-Design Vi delar in byggnaden i olika färgade områden/mönster. Du kan välja på dessa färger.</description>
     </item>
     
     <item>

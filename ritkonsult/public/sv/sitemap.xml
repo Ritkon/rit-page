@@ -110,6 +110,8 @@
                 href="https://ritkonsult.net/guider/insatsplan-enkel/angreppsv%C3%A4g-tillfartsv%C3%A4g/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/brandcellsgr%C3%A4ns/</loc>
     <xhtml:link
                 rel="alternate"
@@ -141,8 +143,6 @@
                 hreflang="sv"
                 href="https://ritkonsult.net/guider/insatsplan-enkel/brandcellsgr%C3%A4ns/"
                 />
-  </url><url>
-    <loc>https://ritkonsult.net/produkter/kontrollritning/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/kontrollritning/symboler/</loc>
     <xhtml:link
@@ -204,6 +204,8 @@
                 hreflang="sv"
                 href="https://ritkonsult.net/kontakt/"
                 />
+  </url><url>
+    <loc>https://ritkonsult.net/produkter/kontrollritning/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/ledning-branfarliggas-v%C3%A4tska/</loc>
     <xhtml:link
@@ -272,6 +274,8 @@
   </url><url>
     <loc>https://ritkonsult.net/guider/kontrollritning/underlaget-copy/</loc>
   </url><url>
+    <loc>https://ritkonsult.net/produkter/brandlarmsritning/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/</loc>
     <xhtml:link
                 rel="alternate"
@@ -322,6 +326,8 @@
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/f%C3%A4rgade-ytor/</loc>
   </url><url>
+    <loc>https://ritkonsult.net/produkter/insatsplan/</loc>
+  </url><url>
     <loc>https://ritkonsult.net/guider/utrymningsplan/symboler/</loc>
     <xhtml:link
                 rel="alternate"
@@ -370,6 +376,8 @@
                 hreflang="sv"
                 href="https://ritkonsult.net/guider/kontrollritning/utrymningsv%C3%A4gar/"
                 />
+  </url><url>
+    <loc>https://ritkonsult.net/produkter/3d/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/text-i-rum/</loc>
     <xhtml:link
@@ -560,9 +568,6 @@
   </url><url>
     <loc>https://ritkonsult.net/guider/utrymningsplan/upph%C3%A4ngning-av-ram/</loc>
   </url><url>
-    <loc>https://ritkonsult.net/produkter/brandlarmsritning/</loc>
-    <lastmod>2022-12-15T23:20:03+01:00</lastmod>
-  </url><url>
     <loc>https://ritkonsult.net/produkter/cad/</loc>
     <lastmod>2022-12-15T23:20:03+01:00</lastmod>
   </url><url>
@@ -588,11 +593,7 @@
     <loc>https://ritkonsult.net/produkter/ramar/</loc>
     <lastmod>2022-12-15T23:20:03+01:00</lastmod>
   </url><url>
-    <loc>https://ritkonsult.net/produkter/3d/</loc>
-  </url><url>
     <loc>https://ritkonsult.net/guider/avs%C3%B6kningsplan/</loc>
-  </url><url>
-    <loc>https://ritkonsult.net/produkter/avs%C3%B6kningsplan/</loc>
   </url><url>
     <loc>https://ritkonsult.net/erbjudanden/</loc>
     <xhtml:link
@@ -607,8 +608,6 @@
                 />
   </url><url>
     <loc>https://ritkonsult.net/guider/insatsplan-enkel/</loc>
-  </url><url>
-    <loc>https://ritkonsult.net/produkter/insatsplan/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/kontrollritning/</loc>
   </url><url>

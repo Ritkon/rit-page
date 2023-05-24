@@ -29,8 +29,8 @@ Följande saker gäller för brandlarmsritngar:
 Priset beror på antalet symboler på varje ritning och **börjar på 490 kr**.
 
 {{% banner-box color="white" title="Exempel på brandlarmsritningar" title-h="3" %}}
--  [\\pdf\\brandlarmsritning Bjornen](<{{< relpermalink >}}exempel/brandlarmsritning Bjornen.pdf>)
--  [\\pdf\\brandlarmsritning Jernbolaget](<{{< relpermalink >}}exempel/brandlarmsritning Jernbolaget.pdf>)
--  [\\pdf\\brandlarmsritning Tegeltornet](<{{< relpermalink >}}exempel/brandlarmsritning Tegeltornet.pdf>)
+-  [\\pdf\\Bjornen](<{{< relpermalink >}}brandlarmsritning Bjornen.pdf>)
+-  [\\pdf\\Jernbolaget](<{{< relpermalink >}}brandlarmsritning Jernbolaget.pdf>)
+-  [\\pdf\\Tegeltornet](<{{< relpermalink >}}brandlarmsritning Tegeltornet.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}

@@ -7,6 +7,8 @@ cascade:
     type: 'kontakt'
 translationKey: 'kontakt'
 toc: false
+cover: true
+cover_image: '/images/products.svg'
 weight: 30
 ---
 

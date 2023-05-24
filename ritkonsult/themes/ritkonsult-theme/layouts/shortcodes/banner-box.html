@@ -15,7 +15,7 @@
 <div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
     <div class="{{ $type }}">
             {{ with (.Get "title") -}}
-                <h{{ $hn }}>{{ safeHTML . }}</h{{ $hn }}>
+                <h{{ $hn }} id="{{ anchorize (safeHTML .) }}">{{ safeHTML . }}</h{{ $hn }}>
             {{- end -}}
         <div class="flow banner-content">
             <!-- {{ with (.Get "body") -}}

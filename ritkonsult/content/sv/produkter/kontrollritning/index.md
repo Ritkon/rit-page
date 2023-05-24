@@ -52,11 +52,13 @@ De priser som anges i vår prislista gäller om ni jobbar enligt vår [guide fö
 {{% banner-box color="white" title="Kontrollritnings exempel" title-h="2" %}}
 -  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
 -  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
--  [\\pdf\\banken 3d](/)
+{ .text-cloud .cluster }
+Andra typer av kontrollritningar:
+-  [\\pdf\\Hällerum trä](<{{< relpermalink >}}kr-pm.pdf>)
+-  [\\pdf\\Timecom](<{{< relpermalink >}}kr-symbol.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 
-{{< center-box >}}
 
 ## Våran arbetsmodell { .h1 }
 
@@ -65,5 +67,3 @@ Tillsammans med våra kunder har vi tagit fram en [arbetsmodell](/guider/kontrol
 Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen enligt vår mall för projektering. Mallen anger hur handbrandsläckare, larmknapp osv ska markeras, hur utrymningslinjerna ska dras och hur ritningen ska delas upp om den innehåller flera planer. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#kontrollritning).
 
 Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till er. När ni godkänt korrekturet skickar vi kontrollritningen till er.
-
-{{< /center-box >}}

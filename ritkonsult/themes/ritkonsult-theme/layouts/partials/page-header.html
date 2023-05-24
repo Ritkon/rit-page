@@ -5,7 +5,7 @@
     {{ end }}
     <div class="grid hero-box" style="--min:16rem;">
         <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ if .Params.hero_tagline }}<span class="h3 h-tagline">{{- .Params.hero_tagline -}}</span>{{ end }}{{ $title }}</h1>
-        <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt="" loading="lazy"></div>
+        <div class="fixed-ratio" style="/*padding-bottom: 100%;*/"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt="" loading="eager"></div>
     </div>
 {{ else }}
         <h1 id="main-content"  class="hero">{{ .Title }}</h1>

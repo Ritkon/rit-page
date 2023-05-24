@@ -3,7 +3,7 @@ title: 'Ritkonsult'
 linkTitle: 'Hem'
 description: 'Ritkonsult kan hjälpa er med det mesta i ritväg till bra priser och snabba leveranser. Vi kan rita utrymningsplaner, insatsplaner, kontrollritningar mm.'
 cover: true
-cover_image: '/images/sktech-banner-rit-web-paths.svg'
+cover_image: '/images/sktech-banner-rit-web-paths.webp'
 hero_tagline: 'Välkommen till Ritkonsult!'
 hero_title: 'Vi hjälper dig med att rita.'
 ---

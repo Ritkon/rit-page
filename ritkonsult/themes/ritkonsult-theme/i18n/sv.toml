@@ -1,6 +1,8 @@
 # Use lowercase for first letter. 
 # Code templates will do "strings.FirstUpper value"
 
+[about_us]
+other = 'om oss'
 
 [Adress]
 other = 'Adress'

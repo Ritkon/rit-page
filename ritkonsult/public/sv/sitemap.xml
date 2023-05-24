@@ -258,6 +258,18 @@
                 href="https://ritkonsult.net/guider/insatsplan-enkel/symboler/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/om-oss/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ritkonsult.net/en/about-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://ritkonsult.net/om-oss/"
+                />
+  </url><url>
     <loc>https://ritkonsult.net/guider/utrymningsplan/gr%C3%A5-rum/</loc>
   </url><url>
     <loc>https://ritkonsult.net/guider/kontrollritning/symbolnummer/</loc>

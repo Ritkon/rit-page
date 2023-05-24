@@ -17,6 +17,18 @@
                 href="https://ritkonsult.net/en/products/"
                 />
   </url><url>
+    <loc>https://ritkonsult.net/en/about-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://ritkonsult.net/om-oss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ritkonsult.net/en/about-us/"
+                />
+  </url><url>
     <loc>https://ritkonsult.net/en/contact/</loc>
     <xhtml:link
                 rel="alternate"

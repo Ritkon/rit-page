@@ -25,6 +25,9 @@
                             </li>
                             {{ end }}
                         {{ end }}
+                        <li>
+                            <a href="{{ with .Site.GetPage (printf "/%s" (i18n "about_us")) }}{{ .RelPermalink }}{{ end }}">{{ strings.FirstUpper (i18n "about_us") }}</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-navigation">

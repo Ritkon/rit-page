@@ -6,9 +6,9 @@
                     <div class="flow">
                         {{ .Title }}
                         <ul class="clean-list p">
-                            {{ with (.Resources.Match "*.pdf") | union (.Resources.Match "*.doc") | union (.Resources.Match "*.docx")  }}
+                            {{ with (.Resources.Match "forms/*.pdf") | union (.Resources.Match "forms/*.doc") | union (.Resources.Match "forms/*.docx")  }}
                                 {{ range . }}
-                                <li><a href="{{ .RelPermalink }}" download>{{- if (in .MediaType.Suffixes "pdf") -}}<img class="icon" src="/images/icons/pdf-file.svg" alt="">{{- else if (intersect .MediaType.Suffixes (slice "doc" "docx")) -}}<img class="icon"  src="/images/icons/word-file.svg" alt="">{{- end -}}{{- .Name -}}</a></li>
+                                <li><a href="{{ .RelPermalink }}" download>{{- if (in .MediaType.Suffixes "pdf") -}}<img class="icon" src="/images/icons/pdf-file.svg" alt="">{{- else if (intersect .MediaType.Suffixes (slice "doc" "docx")) -}}<img class="icon"  src="/images/icons/word-file.svg" alt="">{{- end -}}{{- replace .Name "forms/" "" -}}</a></li>
                                 {{ end }}
                             {{ end }}
                         </ul>

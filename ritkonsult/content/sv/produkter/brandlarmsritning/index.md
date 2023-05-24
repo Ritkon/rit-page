@@ -12,7 +12,7 @@ toc: true
 toc_heading: ''
 color: 'red'
 order_form: true
-weight: 50
+weight: 40
 ---
 ## Design
 

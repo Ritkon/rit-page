@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.6746063mm"
+   height="4.9008026mm"
+   viewBox="0 0 5.6746063 4.9008026"
+   version="1.1"
+   id="svg4609"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="kr-symbosl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4611"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.7277216"
+     inkscape:cx="356.65864"
+     inkscape:cy="515.62776"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4606" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.044435,-122.13858)">
+    <g
+       id="use27586"
+       transform="translate(-68.618226,19.589285)"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+ <path
+   class="fil1 str1"
+   d="m 145.787,107.375 5.4258,1e-4 c 0.0184,0 0.0342,-0.009 0.0434,-0.0251 0.009,-0.0159 0.009,-0.0342 -2e-4,-0.0501 l -2.713,-4.6507 c -0.009,-0.0158 -0.0248,-0.0249 -0.0431,-0.0249 -0.0183,0 -0.0339,0.009 -0.0431,0.0249 l -2.713,4.6507 c -0.009,0.0159 -0.009,0.0341 -2e-4,0.0501 0.009,0.016 0.025,0.025 0.0434,0.025 z"
+   id="path35088"
+   style="fill:#ffffff;stroke:#000000;stroke-width:0.15;stroke-linecap:square" />
+
+</g>
+    <polygon
+       class="fil145"
+       points="145.874,107.276 151.127,107.276 148.5,102.774 "
+       id="polygon27588"
+       transform="translate(-68.618226,19.589282)"
+       style="clip-rule:evenodd;fill:#f5f53b;fill-rule:nonzero;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="147.833,105.606 148.003,105.672 148.638,104.063 148.468,103.997 "
+       id="polygon4728"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="147.957,105.721 147.748,105.822 147.833,105.606 "
+       id="polygon4730"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="148.937,105.25 148.858,105.086 147.879,105.557 147.957,105.721 "
+       id="polygon4732"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="148.858,105.086 149.04,104.999 148.986,105.193 "
+       id="polygon4734"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="148.522,106.171 148.697,106.22 149.013,105.096 148.81,105.143 "
+       id="polygon4736"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3 str38"
+       points="149.089,106.252 148.396,106.958 148.171,105.994 "
+       id="polygon4738"
+       transform="translate(-68.618226,19.589279)"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.0762;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+  </g>
+</svg>

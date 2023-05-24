@@ -1,0 +1,26 @@
+
+{{ $startLevel := .Page.Site.Params.tocStartLevel | default 2 }}
+{{ $endLevel := .Page.Site.Params.tocEndLevel | default 2 }}
+{{ $tagRe := printf "h[%d-%d]" $startLevel $endLevel }}
+{{ $tocRe := printf "<%s.*?>(.|\n])+?</%s>" $tagRe $tagRe }}
+{{ $headers := findRE $tocRe .Listed.Content   }}
+{{ range .Listed.Pages.ByTitle}}
+    {{ $headers = $headers | append  .LinkTitle }}
+{{ end }}
+
+<div class="table-of-contents">
+    <details open>
+        <summary>{{ .Listed.Params.toc_heading | default (i18n "toc_heading" | default "innehållsförteckning") }}</summary>
+        <nav aria-label="innehållsförteckning">
+            <ol>
+                {{ range $headers }}
+                    {{ $tagname := substr . 1 2 }}
+                    {{ $header := . | plainify | htmlUnescape }}
+                    <li class="toc-{{$tagname}}">
+                        <a href='#{{ $header | anchorize }}'>{{ $header }}</a>
+                    </li>
+                {{ end }}
+            </ol>
+        </nav>
+    </details>
+</div>

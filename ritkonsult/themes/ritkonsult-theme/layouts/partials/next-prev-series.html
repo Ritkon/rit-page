@@ -1,0 +1,35 @@
+{{ if .Params.series }}
+    <nav class="article-navigation card-wrapper hide-on-print" aria-label="rekommenderade artiklar">
+        
+        {{ $pages := where site.Pages "Params.series" .Params.series }}
+        {{ with $pages.ByWeight.Reverse.Next . }}
+            <p class="card">
+                <a class="inline-block" title="Next page in {{ .Type }}" href="{{ .Permalink }}">
+                    <span class="card-content-box flow">
+                        <span>{{ i18n "Next" }}</span>
+                            <span>{{ .Title }}</span>
+                        
+                    </span>
+                </a>
+            </p>
+        {{ end }}
+        {{ with $pages.ByWeight.Reverse.Prev . }}
+            <p class="card">
+                <a class="inline-block" title="Previous page in {{ .Type }}" href="{{ .Permalink }}">
+                    <span class="card-content-box flow">
+                        <span>{{ i18n "Previous" }}</span>
+                            <span>{{ .Title }}</span>
+                        
+                    </span>
+                </a>
+            </p>
+        {{ end }}
+
+        
+            {{ $title := lower .Parent.Title }}
+        <p class="">
+            <a class="" title="Previous page in {{ .Type }}" href="{{ .Parent.Permalink }}">{{ i18n "Go_to_parent_guide_page" ( dict "ltitle" $title) }}</a>
+        </p>
+
+    </nav>
+{{ end }}

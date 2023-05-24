@@ -1,0 +1,25 @@
+
+
+{{ if .Params.card }}
+<li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
+  <div class="symbol-card-image-box">
+    {{ if .Params.symbol_image}}
+    <img src="{{ .Params.symbol_image }}" alt="test" loading="lazy">
+    {{ end }}
+  </div>
+  <div class="card-content-box">
+    <h2 class="">
+          {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}. {{ .Title }}
+      </h2>
+      {{ .Content}}
+  </div>
+</li>
+{{ else }}
+<li {{ if ne .Parent.Params.list_class nil }} class="{{- .Parent.Params.list_class -}}"{{ end }}>
+        <a id="{{ anchorize .LinkTitle }}" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{ if .Params.banner.image}}
+    <img src="{{ .Params.banner.image }}" alt="{{ .Params.banner.image_alt }}" loading="lazy">
+    {{ end }}
+    {{ .Params.banner.subline }}
+</li>
+{{ end }}

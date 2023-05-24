@@ -1,0 +1,30 @@
+{{ $bundle := .b }}
+{{ $match := .m }}
+{{ $page := .context.Page.Site.GetPage $bundle }}
+{{ $page = where .context.Site.Pages "Type" $match }}
+{{ $color := "blue" }}
+
+<div class="wrapper">
+    {{ range first 1 $page}}
+    <div class="{{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-blue" }} banner">
+        <div class="flow">
+            <h2 class="">{{ .Title }}</h2>
+            <div class="flow">{{ index (split .Content "<p>||banner||</p>" ) 0 | safeHTML }}</div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+
+
+<!-- <div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
+    <div class="grid">
+                <h2>{{ .context.Title }}</h2>
+        <div class="flow banner-content">
+            {{- $c := replaceRE "\\\\pdf\\\\" "<img class=\"icon\" src=\"/images/icons/pdf-file.svg\" alt=\"\">" .Inner  -}}
+            {{- $c = replaceRE "\\\\doc\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c = replaceRE "\\\\docx\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c | safeHTML  -}}
+        </div>
+    </div>
+</div> -->

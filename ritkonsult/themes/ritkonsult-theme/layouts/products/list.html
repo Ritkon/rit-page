@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="wrapper flow">
+    {{- partial "page-header.html" . -}}
+    
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+        {{ if .Params.toc }}
+            <div class="with-sidebar">
+                <div class="sidebar-sticky">
+                    {{ $context := (dict "Page" $ "Listed" . )}}
+                    {{- partial "toc.html" $context -}}
+                </div>
+                <div class="not-sidebar">
+                    <ol class="symbol-card-box grid" style="--animation-loop:2;">
+                        {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                            {{ .Render "li" }}
+                        {{ end }}
+                    </ol>
+                </div>
+            </div>
+        {{ else }}
+            <ul class="clean-list products">
+                {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                    {{ .Render "li" }}
+                {{ end }}
+            </ul>
+        {{ end }}
+</div>
+{{ end }}

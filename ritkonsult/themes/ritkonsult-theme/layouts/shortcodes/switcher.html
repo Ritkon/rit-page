@@ -1,0 +1,10 @@
+<div class="alternate-column switcher">
+    <div class="text flow">
+        {{ .Inner | markdownify }}
+    </div>
+    <div class="image">
+        {{- if .Get "image" -}}
+        <img src="{{- .Get "image" -}}" alt="{{- .Get "alt" -}}" loading="lazy">
+        {{- end -}}
+    </div>
+</div>

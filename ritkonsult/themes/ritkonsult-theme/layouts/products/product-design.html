@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="wrapper flow">
+    {{ if .Params.toc }}
+    <h1 id="main-content"  class="hero">{{ .Title }}</h1>
+            <div class="with-sidebar">
+                <div class="sidebar-sticky">
+                    {{ $context := (dict "Page" $ "Listed" . )}}
+                    {{- partial "toc.html" $context -}}
+                </div>
+                <div class="not-sidebar flow">
+                    {{ if .Content }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+    {{ else }}
+    {{- partial "page-header.html" . -}}
+
+        <img src="/images/utp.jpg" alt="">
+
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}

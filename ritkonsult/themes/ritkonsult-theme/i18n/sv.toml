@@ -1,0 +1,95 @@
+# Use lowercase for first letter. 
+# Code templates will do "strings.FirstUpper value"
+
+
+[Adress]
+other = 'Adress'
+
+[blanketter]
+other = 'Blanketter'
+
+[evacuation_plan]
+other = 'utrymningsplan'
+
+[Get_in_touch]
+other = 'Hör av dig'
+
+[Go_to_parent_guide_page]
+other = 'Gå till startsidan av {{ .ltitle }}'
+
+[guider]
+other = 'Guider'
+
+[guides]
+other = 'guider'
+
+[home]
+other = 'Hem'
+
+[Kontakt]
+other = 'Kontakt'
+
+[kontakt]
+other = 'Kontakt'
+
+[minute]
+one = 'minut'
+other = 'minuter'
+
+[new_customer]
+other = 'ny kund'
+
+[Next]
+other = 'Nästa'
+
+[other]
+other = 'övrigt'
+
+[Our_products]
+other = 'Våra produkter'
+
+[page]
+one = 'sida'
+other = 'sidor'
+
+[phone]
+other = 'telefon'
+
+[Previous]
+other = 'Föregående'
+
+[print_this_page]
+other = 'skriv ut den här sidan'
+
+[printable_version]
+other = 'utskriftsvänlig version'
+
+[produkter]
+other = 'Produkter'
+
+[products]
+one = 'produkt'
+other = 'produkter'
+
+[reading_time]
+other = 'lästid'
+
+[Ritkonsults_clients_says]
+other = 'Ritkonsults kunder säger'
+
+[see_all]
+other = 'se alla'
+
+[Tio_skal_att_anlita_oss]
+other = 'Tio skäl att anlita oss'
+
+[toc_heading]
+other = 'Innehållsförteckning'
+
+[view_a_printable_version_of_the_whole_guide]
+other = 'Visa utskriftsvänlig version av hela guiden'
+
+[You_can_find_drawings_made_by_Ritkonsult_at]
+other = 'Du kan hitta ritningar gjorda av Ritkonsult hos'
+
+

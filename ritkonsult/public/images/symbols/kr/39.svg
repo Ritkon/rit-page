@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.1499977mm"
+   height="4.1499939mm"
+   viewBox="0 0 4.1499977 4.1499939"
+   version="1.1"
+   id="svg4609"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="kr-symbosl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4611"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.7277216"
+     inkscape:cx="130.72776"
+     inkscape:cy="515.62776"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4606">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect52503-1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.05"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect52507-5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.05"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.853715,-138.01094)">
+    <g
+       id="use121377"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="translate(13.591888,93.530505)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="path57779"
+         width="4"
+         height="4"
+         x="22.336824"
+         y="44.555431"
+         inkscape:path-effect="#path-effect52503-1"
+         d="m 22.350054,44.555431 h 3.973541 a 0.01322917,0.01322917 45 0 1 0.01323,0.01323 v 3.973541 a 0.01322917,0.01322917 135 0 1 -0.01323,0.01323 h -3.973541 a 0.01322917,0.01322917 45 0 1 -0.01323,-0.01323 v -3.973541 a 0.01322917,0.01322917 135 0 1 0.01323,-0.01323 z"
+         sodipodi:type="rect" />
+      <path
+         style="fill:#009400;fill-opacity:1;stroke:none;stroke-width:5.20001;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+         id="path57781"
+         width="3.8"
+         height="3.8"
+         x="22.436823"
+         y="44.65543"
+         inkscape:path-effect="#path-effect52507-5"
+         d="m 22.450052,44.65543 h 3.773542 a 0.01322917,0.01322917 45 0 1 0.01323,0.01323 l 0,3.773542 a 0.01322917,0.01322917 135 0 1 -0.01323,0.01323 h -3.773542 a 0.01322917,0.01322917 45 0 1 -0.01323,-0.01323 v -3.773542 a 0.01322917,0.01322917 135 0 1 0.01323,-0.01323 z"
+         sodipodi:type="rect" />
+    </g>
+    <g
+       id="g107492"
+       transform="translate(-50.481211,88.813447)"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+      <path
+         class="fil1"
+         d="m 89.304399,50.333889 v 0.1599 0.1491 h 0.1407 0.1404 l 0.005,-0.1544 v -0.1546 l 0.1569,-0.006 h 0.1622 v -0.1322 -0.1325 h -0.1569 c -0.1189,0 -0.1567,-0.006 -0.1622,-0.006 v -0.16 -0.1599 h -0.1458 -0.1407 v 0.1543 c 0,0.1381 0,0.1601 -0.005,0.1656 0,0.006 -0.0218,0.006 -0.1624,0.006 h -0.1567 v 0.1325 0.1322 h 0.1622 c 0.1407,0 0.1569,0 0.1622,0.006 z"
+         id="path88637"
+         style="fill:#ffffff" />
+      <path
+         class="fil1"
+         d="m 89.147399,50.777889 c -0.1153,-0.1472 -0.2767,-0.2353 -0.4325,-0.2411 -0.1095,-0.006 -0.2132,0.0176 -0.3169,0.0706 -0.0866,0.0411 -0.1499,0.0823 -0.2192,0.1528 -0.023,0.0295 -0.0461,0.0471 -0.0461,0.0471 0,0 -0.0231,-0.0176 -0.046,-0.0411 -0.1096,-0.1119 -0.2365,-0.1884 -0.3749,-0.2177 -0.1845,-0.0412 -0.346,0 -0.496,0.1178 -0.1555,0.1351 -0.2709,0.3528 -0.2998,0.5763 -0.0114,0.0942 -0.006,0.2061 0.0175,0.2825 0.0517,0.206 0.2189,0.4649 0.49,0.7354 0.219,0.2237 0.4786,0.4296 0.6632,0.5296 0.0229,0.006 0.0402,0.0176 0.046,0.0176 0,0 0.0173,-0.006 0.0404,-0.0176 0.1211,-0.0648 0.2825,-0.1765 0.444,-0.3236 0.1729,-0.1471 0.3055,-0.2883 0.4266,-0.4411 0.1556,-0.1885 0.2653,-0.3826 0.2941,-0.5297 0.0115,-0.0766 0.0115,-0.2118 0,-0.2942 -0.0288,-0.1587 -0.0922,-0.3059 -0.1904,-0.4236 z m -0.8129,0.712 c 0.1328,0 0.1846,0.006 0.1846,0.006 0,0.006 -0.6689,0.8532 -0.6747,0.859 h -0.006 c -0.006,-0.006 0.0577,-0.153 0.1385,-0.3353 0.0748,-0.1825 0.1383,-0.3354 0.1383,-0.3413 l 0.006,-0.006 h -0.2019 c -0.1786,-0.006 -0.1959,-0.006 -0.1959,-0.0118 0,0 0.121,-0.1529 0.3228,-0.4001 0.1787,-0.2175 0.3287,-0.3999 0.3344,-0.4059 0.0115,-0.0117 0.0174,-0.0117 0.0174,-0.006 0,0.006 -0.0577,0.1471 -0.1269,0.3178 -0.0693,0.1765 -0.1269,0.3176 -0.1269,0.3176 0,0.006 0.0346,0.006 0.1903,0.006 z"
+         id="path88639"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h1 class="fs-hero hero">{{ .Title }}</h1>
+    {{ if .Content }}
+        {{ .Content }}
+    {{ end }}
+    {{ if .Params.toc }}
+        {{ $context := (dict "Page" $ "Listed" . )}}
+        {{- partial "toc.html" $context -}}
+    {{ end }}
+    -gudier
+{{ end }}

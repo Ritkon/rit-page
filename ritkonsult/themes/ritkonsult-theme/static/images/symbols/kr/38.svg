@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.1499996mm"
+   height="4.1499939mm"
+   viewBox="0 0 4.1499996 4.1499939"
+   version="1.1"
+   id="svg4609"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="kr-symbosl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4611"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.7277216"
+     inkscape:cx="130.72776"
+     inkscape:cy="515.62776"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4606">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect52503-1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.05"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect52507-5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.05"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.388869,-138.01094)">
+    <g
+       id="use121379"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="translate(9.1270444,93.530505)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="path57785"
+         width="4"
+         height="4"
+         x="22.336824"
+         y="44.555431"
+         inkscape:path-effect="#path-effect52503-1"
+         d="m 22.350054,44.555431 h 3.973541 a 0.01322917,0.01322917 45 0 1 0.01323,0.01323 v 3.973541 a 0.01322917,0.01322917 135 0 1 -0.01323,0.01323 h -3.973541 a 0.01322917,0.01322917 45 0 1 -0.01323,-0.01323 v -3.973541 a 0.01322917,0.01322917 135 0 1 0.01323,-0.01323 z"
+         sodipodi:type="rect" />
+      <path
+         style="fill:#009400;fill-opacity:1;stroke:none;stroke-width:5.20001;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+         id="path57787"
+         width="3.8"
+         height="3.8"
+         x="22.436823"
+         y="44.65543"
+         inkscape:path-effect="#path-effect52507-5"
+         d="m 22.450052,44.65543 h 3.773542 a 0.01322917,0.01322917 45 0 1 0.01323,0.01323 l 0,3.773542 a 0.01322917,0.01322917 135 0 1 -0.01323,0.01323 h -3.773542 a 0.01322917,0.01322917 45 0 1 -0.01323,-0.01323 v -3.773542 a 0.01322917,0.01322917 135 0 1 0.01323,-0.01323 z"
+         sodipodi:type="rect" />
+    </g>
+    <g
+       id="g105413"
+       transform="translate(-45.735129,88.689547)"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+      <path
+         class="fil1"
+         d="m 78.706597,50.222889 c -0.119,0 -0.2155,-0.0945 -0.2155,-0.211 0,-0.1165 0.0965,-0.211 0.2155,-0.211 0.1191,0 0.2156,0.0945 0.2156,0.211 0,0.1165 -0.0965,0.211 -0.2156,0.211 z"
+         id="path88645"
+         style="fill:#ffffff" />
+      <path
+         id="path88647"
+         class="fil146 str17"
+         d="m 78.706597,50.222889 c -0.119,0 -0.2155,-0.0945 -0.2155,-0.211 0,-0.1165 0.0965,-0.211 0.2155,-0.211 0.1191,0 0.2156,0.0945 0.2156,0.211 0,0.1165 -0.0965,0.211 -0.2156,0.211 z"
+         style="fill:none;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.0762" />
+      <polygon
+         class="fil1"
+         points="147.859,104.248 148.352,104.248 148.352,104.036 147.992,104.036 147.992,103.8 147.823,103.759 147.751,103.702 147.7,103.563 147.284,103.563 146.992,104.001 147.166,104.124 147.371,103.815 147.561,103.815 147.263,104.196 147.263,104.598 146.935,104.598 146.935,104.824 147.541,104.824 147.541,104.499 147.786,104.64 147.786,105.056 148.025,105.056 148.025,104.459 147.674,104.253 147.736,104.16 "
+         id="polygon88649"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff" />
+      <polygon
+         id="polygon88651"
+         class="fil146 str17"
+         points="147.859,104.248 148.352,104.248 148.352,104.036 147.992,104.036 147.992,103.8 147.823,103.759 147.751,103.702 147.7,103.563 147.284,103.563 146.992,104.001 147.166,104.124 147.371,103.815 147.561,103.815 147.263,104.196 147.263,104.598 146.935,104.598 146.935,104.824 147.541,104.824 147.541,104.499 147.786,104.64 147.786,105.056 148.025,105.056 148.025,104.459 147.674,104.253 147.736,104.16 "
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:none;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.0762" />
+      <polygon
+         class="fil1 str28"
+         points="149.933,106.502 148.965,106.502 148.965,106.18 149.933,106.18 "
+         id="polygon88653"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0762;stroke-linecap:square" />
+      <polygon
+         class="fil1 str28"
+         points="148.965,105.535 147.107,105.535 147.107,105.212 148.965,105.212 "
+         id="polygon88655"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0762;stroke-linecap:square" />
+      <polygon
+         class="fil1"
+         points="149.558,104.711 149.558,104.534 148.637,104.534 148.637,104.382 149.558,104.382 149.558,104.227 149.912,104.469 "
+         id="polygon88657"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff" />
+      <path
+         id="path88659"
+         class="fil147"
+         d="m 80.354597,50.871889 -0.0568,0.0643 h -0.921 v -0.1286 h 0.921 z m 0,0 v 0.0643 h -0.0568 z m -0.0275,-0.2106 0.0275,0.055 v 0.1556 h -0.1136 v -0.1556 z m -0.0861,0.055 v -0.1138 l 0.0861,0.0588 z m 0.4401,0.297 h -0.0586 l -0.354,-0.242 0.0586,-0.11 0.354,0.242 z m 0,-0.11 0.0804,0.055 -0.0804,0.055 z m -0.4398,0.297 0.0272,-0.055 0.354,-0.242 0.0586,0.11 -0.354,0.242 z m 0.0858,0.055 -0.0858,0.0586 v -0.1136 z m -0.0293,-0.2965 0.0565,0.0643 v 0.1772 h -0.113 v -0.1772 z m 0,0 h 0.0565 v 0.0643 z m -0.9778,0.0643 0.0568,-0.0643 h 0.921 v 0.1286 h -0.921 z m 0.0568,0.0643 h -0.0568 v -0.0643 z m 0,-0.2798 0.0568,0.0643 v 0.1512 h -0.1136 v -0.1512 z m -0.0568,0.0643 v -0.0643 h 0.0568 z"
+         style="fill:#ffffff;fill-rule:nonzero" />
+      <polygon
+         class="fil1 str28"
+         points="149.61,106.18 148.642,106.18 148.642,105.857 149.61,105.857 "
+         id="polygon88661"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0762;stroke-linecap:square" />
+      <polygon
+         class="fil1 str28"
+         points="149.287,105.857 148.32,105.857 148.32,105.535 149.287,105.535 "
+         id="polygon88663"
+         transform="translate(-69.260403,-53.510111)"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0762;stroke-linecap:square" />
+    </g>
+  </g>
+</svg>

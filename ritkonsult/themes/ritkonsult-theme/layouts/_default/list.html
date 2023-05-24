@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="wrapper flow">
+        {{- partial "page-header.html" . -}}
+
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+        {{ if .Params.toc }}
+            <div class="with-sidebar">
+                <div class="sidebar-sticky hide-on-print">
+                    {{ $context := (dict "Page" $ "Listed" . )}}
+                    {{- partial "toc.html" $context -}}
+                </div>
+                <div class="not-sidebar">
+                    <ol class="symbol-card-box clean-list grid" style="--animation-loop:2;">
+                        {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                            {{ .Render "li" }}
+                        {{ end }}
+                    </ol>
+                </div>
+            </div>
+        {{ else }}
+            <ul class="flow h2 fw-regular">
+                {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                    {{ if ne .Page.Type "page-content"  }}
+                    {{ .Render "li" }}
+                 {{ end }}
+                {{ end }}
+            </ul>
+        {{ end }}
+        {{- partial "next-prev-series.html" . -}}
+        {{- partial "printable-version-link" . -}}
+</div>
+{{ end }}

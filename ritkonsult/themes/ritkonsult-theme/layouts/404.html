@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+
+    {{ with site.GetPage "/404" }}
+        <h1 class="fs-hero hero">{{ .Title }}</h1>
+        <p>Error code: 404</p>
+        {{ .Content }}
+    {{ end }}
+
+{{ end }}

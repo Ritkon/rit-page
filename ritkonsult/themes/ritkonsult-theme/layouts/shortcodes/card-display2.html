@@ -1,0 +1,21 @@
+<!-- {{ $_hugo_config := `{ "version": 1 }` }}
+
+
+{{ $lister := split .Inner  "<p>||card||</p>" }}
+
+ 
+<ul class="grid" style="--min:17rem;">
+    {{ range $content := $lister }}
+    {{ if ne $content "\n" }}
+        <li class="flow card card-gradient">
+            <div class="inline-block">
+                <div class="card-content-box flow">
+                    {{- replace $content "<ul>" "<ul role=\"list\" >" | safeHTML -}}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    {{ end }}
+</ul> -->
+
+{{ partial "card-display.html" (dict "content" (.Inner )) }}

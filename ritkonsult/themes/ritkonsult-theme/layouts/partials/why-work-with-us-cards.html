@@ -1,0 +1,20 @@
+{{ $headless := .Site.GetPage ( i18n "home") }}
+{{ $subpages := where $headless.Pages "Params.card" true}}
+
+<div class="wrapper flow">
+    <h2>{{ i18n "Tio_skal_att_anlita_oss" }}</h2>
+    <ul class="grid clean-list" style="--min:16rem;">
+
+            {{ range $subpages.ByLength }}
+                <li class="card card-gradient ">
+                    <div class="inline-block no-underline">
+                        <div class="card-content-box flow">
+                            <h3>{{ .Title }}</h3>
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </li>
+            {{ end }}
+
+    </ul>
+</div>

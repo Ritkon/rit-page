@@ -1,0 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+{{ $lister := replace .Inner "<li>" "<||>" }}
+
+{{ $lister = replaceRE "</?((ul)|(li))>" "" $lister }}
+
+{{ $lister := split $lister "<||>" }}
+
+ 
+<div class="card-grid" role="list" style="--gap:1.2em; --space:2.5em;">
+    {{ (replace .Inner "<ul>" "<ul class=\"\" role=\"list\" >") | safeHTML }}
+</div>

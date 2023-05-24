@@ -1,0 +1,48 @@
+{{ $bundle := .b }}
+{{ $match := .m }}
+{{ $page := .context.Page.Site.GetPage $bundle }}
+{{ $page = where .context.Site.Pages "Type" $match }}
+{{ $color := "blue" }}
+
+<div class="wrapper">
+    {{ range first 1 $page}}
+    <!-- <div class="{{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-green" }} banner">
+        <div class="grid">
+            <div>
+                <img src="/images/utp.jpg" alt="">
+            </div>
+            <div class="flow">
+                <h2>Utrymningsplan</h2>
+                <p>Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.</p>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- <h2>{{ .Title }}</h2>
+                {{ index (split .Content "<p>||banner||</p>" ) 0 | safeHTML }} -->
+    <div class="grid" style="--min:17rem;">
+        <div class="card card-link {{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-green" }}">
+            <a class="inline-block" href="">
+                <div class="card-content-box flow">
+                    <div>
+                        <img src="/images/utp.jpg" alt="">
+                    </div>
+                    <h2>Utrymningsplan</h2>
+                    <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card card-link {{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+            <a class="inline-block" href="">
+                <div class="card-content-box flow">
+                    <div>
+                        <img src="/images/utp.jpg" alt="">
+                    </div>
+                    <h2>Kontrollritning</h2>
+                    <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    {{ end }}
+</div>

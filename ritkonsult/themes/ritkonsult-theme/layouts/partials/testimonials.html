@@ -1,0 +1,59 @@
+<div class="wrapper flow">
+    
+    <div class="flow">
+        <div class="grid" style="--min:20rem;">
+            <div class="cover grid-cover">
+                <h2>{{ i18n "Ritkonsults_clients_says"}}</h2>
+            </div>
+            <div>
+                <img style="max-height: 24ch; margin-inline: auto;" src="/images/customers-3.svg" alt="">
+            </div>
+        </div>
+        <!-- <div class="grid"> -->
+            <!-- {{ $all := where .Site.RegularPages "Section" "testimonials" }} -->
+            {{ range (site.GetPage "testimonials").Pages | first 3}}
+                    <div class="alternate-column" style="--gap:1.2rem">
+                        <figure class="quote flow" style="--gap:1.2rem">
+                            <blockquote class="inline-block">
+                                <div class="card-content-box flow">{{ .Content }}</div>
+                            </blockquote>
+                            <figcaption style="padding-bottom: 1em">
+                                &mdash; {{ .Params.name }}. <cite>
+                                    {{- if ne .Params.company_link nil -}}
+                                        <a href="{{ .Params.company_link }}">{{- .Params.company -}}</a>
+                                    {{- else -}}
+                                        {{- .Params.company -}}
+                                    {{- end -}}
+                                </cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                {{ end }}
+        <!-- </div> -->
+        <div class="flow">
+            <h2 class="">{{ i18n "You_can_find_drawings_made_by_Ritkonsult_at" }}</h2>
+           <ul class="cluster text-cloud">
+            <li>Lydmar Hotel</li>
+            <li>Ahlsell</li>
+            <li>Öhrlings</li>
+            <li>Skatteverket</li>
+            <li>Swedbank</li>
+            <li>IBM</li>
+            <li>Bauhaus</li>
+            <li>Willys</li>
+            <li>Posten</li>
+            <li>MQ</li>
+            <li>Röda korset</li>
+            <li>Blomsterlandet</li>
+            <li>LRF</li>
+            <li>DHL</li>
+            <li>Länsförsäkringar</li>
+            <li>Elgiganten</li>
+            <li>Ekebyskolan</li>
+            <li>Sveriges Television</li>
+            <li>Toyota Logistiks</li>
+            <li>Gävle slott</li>
+           </ul>
+        </div>
+    </div>
+</div>

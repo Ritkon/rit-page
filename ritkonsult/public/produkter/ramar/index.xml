@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramar on Ritkonsult</title>
+    <link>https://ritkonsult.net/produkter/ramar/</link>
+    <description>Recent content in Ramar on Ritkonsult</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv</language>
+    <copyright>Copyright © :YEAR: Ritkonsult</copyright>
+    <lastBuildDate>Thu, 15 Dec 2022 23:20:03 +0100</lastBuildDate><atom:link href="https://ritkonsult.net/produkter/ramar/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

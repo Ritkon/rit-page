@@ -1,0 +1,43 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ $pt := "" }}
+    {{ if ne .CurrentSection .FirstSection}} {{ $pt = .Parent.Title }} {{ end }}
+    {{ $title_page := print (cond (ne .Title nil) (print .Title " - ") "") (cond (ne $pt "") (print $pt " - ") "") .Site.Title }}
+    {{ if .IsHome }}
+        {{ $title_page = .Site.Title }}
+    {{ end }}
+    <title>
+        {{ $title_page }}
+    </title>
+    <!-- just for test now -->
+    <meta name="robots" content="noindex,nofollow">
+    <!-- test part end -->
+    <meta name="description" content="{{ .Params.description }}">
+    <!-- open graph -->
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ $title_page }}">
+    <meta property="og:description" content="{{ .Params.description }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ .Params.og_type | default "website" }}">
+    <meta property="og:locale" content="{{ .Language.Lang }}">
+    <meta property="og:image" content="{{ cond (ne .Params.og_image nil) .Title .Site.Params.og_image }}">
+    <meta property="og:image:secure_url" content="{{ cond (ne .Params.og_image nil) .Title .Site.Params.og_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:image:alt" content="">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- favicon -->
+    {{ partial "favicon.html" . }}
+
+    <!-- js -->
+    {{ if hugo.IsProduction }}
+        {{/* umami stats included on production */}}
+        <script async defer src="https://umami-rail-production.up.railway.app/script.js" data-website-id="d70a4b56-d242-4eb1-97df-a17ad9c3c56c"></script>
+    {{ end }}
+    <script src="/js/main.js" defer></script>
+</head>

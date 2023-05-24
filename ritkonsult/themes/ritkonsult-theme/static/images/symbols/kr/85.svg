@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.9499969mm"
+   height="2.5500031mm"
+   viewBox="0 0 4.9499969 2.5500031"
+   version="1.1"
+   id="svg4609"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="kr-symbosl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4611"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.7277216"
+     inkscape:cx="225.85655"
+     inkscape:cy="515.62776"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4606">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect32849-3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1 @ F,0,0,1,0,0.013229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.05"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-81.124392,-128.81981)">
+    <g
+       id="use39188"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="translate(-15.636188,87.852154)">
+      <path
+         style="clip-rule:evenodd;fill:#009400;fill-opacity:1;fill-rule:evenodd;stroke:#009400;stroke-width:0.149999;stroke-linecap:square;stroke-opacity:1;paint-order:markers fill stroke;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+         id="path17052"
+         width="4.8000002"
+         height="2.400001"
+         x="96.835579"
+         y="41.042656"
+         sodipodi:type="rect"
+         d="m 96.848808,41.042656 h 4.773542 a 0.01322917,0.01322917 45 0 1 0.0132,0.01323 l 0,2.373543 a 0.01322917,0.01322917 135 0 1 -0.0132,0.01323 h -4.773542 a 0.01322917,0.01322917 45 0 1 -0.01323,-0.01323 v -2.373543 a 0.01322917,0.01322917 135 0 1 0.01323,-0.01323 z"
+         inkscape:path-effect="#path-effect32849-3" />
+      <path
+         class="fil1"
+         d="m 96.925477,41.092657 h 4.620203 c 0.0274,0 0.0499,0.0225 0.0499,0.05 v 2.2 c 0,0.0275 -0.0225,0.05 -0.0499,0.05 h -4.620203 c -0.0274,0 -0.0499,-0.0225 -0.0499,-0.05 v -2.2 c 0,-0.0275 0.0225,-0.05 0.0499,-0.05 z m 0.0779,0.0954 h 4.464203 c 0.0135,0 0.0245,0.0109 0.0245,0.0239 v 2.0614 c 0,0.013 -0.0112,0.0239 -0.0245,0.0239 h -4.464203 c -0.0133,0 -0.0245,-0.0107 -0.0245,-0.0239 v -2.0614 c 0,-0.0132 0.011,-0.0239 0.0245,-0.0239 z"
+         id="path17054"
+         style="fill:#ffffff" />
+    </g>
+    <path
+       class="fil1 str29"
+       d="m 83.852393,129.93796 c -0.2061,0 -0.2518,0 -0.2518,-0.008 0,0 0.0763,-0.1828 0.1679,-0.4118 0.0735,-0.1778 0.1373,-0.3308 0.1595,-0.3882 h -0.0286 c -0.0499,0.0587 -0.2251,0.2676 -0.4284,0.5101 -0.2671,0.3206 -0.4272,0.5189 -0.4272,0.5189 0,0.008 0.023,0.008 0.2593,0.0153 h 0.267 l -0.008,0.008 c 0,0.008 -0.084,0.206 -0.183,0.4427 -0.1069,0.2364 -0.1908,0.4272 -0.1832,0.4347 h 0.008 c 0.008,-0.007 0.8927,-1.1063 0.8927,-1.1138 0,0 -0.0686,-0.008 -0.2442,-0.008 z"
+       id="path35009"
+       style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;stroke:#009c00;stroke-width:0.01;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+  </g>
+</svg>

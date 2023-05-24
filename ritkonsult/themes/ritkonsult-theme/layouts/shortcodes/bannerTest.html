@@ -1,0 +1,13 @@
+{{ $bundle := .Get 0 }}
+{{ $match := .Get 1 }}
+{{ $page := .Page.Site.GetPage $bundle }}
+{{ $page = where .Site.Pages "Type" $match }}
+
+{{ range first 1 $page}}
+<div class="{{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-blue" }} banner">
+    <div class="grid">
+        <h2 class="">{{ .Title }}</h2>
+        <div class="flow">{{ index (split .Content "<p>||banner||</p>" ) 0 | safeHTML }}</div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,16 @@
+<div class="wrapper flow" {{ if .IsHome }}style="margin-top:var(--scale6);"{{ end }}>
+    <h2>{{ i18n "Our_products" }}</h2>
+    <ul class="grid clean-list card-link-list">
+        {{ $all := where .Site.Pages "Section" ( i18n "products") }}
+        {{ range $all}}
+        {{ range where .Pages.ByTitle "Parent.RelPermalink" "eq" .FirstSection.RelPermalink }}
+       
+                <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                    <a class="inline-block" href="{{ .RelPermalink }}">
+                        <div class="card-content-box">{{ .Title }}</div>
+                    </a>
+                </li>
+                {{ end }}
+        {{ end }}
+    </ul>
+</div>

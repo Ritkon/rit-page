@@ -1,0 +1,28 @@
+<div class="breadcrumb">
+    <div class="wrapper box-sizing-content">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb-list clean-list fs-label-small">
+
+                {{- template "breadcrumb" (dict "p1" . "p2" .) -}}
+
+            </ol>
+        </nav>
+    </div>
+</div>
+
+{{- define "breadcrumb" -}}
+    {{- if .p1.Parent -}}
+        {{- template "breadcrumb" (dict "p1" .p1.Parent "p2" .p2) -}}
+    {{- else if not .p1.IsHome -}}
+        {{- template "breadcrumb" (dict "p1" .p1.Site.Home "p2" .p2) -}}
+    {{- end -}}
+
+    {{- if eq .p1 .p2 -}}
+        <li class="breadcrumb-item"  aria-current="page">{{- .p1.LinkTitle -}}</li>
+    {{- else -}}
+        <li class="breadcrumb-item" >
+            {{- "" -}}
+            <a href="{{- .p1.RelPermalink -}}">{{- .p1.LinkTitle -}}</a>
+        </li>
+    {{- end -}}
+{{- end -}}

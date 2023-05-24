@@ -1,0 +1,41 @@
+<div class="wrapper flow">
+    <h2>{{ i18n "Our_products" }}</h2>
+    <ul class="grid card-link-list">
+        <li class="grid" style="--min:17rem;">
+            <div class="card card-link {{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-green" }}">
+                <a class="inline-block" href="">
+                    <div class="card-content-box flow">
+                        <div>
+                            <img src="/images/utp.jpg" alt="">
+                        </div>
+                        <h2>Utrymningsplan</h2>
+                        <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card card-link {{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                <a class="inline-block" href="">
+                    <div class="card-content-box flow">
+                        <div>
+                            <img src="/images/utp.jpg" alt="">
+                        </div>
+                        <h2>Kontrollritning</h2>
+                        <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                    </div>
+                </a>
+            </div>
+        </li>
+        {{ $all := where .Site.Pages "Section" ( i18n "products") }}
+        {{ range $all}}
+        {{ range where .Pages.ByTitle "Parent.RelPermalink" "eq" .FirstSection.RelPermalink }}
+            {{ if or (ne .Title (i18n "escapeplan")) (ne .Title  (i18n "kontrollritning")) }}
+                <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                    <a class="inline-block" href="{{ .RelPermalink }}">
+                        <div class="card-content-box">{{ .Title }}</div>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+</div>

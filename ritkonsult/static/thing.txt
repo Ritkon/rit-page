@@ -1,0 +1,591 @@
+[menu]
+    [[menu.main]]
+        pageRef = '/'
+        identifier = 'hem'
+        name = 'Hem'
+        url = '/'
+        weight = 10
+    [[menu.main]]
+        pageRef = '/produkter'
+        identifier = 'produkter'
+        name = 'Produkter'
+        url = '/produkter'
+        weight = 20
+    [[menu.main]]
+        identifier = 'kontakt'
+        name = 'Kontakt'
+        url = '/kontakt'
+        weight = 30
+    [[menu.main]]
+        identifier = 'guider'
+        name = 'Guider'
+        url = '/guider'
+        pre = 'bg-primary fc-on-primary fw-grad--25'
+        weight = 40
+        [menu.main.params]
+            green = true
+    [[menu.main]]
+        identifier = 'blanketter'
+        name = 'Blanketter'
+        url = '/blanketter'
+        weight = 50
+
+
+
+
+            {{ $pages := where site.RegularPages "Section" .Section }}
+            {{ with $pages.ByWeight.Next . }}
+                <a title="Next page in {{ .Section }}" href="{{ .Permalink }}">Next</a>
+            {{ end }}
+            
+            {{ with $pages.ByWeight.Prev . }}
+                <a title="Previous page in {{ .Section }}" href="{{ .Permalink }}">Previous</a>
+            {{ end }}
+
+
+
+Here’s a solution that should work for most scenarios - it will add missing <p> tags if there’s no <p> or <h1,2,3,...> tags but will ignore other tags such as <span> or <em>:
+
+{{- $markdown := .Inner | markdownify -}}
+
+{{ if not ( findRE "<[h|p][^>]*>" $markdown ) }}
+    <p>{{ $markdown }}</p>
+{{ else }}
+    {{ $markdown }}
+{{ end }}
+
+
+
+
+
+{{ $headless := .Site.GetPage "/hem" }}
+{{ $subpages := where ($headless.Resources.ByType "page") ".Params.card" true }}
+{{ printf "%s" $subpages  }}<br>
+"///////"
+{{ printf "%T" $subpages }} <br>
+
+{{ $subpages2 := where $headless.Pages "Params.card" true}} <br>
+{{ printf "%s" $subpages2  }}<br>
+"///////"
+{{ printf "%T" $subpages2 }}<br>
+
+
+
+        {{ $guides := .Site.GetPage "guides" }}
+
+{{ printf "%s" .FirstSection }}<br>
+
+
+{{ printf "%s" .CurrentSection }}<br>
+
+
+
+
+{{ cond (ne .Parmas.og_image nil) .Params.og_image .site.Parmas.og_image }}
+
+
+    {{ block "title" . }}
+        <title>{{ .Site.Title }}</title>
+    {{ end }}
+
+     {{ $title_page := print (cond (ne (.Title) nil) (print .Title " - ") "") (cond (ne (.CurrentSection) .FirstSection) (print .Title " - ") "") .Site.Title }}
+
+
+
+     for title
+             {{ if .Page.Title }}
+            {{ .Page.Title }} - {{ if ne .CurrentSection .FirstSection}} {{ .Parent.Title }} - {{ end }} {{ .Site.Title }}
+        {{ else }}
+            {{ .Site.Title }}
+        {{ end }}
+
+
+
+
+
+//in header menu for hem
+
+    {{ $home := i18n "hem" }}
+    {{ if .IsHome }}
+        <li><span aria-current="page" class="current-page">{{ $home }}</span></li>
+    {{ else }}
+        <li><a class="" href="{{ site.Home.RelPermalink }}">{{ $home }}</a></li>
+    {{ end }}
+
+//
+
+
+                    <span class="card-content-box">Previous
+                        <span>{{ .Title }}</span>
+                    </span>
+
+
+                    {{ $content = trim $content "\n" }}
+    {{ $content = strings.TrimPrefix "<ul>" $content }}
+        {{ $content = trim $content "\n" }}
+    {{ $content = strings.TrimPrefix "<li>" $content }}
+        {{ $content = trim $content "\n" }}
+    {{ $content = strings.TrimSuffix "</ul>" $content }}
+    {{ $content = trim $content "\n" }}
+    {{ $content = strings.TrimSuffix "</li>" $content }}
+
+
+
+    {{ $lister := replace .Inner "<li>" "<||>" }}
+{{ $lister = replace $lister "</li>" "" }}
+{{ $lister = replace $lister "</ul>" "" }}
+{{ $lister = replace $lister "<ul>" "" }}
+{{ $lister := split $lister "<||>" }}
+
+
+
+(replace (index (split .Content "||banner||" ) 1) "||banner||</p>" "")
+
+
+
+/////
+
+{{ range (where .Site.Pages "Section" (i18n "guides")) }}
+                            
+                        {{ if eq .FirstSection .CurrentSection }}
+                                {{ printf "%s" .CurrentSection }}<br>
+                            {{ end }}
+
+                        
+
+                            
+                            {{ range .Sections | first 3 }}
+                            {{ if eq .Parent.RelPermalink (printf "%s/" ( relLangURL (i18n "guides"))) }}
+                            <li>
+                                <a href="{{ .RelPermalink }}">{{ .Params.linktitle }}</a>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                                {{ if eq .RelPermalink (printf "%s/" ( relLangURL (i18n "guides"))) }}
+                                    <li><a href="{{ .RelPermalink }}">{{ i18n "see_all" }} {{ i18n "guides" }}</a></li>
+                                {{ end }}
+                        {{ end }}
+
+
+//////
+
+{{ range (where .Pages "Section" (i18n "products")) }}
+                        {{ printf "%s" .}}
+                            {{ range .FirstSection.Pages | first 3 }}
+                            <li>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </li>
+                            {{ end }}
+                            <li><a href="{{ .RelPermalink }}">{{ i18n "see_all" }} {{ i18n "products" }}</a></li>
+                        {{ end }}
+
+
+                        //////////////////////
+<div class="wrapper flow">
+    <h2>{{ i18n "Our_products" }}</h2>
+    <ul class="grid card-link-list" role="list">
+        {{ $typeName := i18n "products" }}
+        {{ range (where .Site.Pages.ByTitle "Type" $typeName) }}
+            {{ if or (eq .Parent .CurrentSection) (ne .FirstSection .CurrentSection) }}
+                <li class="card {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                    <a class="inline-flex" href="{{ .RelPermalink }}">
+                        <div class="card-content-box">{{ .Title }}</div>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</div>
+
+
+.breadcrumb-item:last-of-type {
+  /* flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+
+    <div class="squiggle">
+        <svg aria-hidden="true" width="100%" height="9"  version="1.1"  xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="a" width="16.748" height="9"  patternUnits="userSpaceOnUse">
+                        <g transform="translate(-124.15 -145.5)">
+                            <path d="m140.39 153.87c-0.65052-7e-3 -1.2309-0.22083-1.6601-0.69242-0.79512-0.87372-0.7527-2.3334-0.7527-3.176s0.0425-2.3023-0.75269-3.176c-0.43964-0.48311-1.038-0.69523-1.7079-0.6926-1.8844 7e-3 -4.3345 1.7142-5.4081 3.8686-1.0827 2.1726-3.5654 3.8901-5.4559 3.8684" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round"/>
+                        </g>
+                    </pattern>
+                </defs>
+                <rect fill="url(#a)" width="100%" height="100%"></rect>
+           </svg>
+    </div>
+
+////////////////////
+
+{{ range (where .Site.Pages "Section" (i18n "guides"))  }}
+                            {{ range .Sections | first 3 }}
+                            {{ if eq .Parent.RelPermalink (printf "%s/" ( relLangURL (i18n "guides"))) }}
+                            <li>
+                                <a href="{{ .RelPermalink }}">{{ .Params.linktitle }}</a>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                            {{ if eq .RelPermalink (printf "%s/" ( relLangURL (i18n "guides"))) }}
+                            <li><a href="{{ .RelPermalink }}">{{ i18n "see_all" }} {{ i18n "guides" }}</a></li>
+                        {{ end }}
+                        {{ end }}
+                        /////////
+
+ {{- $odd := false}}
+
+                        {{$odd = not $odd}}
+                        {{if $odd }}
+                        <div class="alternate-column">
+                            <img src="/images/speach-01.svg" alt="">
+                        </div>
+                        {{ else }}
+                        <div class="alternate-column">
+                            <img src="/images/speach-02.svg" alt="">
+                        </div>
+                        {{end}}
+
+
+{{ if .Page.Params.toc_h1 }}
+{{ $headers = union (slice (printf "<h1>%s</h1>" .Page.Title)) $headers }}
+{{ end }}
+
+{{ cond (ne $tagname "h1") ($header | anchorize ) "main-content" }}
+
+
+    <div class="read-info" style="--gap:0.2rem; border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(0,0,0,0.2); padding:.2rem">
+        <p class="fs-label-small" style="max-width:100%">{{ i18n "reading_time" }}: {{ .ReadingTime }} {{ i18n "minute" .ReadingTime }}.</p>
+    </div>
+
+[markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+
+För att ta bild och rita ut markeringar kan du använda dig av skärmklippverktyget på en windows dator. Ett annat alternativ på windows dator är Shift + Windows tangenten + S. På linux dator har du alternativ som Spectacle och ... Android kan... Apple ios
+
+
+Hur du än gör följer alla former av orderblanketterna samma princip.
+
+## Objekt namn
+
+Fyll i objektets namn.
+Namnet kommer att vara placerad i det gröna fältet.
+
+## Adress
+
+Om du vill ha med adressen till objektet på sidan kan du ange det här
+
+## Våning / Plan
+
+Skriv plan, våning du vill ha angivet på utrymningsplanen. 
+Har din beställning flera olika våningar, byggnader skriver du ut dessa på respektive sida och du kan lämna detta fält tomt i blanketten om du vill. Läs mer om hur du markerar ut här är du punkter.
+
+## Typ av ritning
+
+Ska utrymningsplanen ritas i 2d eller 3d.
+
+## Hur ska jobbet levereras
+
+
+
+## Återsamlingsplats
+
+Skriv..
+
+
+---------------------------------------
+
+{{< figure src="/images/guides/utp/grey-02.svg" alt="Ett exempel där ett rum har markerat med en gul linje längs med ytterkant av området för att indikera att detta ska färgläggas grått på ritningen av utrymningsplanen" caption="Gul linje längs med områdets ytterkant indikerar att detta ska gråläggas på utrymningsplanen" >}}
+
+
+
+
+
+
+## Rubrik
+
+Våra planer ritas i enlighet med Svensk Standard SS-2875. Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende. Om ni önskar kan vi även ta fram en ny unik design just för er.
+
+Vi tillverkar utrymningsplaner i både 3D och 2D åt alla som behöver en utrymningsplan. Vi har ett nätverk med återförsäljare över hela Sverige som vi samarbetar med. Vi jobbar främst med brandskyddsföretag eller andra företag som säljer utrymningsplaner. Behöver ni en utrymningsplan till er egen fastighet kan ni fylla i era uppgifter »här så skickar vi eller någon av våra partners en offert.
+
+Vi levererar normalt inom sju dagar. Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få en CD-romskiva med de utrymningsplaner vi har ritat åt er.
+ 
+Vi lämnar kvalitetsgaranti, leveransgaranti, prisgaranti och nöjdkund-garanti. Det främsta skälet att anlita oss är inte priset utan vår kvalité och goda service.
+
+ 
+Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa så skickar vi en utrymningsplan med posten.
+
+Du kan läsa mer om utrymningsplaner i vår »broschyr.
+
+///
+Vi jobbar främst med brandskyddsföretag eller andra företag som säljer utrymningsplaner. [Behöver ni en utrymningsplan till er egen fastighet kan ni fylla i era uppgifter här]() så skickar vi eller någon av våra partners en offert.
+
+
+Utrymningsplaner är försedda med utrymningsvägar och brandredskap
+samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er
+logotyp på ritningen ingår det utan extra kostnad.
+Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig
+p.g.a. ålder eller fukt.
+
+
+Våra planer ritas i enlighet med Svensk Standard SS-2875 och kan fås i 3D eller 2D utförande. Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende. Om ni önskar kan vi även ta fram en ny unik design just för er.
+
+
+Våra planer ritas i enlighet med Svensk Standard SS-2875 och kan fås i 3D eller 2D utförande. Utrymningsplanerna är försedda med utrymningsvägar och brandredskap
+samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er
+logotyp på ritningen ingår det utan extra kostnad. 
+
+Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
+
+Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende. Om ni önskar kan vi även ta fram en ny unik design just för er.
+
+
+| replaceRE `<p>\s*</p>` ""
+
+
+
+Tar du kort på ritningen så se till att ta kortet i mitten av ritningen och rakt ovanifrån, framifrån ifall den skulle hänga på en vägg. 
+
+
+                            <p>{{ strings.FirstUpper (i18n "phone")}}: {{ $.Site.Params.tel }}</p>
+
+                            <p class="">{{ i18n "Adress" }}:<br>
+                                {{ $.Site.Params.adress | safeHTML }}</p> 
+
+
+                                      <p><a href="{{ .Permalink }}">{{- .Params.banner.link_text -}}</a></p>
+
+
+                                      {{ if .Page.Params.green }} bg-primary fc-on-primary fw-grad--25 {{ end }}
+{{ if .Page.Params.green }} bg-primary fc-on-primary fw-grad--25 {{ end }}
+
+
+![Ett exempel där ett rum har markerat med en gul linje längs med ytterkant av området för att indikera att detta ska färgläggas grått på ritningen av utrymningsplanen](/images/guides/utp/grey-02.svg)
+{ .image-box }
+
+
+{{< figure src="/images/guides/utp/grey-01.svg" alt="En del från ett underlag på en byggnad där ett av rummen markerats med ett kryss" caption="Gult kryss indikerar att rummet ska gråläggas på utrymningsplanen" >}}
+
+
+    På windows med skärmklippverktyget. 
+    ![exempel skärmklipp på windows](/images/bild.png "title")
+
+    På Fedora KDE med Spectacle
+    ![exempel spectacle på linux](/images/bild.png "title")
+
+    På Android med ...
+    ![exempel spectacle på android](/images/bild.png "title")
+
+
+    {{ $page := .Page.Site.GetPage $bundle }}
+{{ $page = where .Site.Pages "Type" $match }}
+{{ $color := "blue" }}
+
+{{ range first 1 $page}}
+<div class="{{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-blue" }} banner">
+    <div class="grid">
+        <h2 class="">{{ .Title }}</h2>
+        <div class="flow">{{ index (split .Content "<p>||banner||</p>" ) 0 | safeHTML }}</div>
+    </div>
+</div>
+{{ end }}
+
+<div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
+    <div class="grid">
+            {{ with (.Get "title") -}}
+                <h2>{{ safeHTML . }}</h2>
+            {{- end -}}
+        <div class="flow banner-content">
+            <!-- {{ with (.Get "body") -}}
+                <p>{{ . }}</p>
+            {{- end -}} -->
+            {{- $c := replaceRE "\\\\pdf\\\\" "<img class=\"icon\" src=\"/images/icons/pdf-file.svg\" alt=\"\">" .Inner  -}}
+            {{- $c = replaceRE "\\\\doc\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c = replaceRE "\\\\docx\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c | safeHTML  -}}
+        </div>
+    </div>
+</div>
+
+{{< bannerTest "/hem" "offer" >}}
+
+
+<!-- {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" (i18n "products")) "Title" "!=" .Title )) }} -->
+
+{{ $filtered_pages := where (where .Site.RegularPages "Section" (i18n "products")) "Title" "!=" .Title }}
+            {{ printf "%s" $filtered_pages }}
+            {{ $shuffled_pages := shuffle $filtered_pages | first 3}}
+            
+            {{ range $shuffled_pages }}
+
+
+
+<li {{ if ne .Parent.Params.list_class nil }} class="{{ .Parent.Params.list_class }} switcher" {{ end }}>
+  <div class="flow">
+    <h2 id="{{ anchorize .LinkTitle }}">
+      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    </h2>
+    <p>{{ .Params.banner.subline }}</p>
+    <div class="card card-link bg-symbol-white">
+      <a class="inline-block" href="{{ .RelPermalink }}">
+          <div class="card-content-box">{{ .Title }}</div>
+      </a>
+  </div>
+  </div>
+  {{ if .Params.banner.image}}
+  <div><img src="{{ .Params.banner.image }}" alt="test"></div>
+  {{ end }}
+</li>
+
+
+
+
+            <!-- <li {{ if ne .Parent.Params.list_class nil }} class="{{ .Parent.Params.list_class }} switcher"{{ end }}> -->
+<li class="flow">
+    <!-- <div class="flow">
+      <h2 id="{{ anchorize .LinkTitle }}">
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      </h2>
+      <p>{{ .Params.banner.subline }}</p>
+    </div>
+    {{ if .Params.banner.image}}
+    <div><img src="{{ .Params.banner.image }}" alt="test"></div>
+    {{ end }} -->
+    <div>
+      <h2 id="{{ anchorize .LinkTitle }}">
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      </h2>
+    </div>
+    <div {{ if ne .Parent.Params.list_class nil }} class="{{ .Parent.Params.list_class }} switcher"{{ end }}>
+      {{ if .Params.banner.image}}
+    <div><img src="{{ .Params.banner.image }}" alt="test"></div>
+    {{ end }}
+      <div class="">
+        <p>{{ .Params.banner.subline }}</p>
+        <div class="card card-link bg-symbol-white">
+          <a class="inline-block" href="{{ .RelPermalink }}">
+              <div class="card-content-box">{{ .Title }}</div>
+          </a>
+      </div>
+      </div>
+    </div>
+</li>
+
+
+
+<li {{ if ne .Parent.Params.list_class nil }} class="{{- .Parent.Params.list_class -}}"{{ end }}>
+    <h2 id="{{ anchorize .LinkTitle }}">
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    </h2>
+    {{ if .Params.banner.image}}
+    <img src="{{ .Params.banner.image }}" alt="{{ .Params.banner.image_alt }}">
+    {{ end }}
+    {{ .Params.banner.subline }}
+</li>
+
+
+Orderblanketterna skiljer sig åt mellan våra olika produkter. Så hitta den produkt du tänkt beställa i listan nedan och ladda sen hem den blankett du vill ha.
+
+Om du redan är kund så finns även möjligheten att beställa genom ett webbformulär på kundsidan. inloggning för kunder
+
+{{ cond (gt (len $headers) 4) "stick" "no" }}
+
+
+<h1 id="main-content"  class="hero">{{ .Title }}</h1>
+    <p class="h1-tag">I guide för utrymningsplan</p>
+
+            <div class="wrapper flow print {{ if .Params.print_full }}full-page-print{{ end }}">
+            <h1 id="main-content"  class="hero">{{ .Title }}</h1>
+
+                <div class="grid hero-box wrapper" style="--min:20rem;">
+        {{ if .Params.cover_right_side }}
+        <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ .Title }}</h1>
+        <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt=""></div>
+        {{ else }}
+        <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt=""></div>
+        <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ .Title }}</h1>
+        {{ end }}
+    </div>
+    <div class="wrapper flow">
+
+
+        {{ if .Params.cover }}
+        
+            <div class="grid hero-box" style="--min:20rem;">
+                <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt=""></div>
+                <h1 id="main-content" class="fs-hero hero text-center">{{ .Title }}</h1>
+            </div>
+        
+        <div class="wrapper flow">
+    {{ else }}
+            {{- partial "page-header.html" . -}}
+    {{ end }}
+
+    <div class="grid hero-box wrapper" style="--min:20rem;">
+            <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content"  src="/images/sktech-banner-rit-web-paths.svg" alt=""></div>
+            <h1 id="main-content" class="fs-hero hero-with-image hero text-center"><span class="h3 h-tagline">{{- .Params.hero_tagline -}}</span> {{- .Params.hero_title -}}</h1>
+        </div>
+
+                {{ if .Params.cover_right_side }}
+        <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ .Title }}</h1>
+        <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt=""></div>
+        {{ else }}
+        <div class="fixed-ratio" style="padding-bottom: 100%;"><img class="fixed-ratio-content" src="{{ .Params.cover_image }}" alt=""></div>
+        <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ .Title }}</h1>
+        {{ end }}
+
+
+        /// footer
+<!-- 
+            <address class="flex"> -->
+                        <!-- <p class="fs-label-small">{{ i18n "Kontakt" }}</p> -->
+        <!-- <p class="fs-label-small">{{ i18n "Adress" }}<br>
+                        {{ $.Site.Params.adress | safeHTML }}</p> -->
+
+            <!-- </address> -->
+        <!-- </div> -->
+
+
+        Hur du än väljer att göra är det bara att följa instruktionerna i blanketten.
+
+
+
+                    <!-- <li style="background-color: rgb(75, 19, 128);">
+                <div class="card card-link">
+                    <a class="inline-block" href="">
+                        <div class="card-content-box flow">
+                            <div>
+                                <img src="/images/utp.jpg" alt="">
+                            </div>
+                            <h2>Utrymningsplan</h2>
+                            <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li style="background-color: rgb(152, 202, 187);">
+                <div class="card card-link">
+                    <a class="inline-block" href="">
+                        <div class="card-content-box flow">
+                            <div>
+                                <img src="/images/utp.jpg" alt="">
+                            </div>
+                            <h2>3D</h2>
+                            <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                        </div>
+                    </a>
+                </div></li>
+            <li style="background-color: rgb(64, 226, 43);">
+                <div class="card card-link">
+                    <a class="inline-block" href="">
+                        <div class="card-content-box flow">
+                            <div>
+                                <img src="/images/utp.jpg" alt="">
+                            </div>
+                            <h2>Utrymningsplan</h2>
+                            <p>Vi ritar utrymningsplaner i både 2D och 3D.</p>
+                        </div>
+                    </a>
+                </div>
+            </li> -->

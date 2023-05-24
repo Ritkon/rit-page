@@ -1,0 +1,2 @@
+
+{{ partial "contact.html" (dict "title" (.Get "title") "content" (.Inner | markdownify )) | safeHTML }}

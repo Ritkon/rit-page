@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div class="wrapper flow">
+        {{- partial "page-header.html" . -}}
+    </div>
+
+    <div class="wrapper flow">
+        {{.Content}}
+    </div>
+    <!-- {{ $new_customer := (dict "context" . "b" "/hem" "m" "offer" )}}
+    {{- partial "product-banner.html" $new_customer }}-->
+    {{- partial "products-small-list.html" . -}}
+    {{- partial "why-work-with-us-cards.html" . -}}
+    {{ $new_customer := (dict "context" . "b" "/hem" "m" "offer" )}}
+    {{- partial "banner-display.html" $new_customer }}
+    {{- partial "testimonials.html" . -}}
+{{ end }}

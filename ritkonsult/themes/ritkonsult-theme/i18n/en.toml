@@ -1,0 +1,89 @@
+[Adress]
+other = 'Address'
+
+[blanketter]
+other = 'Forms'
+
+[evacuation_plan]
+other = 'evacutaion plan'
+
+[Get_in_touch]
+other = 'Get in touch'
+
+[Go_to_parent_guide_page]
+other = 'Go to the start page of {{ .ltitle }}'
+
+[guider]
+other = 'Guides'
+
+[guides]
+other = 'guides'
+
+[home]
+other = 'Home'
+
+[Kontakt]
+other = 'Contact'
+
+[kontakt]
+other = 'Contact'
+
+[minute]
+one = 'minute'
+other = 'minutes'
+
+[new_customer]
+other = 'new customer'
+
+[Next]
+other = 'Next'
+
+[other]
+other = 'other'
+
+[Our_products]
+other = 'Our products'
+
+[page]
+one = 'page'
+other = 'pages'
+
+[phone]
+other = 'phone'
+
+[Previous]
+other = 'Previous'
+
+[print_this_page]
+other = 'print this page'
+
+[printable_version]
+other = 'printable version'
+
+[produkter]
+other = 'Products'
+
+[products]
+other = 'products'
+
+[reading_time]
+other = 'reading time'
+
+[Ritkonsults_clients_says]
+other = "Ritkonsult's clients says"
+
+[see_all]
+other = 'see all'
+
+[Tio_skal_att_anlita_oss]
+other = 'Ten reasons to hire us'
+
+[toc_heading]
+other = 'Table of contents'
+
+[view_a_printable_version_of_the_whole_guide]
+other = 'View a printable version of the whole guide'
+
+[You_can_find_drawings_made_by_Ritkonsult_at]
+other = 'You can find drawings made by Ritkonsult at'
+

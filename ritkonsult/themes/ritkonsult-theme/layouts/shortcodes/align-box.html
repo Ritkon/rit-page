@@ -1,0 +1,4 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="{{ with .Get "class" }}{{ . }}{{ end }}-margin-child flow p-width">
+    {{ .Inner }}
+</div>

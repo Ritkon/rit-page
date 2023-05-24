@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.7199974mm"
+   height="2.4199982mm"
+   viewBox="0 0 6.7199974 2.4199982"
+   version="1.1"
+   id="svg4609"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="kr-symbosl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4611"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="9.5144351"
+     inkscape:cx="109.04483"
+     inkscape:cy="546.22265"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4606" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.545369,-128.57284)">
+    <g
+       id="use2853"
+       transform="translate(-108.59453,24.782843)"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+ <path
+   class="fil0"
+   d="m 145.328,103.927 h 6.3437 c 0.0138,0 0.0257,0.005 0.0355,0.0146 0.01,0.01 0.0146,0.0217 0.0146,0.0355 v 2.0452 c 0,0.0138 -0.005,0.0257 -0.0146,0.0354 -0.01,0.01 -0.0216,0.0147 -0.0354,0.0147 h -6.3437 c -0.0138,0 -0.0257,-0.005 -0.0354,-0.0146 -0.01,-0.01 -0.0147,-0.0216 -0.0147,-0.0354 v -2.0453 c 0,-0.0138 0.005,-0.0257 0.0146,-0.0354 0.01,-0.01 0.0216,-0.0147 0.0354,-0.0147 z"
+   id="path126985"
+   style="fill:#009400" />
+
+ <path
+   class="fil1"
+   d="m 150.213,104.29 c 0,-0.1081 0.0876,-0.1957 0.1957,-0.1957 0.108,0 0.1956,0.0876 0.1956,0.1957 0,0.1081 -0.0876,0.1957 -0.1956,0.1957 -0.1081,0 -0.1957,-0.0876 -0.1957,-0.1957 z"
+   id="path126987"
+   style="fill:#ffffff" />
+
+ <polygon
+   class="fil1"
+   points="150.855,105.252 150.855,105.647 151.53,105.647 151.53,105.448 151.093,105.448 151.093,105.011 150.806,104.584 150.806,104.545 151.008,104.545 151.25,104.907 151.38,104.819 151.106,104.362 150.656,104.362 150.63,104.414 150.604,104.447 150.575,104.476 150.545,104.496 150.503,104.522 150.483,104.528 150.376,104.528 150.376,104.802 150.001,104.802 150.001,105.011 150.555,105.011 150.555,104.828 150.728,105.06 150.346,105.291 150.346,105.927 150.562,105.927 150.562,105.428 "
+   id="polygon126989"
+   style="fill:#ffffff" />
+
+ <polygon
+   class="fil1"
+   points="148.625,103.993 148.625,104.971 149.147,104.45 149.147,105.223 148.355,106.015 147.569,105.229 147.569,104.459 148.081,104.971 148.081,103.993 "
+   id="polygon126991"
+   style="fill:#ffffff" />
+
+ <polygon
+   class="fil1"
+   points="146.613,105.891 145.478,105.891 145.478,104.118 146.613,104.118 "
+   id="polygon126993"
+   style="fill:#ffffff" />
+
+ <path
+   class="fil2 str0"
+   d="m 145.33,103.84 h 6.3398 c 0.0386,0 0.0718,0.0137 0.0991,0.041 0.0273,0.0273 0.041,0.0605 0.041,0.0991 v 2.0399 c 0,0.0771 -0.063,0.1401 -0.1401,0.14 H 145.33 c -0.0386,0 -0.0718,-0.0137 -0.0991,-0.041 -0.0273,-0.0273 -0.041,-0.0605 -0.041,-0.0991 V 103.98 c 0,-0.0771 0.063,-0.1401 0.1401,-0.14 z"
+   id="path126995"
+   style="fill:none;stroke:#009400;stroke-width:0.1;stroke-linecap:square" />
+
+</g>
+  </g>
+</svg>

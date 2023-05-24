@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <div class="flow" style="margin-top:7rem;">
+        <h2>Andra produkter</h2>
+        <ul class="grid clean-list" style="--min:12rem;">
+            {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" (i18n "products")) "Title" "!=" .Title )) }}
+                <li class="card card-link {{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                    <!-- <div class="card card-link"> -->
+                        <a class="inline-block" href="{{ .RelPermalink }}">
+                            <div class="card-content-box flow">
+                                <div>
+                                    <img src="/images/utp.jpg" alt="" loading="lazy">
+                                </div>
+                                <p>{{ .Title }}</p>
+                                <!-- <p>...</p> -->
+                            </div>
+                        </a>
+                    <!-- </div> -->
+                </li>
+            {{ end }}
+        </ul>
+        <p style="margin-top: 2rem;"><a href="{{ .Parent.RelPermalink }}">{{ strings.FirstUpper (i18n "see_all") }} {{ i18n "products" }}</a></p>
+    </div>
+</div>

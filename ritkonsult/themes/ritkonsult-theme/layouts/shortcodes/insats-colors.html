@@ -1,0 +1,15 @@
+{{ $bundle := .Get 0 }}
+{{ $match := .Get 1 }}
+
+{{ $headless := .Site.GetPage $bundle }}
+{{ $page := where $headless.Pages "Type" $match }}
+
+<ul class="clean-list grid insats-colors">
+{{ range $page.ByWeight }}
+    <li><span class="h4">{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}: {{ end }}{{ .Title }}</span>
+        <div><img src="{{ .Params.symbol_image }}" alt=""></div>
+        {{ .Content }}
+    </li>
+{{ end }}
+</ul>
+

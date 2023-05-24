@@ -1,0 +1,7 @@
+{{ if and (eq .Type "guider") (ne .Title (strings.FirstUpper (i18n "guides"))) }}
+    {{ $link := ( printf "%sprint.html" .Parent.Page.RelPermalink ) }}
+    {{ if eq .Parent.RelPermalink .FirstSection.RelPermalink }}
+        {{ $link = ( printf "%sprint.html" .Page.RelPermalink ) }}
+    {{ end }}
+    <p class="hide-on-print"><a href="{{ $link }}">{{ i18n "view_a_printable_version_of_the_whole_guide"}}</a> Du kan även spara sidan som pdf-fil i utsriftsdialogen.</p>
+{{ end }}

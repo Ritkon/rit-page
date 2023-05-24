@@ -1,0 +1,51 @@
+{{ define "main" }}
+        <div class="wrapper flow">
+            <h1 id="main-content"  class="hero">{{ .Title }}</h1>
+            <p class="h1-tag">{{ strings.FirstUpper  (i18n "printable_version") }}</p>
+
+            <button onclick="window.print()" class="hide-on-print btn outline">{{ strings.FirstUpper  (i18n "print_this_page") }}</button>
+
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+        
+            <!-- <ul class="gap-big-list flow"> -->
+                {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                    
+                <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}"> -->
+                      <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
+                          <h1 class="">
+                                {{ .Title }}
+                            </h1>
+                            {{ .Content}}
+                                {{ if eq .BundleType "branch"}}
+                                    <ul class="symbol-card-box grid">
+                                        <!-- Ranges through content/posts/*.md -->
+                                        {{ range .Pages }}
+                                        {{ if .Params.card }}
+                                        <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
+                                        <div class="symbol-card-image-box">
+                                            {{ if .Params.symbol_image}}
+                                            <img src="{{ .Params.symbol_image }}" alt="test">
+                                            {{ end }}
+                                        </div>
+                                        <div class="card-content-box">
+                                            <h2 class="">
+                                                {{ .Weight }}. {{ .Title }}
+                                            </h2>
+                                            <!-- {{ .Content}} -->
+                                        </div>
+                                        </li>
+                                        {{ end }}
+                                        {{ end }}
+                                        </ul>
+                                {{ end }}
+                            
+                      </article>
+                  <!-- </li> -->
+
+                {{ end }}
+            <!-- </ul> -->
+
+    </div>
+{{ end }}

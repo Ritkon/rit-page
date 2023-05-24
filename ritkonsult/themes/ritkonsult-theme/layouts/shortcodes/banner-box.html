@@ -1,0 +1,32 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $hn := 2 }}
+{{ $color := "blue" }}
+{{ $type:= "flow" }}
+{{ if (.Get "title-h") }}
+    {{ $hn = .Get "title-h" }}
+{{ end }}
+{{ if (.Get "color") }}
+    {{ $color = .Get "color" }}
+{{ end }}
+{{ if (.Get "type") }}
+    {{ $type = .Get "type" }}
+{{ end }}
+
+<div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
+    <div class="{{ $type }}">
+            {{ with (.Get "title") -}}
+                <h{{ $hn }}>{{ safeHTML . }}</h{{ $hn }}>
+            {{- end -}}
+        <div class="flow banner-content">
+            <!-- {{ with (.Get "body") -}}
+                <p>{{ . }}</p>
+            {{- end -}} -->
+            {{- $c := replaceRE "\\\\pdf\\\\" "<img class=\"icon\" src=\"/images/icons/pdf-file.svg\" alt=\"\">" .Inner  -}}
+            {{- $c = replaceRE "\\\\doc\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c = replaceRE "\\\\docx\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
+            {{- $c | safeHTML  -}}
+        </div>
+    </div>
+</div>
+
+

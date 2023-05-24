@@ -1,0 +1,22 @@
+{{ $hn := 2 }}
+{{ $color := "blue" }}
+{{ if (.Get "title-h") }}
+    {{ $hn = .Get "title-h" }}
+{{ end }}
+{{ if (.Get "color") }}
+    {{ $color = .Get "color" }}
+{{ end }}
+
+<div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
+    <div class="grid">
+            {{ with (.Get "title") -}}
+                <h{{ $hn }}>{{ . }}</h{{ $hn }}>
+            {{- end -}}
+        <div class="flow">
+            <!-- {{ with (.Get "body") -}}
+                <p>{{ . }}</p>
+            {{- end -}} -->
+            <p>{{- .Get "body" | markdownify -}}</p>
+        </div>
+    </div>
+</div>

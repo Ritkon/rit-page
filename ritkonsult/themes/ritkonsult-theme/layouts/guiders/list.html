@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <div class="wrapper">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+        <ul role="list" class="grid gap-big-list">
+            {{ range .Pages.ByTitle }}
+                {{ .Render "li" }}
+            {{ end }}
+        </ul>
+    </div>
+    <p>guider -template</p>
+    {{ if .Params.toc }}
+        {{ $context := (dict "Page" $ "Listed" . )}}
+        {{- partial "toc.html" $context -}}
+    {{ end }}
+{{ end }}

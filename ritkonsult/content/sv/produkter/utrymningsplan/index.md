@@ -1,0 +1,104 @@
+---
+title: 'Utrymningsplan'
+description: 'Utrymningsplaner i 2D och 3D. Planerna ritas i enlighet med Svensk Standard SS-2875 eller er egen design och kan leverars färdig i ram, som pdf-fil, utskrift eller i laminat.'
+banner:
+    subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.'
+    link_text: 'Läs mer om våra utrymningsplaner'
+    image: '/images/utp.jpg'
+    image_alt: 'utrymningsplans exempel i 2D utförande'
+heroBackground: 'name'
+translationKey: 'utrymningsplan'
+toc: true
+toc_heading: ''
+color: 'green'
+order_form: true
+weight: 10
+---
+
+## Design
+Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/produkter/terminologi-och-dokumentation/grafiska-symboler/publika-informationssymboler-skyltar-platar-etiketter/ss-28752019/) och kan fås i [3D eller 2D](#valet-mellan-3d-eller-2d) utförande. Utrymningsplanerna är försedda med utrymningsvägar och brandredskap
+samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er
+logotyp på ritningen ingår det utan extra kostnad. 
+
+Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
+
+## Sortiment
+
+Vi erbjuder ett brett utbud av olika lösningar och räcker inte vårt ordinarie sortiment är vi alltid öppna för kundunika lösningar. Vi levererar utrymningsplaner på följande sätt:
+
+- #### Färdig i ram
+    Du kan välja mellan [4 olika typer av ramar](/produkter/ramar) i storleken A4 till A1. Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig pga ålder eller fukt och ramas sedan in innan vi skickar den till er.
+- #### PDF-fil
+    Väljer ni att få utrymningsplanen levererad som PDF-fil får ni själva skriva ut och rama in den. Denna lösning är prisvärd för er som inte behöver planer över A3-storlek. En A3-skrivare kostar inte mer än ca 2000 kronor.
+
+    Utöver PDF-formatet kan vi även erbjuda Corel Draw, PageMaker, Freehand, WMF samt olika CAD- format.
+- #### Utskrift
+    Vi kan skriva ut planer upp till A1-format. Utskrift sker på en särskild plastfilm som inte påverkas av fukt. Till skillnad från papper så vågar sig aldrig en platsfilm utan behåller formen oavsett ålder eller fuktig miljö.
+
+    För utskrifter använder vi Canons senaste plotter med avancerat bläck vilket har en beständighet upp till 80 år innan blekning syns.
+- #### Laminat
+    Vi laminerar i A4 eller A3 storlek. Vi använder en vanlig laminatficka med 100 micron eller självhäftande laminatfickor. För hotellplaner kan vi erbjuda ett extra lågt pris.
+{ .flow }
+## Leveranstid
+Leveranstid är normalt inom sju dagar. Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få filerna med de utrymningsplaner vi har ritat åt er.
+
+## Garanti
+Vi lämnar kvalitetsgaranti, leveransgaranti, prisgaranti och nöjdkund-garanti. Det främsta skälet att anlita oss är inte priset utan vår kvalité och goda service.
+
+## Pris
+
+Till företag som säljer utrymningsplaner kan vi erbjuda produktion av utrymningsplaner till mycket låg kostnad. Maila till prislista@ritkonsult.se så kommer den omgående. Kom ihåg att tydligt ange från vilket företag ni mailar. Ta även del av våra attraktiva [erbjudanden till nya kunder.](/erbjudanden)
+
+[Behöver ni en utrymningsplan till er egen fastighet kan ni fylla i era uppgifter här]() så skickar vi eller någon av våra partners en offert.
+
+{{< banner-box title="Prov" title-h="3" >}}
+Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa så skickar vi en utrymningsplan med posten.
+{{< /banner-box >}}
+
+## Valet mellan 3D eller 2D { .h1 }
+
+Valet mellan 2D och 3D är i mångt och mycket en fråga om tycke och smak. 3D ger ofta ett överlägset och lättförståeligt perspektiv över lokalerna men i vissa fall kan 3D minska förståelsen. En mycket stor byggnad på flera tusen kvadratmeter blir sällan bra i 3D format. Däremot passar 3D extra bra i lokaler som har nivåskillnader på samma plan.
+
+### 3D { .h2 }
+
+![](/images/utp.jpg)
+
+3D ritningar ritas i ett program som heter Sketchup. Programmet kan sedan Google köpte det hösten 2006 laddas ner gratis från www.sketchup.com. Det innebär att ni som mervärde kan sälja kundens byggnad som en separat 3D fil. Filen kan sedan kunden använda för att provmöbler mm.
+
+{{% banner-box color="white" title="Exempel på utrymningsplaner i 3D" title-h="3" %}}
+-  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
+-  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
+-  [\\pdf\\banken 3d](/)
+{ .text-cloud .cluster }
+{{% /banner-box %}}
+
+### 2D { .h2 }
+
+![](/images/utp.jpg)
+
+Passar till alla storlekar av lokaler.
+Det bästa alternativet när det kommer till stora byggnader på flera tusen kvadratmeter...
+
+{{% banner-box color="white" title="Exempel på utrymningsplaner i 2D" title-h="3" %}}
+-  [\\pdf\\swedbank 2d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
+-  [\\pdf\\swedbank 2d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
+-  [\\pdf\\banken 2d](/)
+{ .text-cloud .cluster }
+{{% /banner-box %}}
+
+## Våran arbetsmodell { .h1 }
+
+Vi har i nära samarbete med våra kunder tagit fram en [arbetsmodell](/guider/utrymningsplan) som sparar mycket tid för både er som kund och för oss när vi ritar. Genom denna arbetsmodell har vi höjt kvalitén i arbetet vilket innebär att skickandet av korrektur fram och tillbaka har upphört. I regel så stämmer det första korrekturet vilket sparar tid för kunden som slipper rätta eller ändra.
+
+Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen enligt vår mall för projektering. Mallen anger hur handbrandsläckare, larmknapp osv ska markeras, hur utrymningslinjerna ska dras och hur ritningen ska delas upp om den innehåller flera planer. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#utrymningsplan) där ni som kund fyller i uppgifter som storlek, larmnummer mm.
+
+Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till er. När ni godkänt korrekturet skickar vi utrymningsplanen till er.
+
+Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få en CD-romskiva med de utrymningsplaner vi har ritat åt er.
+
+[Ni hittar guiden för denna arbetsprocess här.](/guider/utrymningsplan)
+
+
+
+
+

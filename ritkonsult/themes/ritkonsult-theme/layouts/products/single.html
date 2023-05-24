@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="wrapper flow">
+    {{ if .Params.toc }}
+    <h1 id="main-content"  class="hero">{{ .Title }}</h1>
+            <div class="">
+                <div class="not-sidebar flow">
+                    <img src="{{ .Params.banner.image }}" alt="" loading="lazy">
+                </div>
+                <div class="sidebar-sticky">
+                    {{ $context := (dict "Page" $ "Listed" . )}}
+                    {{- partial "toc-p.html" $context -}}
+                </div>
+            </div>
+            <div class="product-wrapper flow">
+            {{ if .Content }}
+                {{ .Content }}
+            {{ end }}
+            </div>
+    {{ else }}
+    {{- partial "page-header.html" . -}}
+
+        <img src="{{ .Params.banner.image }}" alt="">
+
+        {{ if .Content }}
+            {{ .Content }}
+        {{ end }}
+    {{ end }}
+
+</div>
+    {{- partial "product-kitchen.html" . -}}
+{{ end }}

@@ -1,0 +1,23 @@
+{{ $headless := .Site.GetPage "/hem/varför-anlita-oss-kort.md" }}
+
+
+{{ $content_parts := split $headless.Content "||||||"}}
+
+{{ index $content_parts 1 }}
+
+<div class="wrapper flow-1">
+    <h2 class="fs-display-large">{{ i18n "TioSkal" }}</h2>
+    <ul class="card-wrapper card-link-list" role="list">
+
+            {{ range $index, $element := $content_parts }}
+                <li class="card">
+                    <div class="inline-flex no-underline">
+                        <div class="card-content-box">
+                            {{ $element }}
+                        </div>
+                    </div>
+                </li>
+            {{ end }}
+
+    </ul>
+</div>

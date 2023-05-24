@@ -1,0 +1,68 @@
+<div class="footer-div"></div>
+<footer class="flow" style="--gap:4.2rem;">
+    <div class="wrapper talk">
+        <p class="h2 footer-email-banner"><span class="arrow">{{ i18n "Get_in_touch"}}</span> <span><a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a></span></p>
+    </div>
+    <div class="footer wrapper with-sidebar">
+                        <div class="flow">
+                            {{ $phone := (dict "title" (strings.FirstUpper (printf "%s:" (i18n "phone"))) "content" ($.Site.Params.tel | safeHTML) )}}
+                    {{- partial "contact.html" $phone -}}
+
+                                {{ $address := (dict "title" (strings.FirstUpper (printf "%s:" (i18n "Adress"))) "content" ($.Site.Params.adress | safeHTML) )}}
+                    {{- partial "contact.html" $address -}}
+                        </div>
+
+            <div class="grid" style="--min: 8rem; --space: 2em;">
+                <div class="footer-navigation">
+                    <h2 class="fs-label-small">{{ strings.FirstUpper (i18n "page") }}</h2>
+                    <ul>
+                        {{ $home := i18n "home" }}
+                            <li><a href="{{ site.Home.RelPermalink }}">{{ $home }}</a></li>
+                        {{ range .Site.Menus.main.ByWeight }}
+                            {{ if and (ne .Page.Type "page-content") (ne .Page.Type "guider") (ne .Page.Type "produkter") }}
+                            <li>
+                                <a href="{{ .URL | relLangURL }}">{{ strings.FirstUpper  (i18n .Identifier | default .Name) }}</a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="footer-navigation">
+                    <h2 class="fs-label-small">{{ strings.FirstUpper (i18n "products") }}</h2>
+                    <ul>
+                        {{ $all := where .Site.Pages "Section" (i18n "products") }}
+                        {{ range $all}}
+                            {{ range where .Pages "Parent.RelPermalink" "eq" .FirstSection.RelPermalink | first 4 }}
+                                <li>
+                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                </li>
+                            {{ end }}
+                            {{ if eq .RelPermalink (printf "%s/" ( relLangURL (i18n "products"))) }}
+                                <li><a href="{{ .RelPermalink }}">{{ i18n "see_all" }} {{ i18n "products" }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="footer-navigation">
+                    <h2 class="fs-label-small">{{ strings.FirstUpper (i18n "guides") }}</h2>
+                    <ul>
+                        {{ $all := where .Site.Pages "Section" (i18n "guides") }}
+                        {{ range $all}}
+                            {{ range where .Pages "Parent.RelPermalink" "eq" .FirstSection.RelPermalink | first 4 }}
+                                <li>
+                                    <a href="{{ .RelPermalink }}">{{ .Params.linktitle }}</a>
+                                </li>
+                            {{ end }}
+                            {{ if eq .RelPermalink (printf "%s/" ( relLangURL (i18n "guides"))) }}
+                                <li><a href="{{ .RelPermalink }}">{{ i18n "see_all" }} {{ i18n "guides" }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div class="wrapper end-footer">
+        <a href="{{ site.Home.RelPermalink }}" class="logo"><img src="/images/logo-ritkonsult-opt2.svg" alt="ritkonsult"></a>
+        <p class="fs-label-small">{{ replace $.Site.Copyright ":YEAR:" (string (now.Format "2006")) }}</p>
+    </div>
+</footer>

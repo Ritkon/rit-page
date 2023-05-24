@@ -8,7 +8,7 @@ banner:
 heroBackground: 'name'
 translationKey: 'ramar'
 color: 
-weight: 
+weight: 90
 ---
 
 Vi importerar egna ramar och säljer dem på [www.billigaramar.se](https://www.billigaramar.se/).

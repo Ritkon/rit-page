@@ -1,12 +1,18 @@
 ---
 title: 'Brandlarmsritning'
-date: 2022-12-15T23:20:03+01:00
-draft: false
+description: 'Brandlarmsritningar från 490kr. Brandlarmsritningar är en enklare version av orienteringsritning till betydligt billigare pris.'
 banner:
-    subline: 'text text...'
-    image: '/produkter/utrymningsplan-banner.jpg'
+    subline: 'Brandlarmsritningar är en enklare version av orienteringsritning till betydligt billigare pris.'
+    link_text: 'Läs mer om våra utrymningsplaner'
+    image: '/images/utp.jpg'
+    image_alt: 'utrymningsplans exempel i 2D utförande'
 heroBackground: 'name'
+translationKey: 'brandlarmsritning'
+toc: true
+toc_heading: ''
 color: 'red'
+order_form: true
+weight: 50
 ---
 ## Design
 
@@ -23,8 +29,8 @@ Följande saker gäller för brandlarmsritngar:
 Priset beror på antalet symboler på varje ritning och **börjar på 490 kr**.
 
 {{% banner-box color="white" title="Exempel på brandlarmsritningar" title-h="3" %}}
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/avsökningsplan-1.pdf>)
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}avsökningsplan-2.pdf>)
--  [\\pdf\\banken 3d](/)
+-  [\\pdf\\brandlarmsritning Bjornen](<{{< relpermalink >}}exempel/brandlarmsritning Bjornen.pdf>)
+-  [\\pdf\\brandlarmsritning Jernbolaget](<{{< relpermalink >}}exempel/brandlarmsritning Jernbolaget.pdf>)
+-  [\\pdf\\brandlarmsritning Tegeltornet](<{{< relpermalink >}}exempel/brandlarmsritning Tegeltornet.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}

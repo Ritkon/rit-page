@@ -33,7 +33,7 @@ Järnvägsgatan 15\
 {{< /contact >}}
 
 {{% banner-box color="green" title="Guider" title-h="2" %}}
-I våra produktguider kan du få hjälp med hur underlaget ska se ut, hitta symbolnummer med mera. Ta en titt på våra [guider](/guider) här.
+I våra [produktguider](/guider) kan du få hjälp med hur underlaget ska se ut, hitta symbolnummer med mera.
 {{% /banner-box %}}
 
 {{% banner-box color="white" title="Beställnings&shy;blanketter" title-h="2" %}}

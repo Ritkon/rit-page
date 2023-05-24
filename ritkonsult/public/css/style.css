@@ -997,7 +997,7 @@ body > footer > :first-child { padding-top: 2.4rem; box-shadow: rgba(0, 0, 0, 0.
   margin-block: auto;
 }
 
-.fixed-ratio {
+/* .fixed-ratio {
   display: block;
   position: relative;
   height: 0;
@@ -1010,6 +1010,17 @@ body > footer > :first-child { padding-top: 2.4rem; box-shadow: rgba(0, 0, 0, 0.
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: inherit;
+} */
+
+.fixed-ratio {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.fixed-ratio-content {
+  width: 100%;
   max-width: inherit;
 }
 

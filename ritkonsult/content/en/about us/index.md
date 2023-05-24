@@ -7,10 +7,10 @@ weight: 30
 ---
 {{< switcher image="/images/utp.jpg" >}}
 
- Ritkonsult  startade i mitten av 90-talet som ett IT-företag. Vi har jobbat med IT-support och webbproduktion och det var på den vägen vi kom in på utrymningsplaner. En av våra kunder var ett brandskyddsföretag som undrade om vi även kunde rita utrymningsplaner och självklart kunde vi det. Numera har vi valt att helt rikta in oss på olika rit- och fototjänster. Sedan 2009 säljer vi även ramar via www.billigaramar.se.
+Ritkonsult started in the mid-90s as an IT company. We have worked with IT support and web production and that lead us to evacuation plans. One of our clients was a fire protection company who asked if we could also draw evacuation plans and of course we could. Nowadays, we have chosen to focus entirely on various drawing and picture services. Since 2009, we also sell picture frames at www.billigaramar.se.
 
-Vad det gäller utrymningsplaner och Systematiskt Brandskyddsarbete jobbar vi primärt tillsammans med olika brandskyddsföretag.
+In terms of evacuation plans and Systematic Fire Protection Work, we primarily work together with various fire protection companies.
 
-Vi är idag Sveriges största leverantör av utrymningsplaner och har idag kontor i Uddevalla, Örebro, Värnamo, Göteborg och Trollhättan.
+Today, we are Sweden's largest supplier of evacuation plans and we now have offices in Uddevalla, Örebro, Värnamo and Trollhättan.
 
 {{< /switcher >}}

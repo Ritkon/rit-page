@@ -6,7 +6,7 @@
                     <div class="flow" style="--gap:1.2rem">
                         <h2 id="{{ anchorize .LinkTitle }}">{{ .Title }}</h2>
                         <ul class="flow">
-                            {{ with (.Resources.Match "*.pdf") | union (.Resources.Match "*.doc") }}
+                            {{ with (.Resources.Match "*.pdf") | union (.Resources.Match "*.doc") | union (.Resources.Match "*.docx") }}
                                 {{ range . }}
                                 <li><a href="{{ .RelPermalink }}" download>{{- if (in .MediaType.Suffixes "pdf") -}}<img class="icon" src="/images/icons/pdf-file.svg" alt="">{{- else if (intersect .MediaType.Suffixes (slice "doc" "docx")) -}}<img class="icon"  src="/images/icons/word-file.svg" alt="">{{- end -}}{{- .Name -}}</a></li>
                                 {{ end }}

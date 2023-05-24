@@ -8,6 +8,7 @@ heroBackground: 'name'
 translationKey: 'avsökningsplan'
 order_form: true
 color:
+weight: 20
 ---
 
 På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggningar, m.fl. är det vid utrymning mycket svårt att ha full kontroll på om alla som vistats i lokalen verkligen är ute och befinner sig på den bestämda återsamlingsplatsen. Därför har vi tagit fram ett stöd till utrymningsledarna i form av avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.

@@ -8,7 +8,7 @@ heroBackground: 'name'
 translationKey: 'insatsplan'
 color: 
 order_form: true
-weight: 
+weight: 50
 ---
 
 Insatsplan-enkel är en enklare och billigare version av insatsplan. Denna typ av insatsplan lämpar sig mest till...? Är du intresserad av en full detaljerad insatsplan ...

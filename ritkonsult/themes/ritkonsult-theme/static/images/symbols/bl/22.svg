@@ -3,10 +3,10 @@
 
 <svg
    xml:space="preserve"
-   width="6.0000076mm"
-   height="3mm"
+   width="6.1504974mm"
+   height="3.1505051mm"
    style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-   viewBox="0 0 6.0000076 3"
+   viewBox="0 0 6.1504974 3.1505051"
    version="1.1"
    id="svg902"
    sodipodi:docname="Brandlar.svg"
@@ -232,7 +232,7 @@
    id="Symbol"
    inkscape:label="Symbol"
    inkscape:groupmode="layer"
-   transform="translate(-73.790998,-73.009104)">
+   transform="translate(-73.71575,-72.933847)">
   <metadata
    id="CorelCorpID_0Corel-Layer" />
   
@@ -285,7 +285,10 @@
   <polygon
    class="fil56 str12"
    points="79.791,73.0091 73.791,73.0091 73.791,76.0091 79.791,76.0091 "
-   id="polygon893" />
+   id="polygon893"
+   inkscape:export-filename="brandlarmsritning\polygon893.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96" />
   <polygon
    class="fil54"
    points="73.791,76.0091 79.791,76.0091 79.791,73.0091 "

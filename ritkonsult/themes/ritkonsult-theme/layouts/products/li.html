@@ -17,7 +17,13 @@
 <li>
   <a href="{{ .Permalink }}" {{ if ne .Parent.Params.list_class nil }} class="{{ .Parent.Params.list_class }} switcher" {{ end }}>
   {{ if .Params.banner.image}}
-  <div class="product-banner-images"><img src="{{ .Params.banner.image }}" alt="test" loading="lazy"></div>
+  <div class="product-banner-images">
+      {{ $image := resources.Get .Params.banner.image }}
+      {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="test" loading="lazy" height="{{ .Height }}" width="{{ .Width }}">
+      {{ end}}
+  </div>
+      
   {{ end }}
   <div class="flow">
     <h2 id="{{ anchorize .LinkTitle }}">

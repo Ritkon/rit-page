@@ -60,7 +60,7 @@ Phone:
 
 Ritkonsult Uddevalla\
 Lördagsvägen 20\
-451 63 Uddevalla
+451 63 Uddevalla\
 Sweden 
 { .contact }
 
@@ -81,7 +81,7 @@ duy@ritkonsult.com
 
 Ritkonsult Värnamo\
 Järnvägsgatan 15\
-331 30 Värnamo
+331 30 Värnamo\
 Sweden 
 { .contact }
 
@@ -119,7 +119,8 @@ faktura@ritkonsult.com
 {{< contact title="Billing address:" >}}
 ASAP Ritkonsult\
 Lördagsvägen 20\
-451 63 Uddevalla 
+451 63 Uddevalla\
+Sweden
 {{< /contact >}}
 
 {{< contact title="Organization number:" >}}

@@ -1,7 +1,12 @@
-{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{/* {{- $img := .Page.Resources.GetMatch .Destination -}}
 
 <img
   src="{{ .Destination | safeURL }}"
   alt="{{ .Text }}"
   loading="lazy"
-/>
+/> */}}
+
+{{ partial "helpers/picture-responsive.html" (dict
+        "src" .Destination
+        "alt" .Text
+    ) }}

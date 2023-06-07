@@ -2,7 +2,8 @@
 {{ if eq (.Get "class") "grid" }}
     {{ $image_class = "nothing" }}
 {{ end }}
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }} style="--space: 0.4rem; ">
+<figure{{ with .Get "class-" }} class="{{ . }}"{{ end }} style="--space: 0.4rem; ">
+    <div{{ with .Get "class" }} class="{{ . }}"{{ end }} style="--min: 17rem">
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
@@ -17,12 +18,13 @@
     {{- if .Get "src2" }}
     <img class="{{ $image_class }}" src="{{ .Get "src2" }}"
     {{- if or (.Get "alt2") (.Get "caption") }}
-    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+    alt="{{ with .Get "alt2" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
     {{- end -}}
     {{- with .Get "width" }} width="{{ . }}"{{ end -}}
     {{- with .Get "height" }} height="{{ . }}"{{ end -}}
 /> <!-- Closing img tag -->
     {{ end -}}
+</div>
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <figcaption>
             {{ with (.Get "title") -}}

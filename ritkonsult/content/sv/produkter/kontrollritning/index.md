@@ -3,13 +3,14 @@ title: 'Kontrollritning'
 description: 'Kontrollritningar till mycket lågt pris.'
 banner:
     subline: 'Kontrollritningar är en del av det systematiska brandskyddsarbetet (SBA). Vi ritar idag huntratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell.'
-    image: '/images/utp.jpg'
-    image_alt: 'utrymningsplans exempel i 2D utförande'
+    image: 'kontrollritning-exempel.webp'
+    image_alt: 'Kontrollritning'
 heroBackground: 'name'
 translationKey: 'kontrollritning'
 toc: true
 toc_heading: ''
 color:
+tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 order_form: true
 weight: 30
 ---
@@ -19,7 +20,9 @@ weight: 30
 
 Vi ritar idag hundratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell. Kontrollritningar är en del av det systematiska brandskyddsarbetet. Det finns idag ingen svensk standard för hur en kontrollritning ska se ut, vilket gör att det finns flera olika typer av kontrollritningar.
 
-Vi har därför tagit fram en egen mall för kontrollritningar där varje kontrollpunkt anges med en symbol (se bilden ovan). 
+Vi har därför tagit fram en egen mall för kontrollritningar där varje kontrollpunkt anges med en symbol. 
+
+![Exempel på Ritkonsults symboler för kontrollritning](kr-symbols.webp)
 
 Vi ritar vanligtvis i CorelDraw men om ni önskar kan vi även leverera CAD-filer. 
 
@@ -49,7 +52,7 @@ De priser som anges i vår prislista gäller om ni jobbar enligt vår [guide fö
 
 {{< /switcher >}}
 
-{{% banner-box color="white" title="Kontrollritnings exempel" title-h="2" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" %}}
 -  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
 -  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
 { .text-cloud .cluster }

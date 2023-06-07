@@ -6,10 +6,16 @@
     <div class="grid hero-box" style="--min:16rem;">
         <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ if .Params.hero_tagline }}<span class="h3 h-tagline">{{- .Params.hero_tagline -}}</span>{{ end }}{{ $title }}</h1>
         <div class="fixed-ratio" style="/*padding-bottom: 100%;*/">
-            {{ $image := resources.Get .Params.cover_image }}
+            {{/* {{ $image := resources.Get .Params.cover_image }}
             {{ with $image }}
             <img class="fixed-ratio-content" src="{{ .RelPermalink }}" alt="" loading="eager" height="{{ .Height }}" width="{{ .Width }}">
-            {{ end }}
+            {{ end }} */}}
+            {{ partial "helpers/picture-responsive.html" (dict 
+                "src" .Params.cover_image
+                "alt" "test"
+                "sizes" "hero"
+                "loading" "eager"
+            ) }}
         </div>
     </div>
 {{ else }}

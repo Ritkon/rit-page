@@ -2,16 +2,26 @@
 <div class="wrapper flow">
     {{ if .Params.toc }}
     <h1 id="main-content"  class="hero">{{ .Title }}</h1>
-            <div class="">
+            <div class="flow">
                 <div class="not-sidebar flow">
-                    <img src="{{ .Params.banner.image }}" alt="" loading="lazy">
+                    {{ partial "helpers/picture-responsive.html" (dict 
+                        "src" .Params.banner.image
+                        "alt" .Params.banner.image_alt
+                        "sizes" "(min-width: 861px) 98vw, 98vw"
+                    ) }}
                 </div>
                 <div class="sidebar-sticky">
                     {{ $context := (dict "Page" $ "Listed" . )}}
                     {{- partial "toc-p.html" $context -}}
                 </div>
             </div>
-            <div class="product-wrapper flow">
+            {{ if .Params.tldr }}
+            <div class="product-wrapper- flow lead-box">
+                <h2>Sammanfattning</h2>
+                <p>{{ .Params.tldr | markdownify }}</p>
+            </div>
+            {{ end }}
+            <div class="product-wrapper- flow">
             {{ if .Content }}
                 {{ .Content }}
             {{ end }}

@@ -10,7 +10,7 @@ translationKey: 'erbjudande'
 toc: false
 cover: true
 cover_right_side: true
-cover_image: '/images/save.webp'
+cover_image: 'save.webp'
 bread: true
 color:
 weight: 

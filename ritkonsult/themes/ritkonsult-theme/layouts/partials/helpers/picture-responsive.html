@@ -1,40 +1,10 @@
-{{/*
-<div class="picture">
-    {{ if .Get "caption"}}
-    <figure>
-    {{ end }}
-      <picture>
-        <!-- Large screens -->
-        <source
-          media="(min-width: 535px)"
-          data-original-set="{{ .Get "src" }}.{{ .Get "type" }} 1x,
-                  {{ .Get "src" }}@2x.{{ .Get "type" }} 2x">
-        <!-- Small screens -->
-        <source
-          media="(max-width: 534px)"
-          data-original-set="{{ .Get "src" }}-sm.{{ .Get "type" }} 1x,
-                  {{ .Get "src" }}-sm@2x.{{ .Get "type" }} 2x">
-        <!-- Fallback -->
-        <img
-          data-original="{{ .Get "src" }}.{{ .Get "type" }}"
-          data-original-set="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
-          alt="{{ .Get "alt" }}"{{ if .Get "caption"}} class="img-fluid figure-img"{{ end }}>
-      </picture>
-    {{ if .Get "caption"}}
-      <figcaption>{{ .Get "caption" }}</figcaption>
-    </figure>
-    {{ end }}
-  </div>test
-  */}}
-
 {{ $imgBase := "images/" }}
-{{ $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) }}
-{{ $convertTo := cond (ne (.Page.Param "noImageConvert") false) "" (.Page.Param "imageConvertTo" | default "webp") -}}
+{{ $src := resources.Get (printf "%s%s" $imgBase .src) }}
 
 
-{{ if ne (substr $src -3) "svg" }}
+
+{{ if ne (substr $src -4) ".svg" }}
   {{ $finalImage := (partial "helpers/process-image.html" (dict
-  "convertTo" $convertTo
   "height" ""
   "Page" .Page
   "size" ""
@@ -42,7 +12,13 @@
   "srcset" ""
   "width" ""
 )) -}}
-  <img src="{{ $finalImage.src }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" loading="{{ cond (ne .loading nil) "lazy" "eager" }}" {{ if ne ( substr $finalImage.src -3 ) "svg" }}srcset="{{ delimit $finalImage.srcsetx ", " }}"{{ end }}>
+  <img src="{{ $finalImage.src }}" alt="{{ .alt }}" width="{{ $finalImage.width }}" height="{{ $finalImage.height }}" loading="{{ cond (ne .loading nil) "eager" "lazy" }}" srcset="{{ delimit $finalImage.srcsetw ", " }}"  {{ if eq .sizes "hero" }}sizes="(min-width: 861px) 33vw,
+  90vw"{{- else if .sizes -}}sizes="{{ .sizes }}"{{- else -}}sizes="(min-width: 861px) 80vw,
+  90vw"{{ end }}>
 {{ else }}
-  <img src="{{ $finalImage.src }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" loading="{{ cond (ne .loading nil) "lazy" "eager" }}">
+  {{ $svgContent := (resources.Get $src).Content }}
+  {{ $viewBoxSizes := split (index (split (index (split $svgContent `viewBox=`) 1) `"`) 1) ` ` }}
+  {{ $width := float (index $viewBoxSizes 2) }}
+  {{ $height := float (index $viewBoxSizes 3) }}
+  <img src="{{ $src.RelPermalink }}" alt="{{ .alt }}" width="{{ $width }}" height="{{ $height }}" loading="{{ cond (ne .loading nil) "eager" "lazy" }}">
 {{ end }}

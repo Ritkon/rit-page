@@ -47,6 +47,9 @@ other = 'Nästa'
 [other]
 other = 'övrigt'
 
+[other_products]
+other = "andra produkter"
+
 [Our_products]
 other = 'Våra produkter'
 

@@ -18,10 +18,10 @@
   <a href="{{ .Permalink }}" {{ if ne .Parent.Params.list_class nil }} class="{{ .Parent.Params.list_class }} switcher" {{ end }}>
   {{ if .Params.banner.image}}
   <div class="product-banner-images">
-      {{ $image := resources.Get .Params.banner.image }}
-      {{ with $image }}
-        <img src="{{ .RelPermalink }}" alt="test" loading="lazy" height="{{ .Height }}" width="{{ .Width }}">
-      {{ end}}
+      {{ partial "helpers/picture-responsive.html" (dict 
+          "src" .Params.banner.image
+          "alt" .Params.banner.image_alt
+      ) }}
   </div>
       
   {{ end }}

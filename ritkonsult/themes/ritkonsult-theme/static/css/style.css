@@ -914,6 +914,11 @@ a:focus-visible {
   background-color: var(--clr-neutral-100);
 }
 
+.lead-box {
+  box-shadow: var(--the-line);
+  padding-bottom: var(--scale0);
+}
+
 /* cards */
 
 .card-wrapper {
@@ -1417,6 +1422,7 @@ nav .card a span span:first-child {
 
 .logo img {
   height: 1.1em;
+  width: 6.45em; /* becuase of svg height width on img tag */
   margin-bottom: -0.1em;
   display: inline;
 }

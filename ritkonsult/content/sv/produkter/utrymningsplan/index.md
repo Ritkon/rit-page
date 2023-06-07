@@ -11,14 +11,15 @@ translationKey: 'utrymningsplan'
 toc: true
 toc_heading: ''
 color: 'green'
+tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** Färdig i ram, PDF-fil, utskrift eller laminat. **Design:** 2D eller 3D."
 order_form: true
 weight: 10
 ---
 
 ## Design
-Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/produkter/terminologi-och-dokumentation/grafiska-symboler/publika-informationssymboler-skyltar-platar-etiketter/ss-28752019/) och kan fås i [3D eller 2D](#valet-mellan-3d-eller-2d) utförande. Utrymningsplanerna är försedda med utrymningsvägar och brandredskap
-samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er
-logotyp på ritningen ingår det utan extra kostnad. 
+Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/produkter/terminologi-och-dokumentation/grafiska-symboler/publika-informationssymboler-skyltar-platar-etiketter/ss-28752019/) och kan fås i [3D eller 2D](#valet-mellan-3d-eller-2d) utförande. Utrymningsplanerna är försedda med utrymningsvägar och brandredskap samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad. 
+
+{{< figures src="Utrymningsplan-2D.webp, Utrymningsplan-3D.webp" alt="Ritkonsult standard utrymningsplan där byggnaden är ritad i 2D, Ritkonsult standard utrymningsplan där byggnaden är ritad i 3D" caption="Ritkonsults standard design enligt SS-2875 i 2D och 3D utförande." class="grid" >}}
 
 Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
 
@@ -27,7 +28,7 @@ Har ni tidigare använt en speciell design för era planer kan vi fortsätta att
 Vi erbjuder ett brett utbud av olika lösningar och räcker inte vårt ordinarie sortiment är vi alltid öppna för kundunika lösningar. Vi levererar utrymningsplaner på följande sätt:
 
 - #### Färdig i ram
-    Du kan välja mellan [4 olika typer av ramar](/produkter/ramar) i storleken A4 till A1. Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig pga ålder eller fukt och ramas sedan in innan vi skickar den till er.
+    Välja mellan [4 olika typer av ramar](/produkter/ramar) i storleken A4 till A1. Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig pga ålder eller fukt och ramas sedan in innan vi skickar den till er.
 - #### PDF-fil
     Väljer ni att få utrymningsplanen levererad som PDF-fil får ni själva skriva ut och rama in den. Denna lösning är prisvärd för er som inte behöver planer över A3-storlek. En A3-skrivare kostar inte mer än ca 2000 kronor.
 
@@ -55,36 +56,30 @@ Till företag som säljer utrymningsplaner kan vi erbjuda produktion av utrymnin
 Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa så skickar vi en utrymningsplan med posten.
 {{< /banner-box >}}
 
+{{% banner-box color="white" title="Exempel" title-h="2" %}}
+-  [\\pdf\\Byggnad 57 2D och 3D](<{{< relpermalink >}}exempel/Byggnad 57 2D och 3D.pdf>)
+-  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
+-  [\\pdf\\banken 3d](/)
+-  [\\pdf\\banken 3d](/)
+{ .text-cloud .cluster }
+{{% /banner-box %}}
+
 ## Valet mellan 3D eller 2D { .h1 }
 
 Valet mellan 2D och 3D är i mångt och mycket en fråga om tycke och smak. 3D ger ofta ett överlägset och lättförståeligt perspektiv över lokalerna men i vissa fall kan 3D minska förståelsen. En mycket stor byggnad på flera tusen kvadratmeter blir sällan bra i 3D format. Däremot passar 3D extra bra i lokaler som har nivåskillnader på samma plan.
 
 ### 3D { .h2 }
 
-![](/images/utp.jpg)
+{{< imgh src="Utrymningsplan-byggnad-3D.webp" alt="byggnad ritad i 3d perspektiv för utrymningsplan" >}}
 
-3D ritningar ritas i ett program som heter Sketchup. Programmet kan sedan Google köpte det hösten 2006 laddas ner gratis från www.sketchup.com. Det innebär att ni som mervärde kan sälja kundens byggnad som en separat 3D fil. Filen kan sedan kunden använda för att provmöbler mm.
-
-{{% banner-box color="white" title="Exempel på utrymningsplaner i 3D" title-h="3" %}}
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
--  [\\pdf\\banken 3d](/)
-{ .text-cloud .cluster }
-{{% /banner-box %}}
+3D ritningar ritas i ett program som heter Sketchup. Programmet har en gratis version som kan hittas på [www.sketchup.com](https://www.sketchup.com/). Det innebär att ni som mervärde kan sälja kundens byggnad som en separat 3D fil. Filen kan sedan kunden använda för att prova möbler mm.
 
 ### 2D { .h2 }
 
-![](/images/utp.jpg)
+{{< imgh src="Utrymningsplan-byggnad-2D.webp" alt="byggnad ritad i 2d perspektiv för utrymningsplan" >}}
 
 Passar till alla storlekar av lokaler.
 Det bästa alternativet när det kommer till stora byggnader på flera tusen kvadratmeter...
-
-{{% banner-box color="white" title="Exempel på utrymningsplaner i 2D" title-h="3" %}}
--  [\\pdf\\swedbank 2d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
--  [\\pdf\\swedbank 2d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
--  [\\pdf\\banken 2d](/)
-{ .text-cloud .cluster }
-{{% /banner-box %}}
 
 ## Våran arbetsmodell { .h1 }
 
@@ -97,6 +92,8 @@ Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till 
 Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få en CD-romskiva med de utrymningsplaner vi har ritat åt er.
 
 [Ni hittar guiden för denna arbetsprocess här.](/guider/utrymningsplan)
+
+
 
 
 

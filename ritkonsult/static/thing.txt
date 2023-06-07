@@ -589,3 +589,5 @@ Om du redan är kund så finns även möjligheten att beställa genom ett webbfo
                     </a>
                 </div>
             </li> -->
+
+            <img src="/images/logo-ritkonsult-opt2.svg" alt="ritkonsult">

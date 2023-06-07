@@ -5,8 +5,15 @@
             <div class="cover grid-cover">
                 <h2>{{ i18n "Ritkonsults_clients_says"}}</h2>
             </div>
-            <div>
-                <img style="max-height: 24ch; margin-inline: auto;" src="/images/customers.webp" alt="" loading="lazy">
+            <div style="display: flex; justify-content: center;">
+                <div style="max-width: 39ch;">
+                    {{ partial "helpers/picture-responsive.html" (dict
+                    "src" "customers.webp"
+                    "alt" ""
+                    "loading" "lazy"
+                    "style" ("max-height: 24ch; margin-inline: auto;" | safeCSS)
+                ) }}
+                </div>
             </div>
         </div>
         <!-- <div class="grid"> -->

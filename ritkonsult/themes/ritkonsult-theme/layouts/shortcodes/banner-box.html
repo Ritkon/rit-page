@@ -24,7 +24,15 @@
             {{- $c := replaceRE "\\\\pdf\\\\" "<img class=\"icon\" src=\"/images/icons/pdf-file.svg\" alt=\"\">" .Inner  -}}
             {{- $c = replaceRE "\\\\doc\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
             {{- $c = replaceRE "\\\\docx\\\\" "<img class=\"icon\" src=\"/images/icons/word-file.svg\" alt=\"\">" $c -}}
-            {{- $c | safeHTML  -}}
+            {{/* {{- $c | safeHTML  -}} */}}
+
+            {{- $html := $c | safeHTML -}}
+
+            {{ if not ( findRE "<[h|p|li][^>]*>" $html ) }}
+                <p>{{ $html }}</p>
+            {{ else }}
+                {{ $html }}
+            {{ end }}
         </div>
     </div>
 </div>

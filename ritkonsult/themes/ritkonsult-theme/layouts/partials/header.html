@@ -17,9 +17,15 @@
         <!-- <div class=""> -->
             <nav class="primary-navigation wrapper flex primary-header" id="primary-navigation" aria-label="Primary">
                 {{ if .IsHome }}
-                    <span aria-current="page" class="logo current-page"><img src="/images/logo-ritkonsult-opt2.svg" alt="ritkonsult"></span>
+                    <span aria-current="page" class="logo current-page">{{ partial "helpers/picture-responsive.html" (dict 
+                        "src" "logo-ritkonsult-opt2.svg"
+                        "alt" "Ritkonsult"
+                    ) }}</span>
                 {{ else }}
-                    <a href="{{ site.Home.RelPermalink }}" class="logo"><img src="/images/logo-ritkonsult-opt2.svg" alt="ritkonsult"></a>
+                    <a href="{{ site.Home.RelPermalink }}" class="logo">{{ partial "helpers/picture-responsive.html" (dict 
+                        "src" "logo-ritkonsult-opt2.svg"
+                        "alt" "Ritkonsult"
+                    ) }}</a>
                 {{ end }}
            
                 <ul>

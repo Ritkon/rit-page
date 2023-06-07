@@ -7,7 +7,7 @@ cascade:
 translationKey: 'Produkter'
 toc: false
 cover: true
-cover_image: '/images/products.webp'
+cover_image: 'products.webp'
 list_class: 'alternate-column'
 weight: 20
 ---

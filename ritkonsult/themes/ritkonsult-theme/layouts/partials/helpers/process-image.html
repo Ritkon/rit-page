@@ -1,0 +1,45 @@
+{{- $ctx := . -}}
+{{ $page := .Page -}}
+{{ $size := .size -}}
+{{ $src := .src -}}
+{{ $srcset := .srcset -}}
+{{ $height := $src.Height -}}
+{{ $width := $src.Width -}}
+
+{{- $imgBase := "images/" -}}
+
+{{- $respSizes := slice "640" "1024" "1366" "1600" "1920" -}}
+
+{{- $srcsetw :=  (slice) -}}
+{{- with $respSizes -}}
+    {{- range $i, $e := . -}}
+        {{- if ge $src.Width . -}}
+
+            {{ $image := $src.Resize (printf "%sx %s %s" . ".webp" "Linear") -}}
+            {{ $srcsetw = $srcsetw | append (printf "%s %sw" $image.RelPermalink .) }}
+
+            {{/* {{ if eq $i 0}}
+                {{ $height = $image.Height -}}
+                {{ $width = $image.Width -}}
+            {{ end }} */}}
+
+        {{- end -}}
+	{{- end -}}
+{{- end -}}
+
+{{ if $srcsetw }}
+    {{ $src = (replaceRE "\\s\\d*w" "" (index ($srcsetw) 0)) }}
+{{ end }}
+
+{{/* {{ with (imageConfig $src ) }}
+    {{ $height = .Height -}}
+    {{ $width = .Width -}}
+{{ end }} */}}
+
+
+{{- return (dict
+    "height" $height
+    "src" $src
+    "srcsetw" $srcsetw
+    "width" $width
+) -}}

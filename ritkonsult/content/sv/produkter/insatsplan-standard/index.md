@@ -2,7 +2,7 @@
 title: 'Insatsplan-standard'
 description: 'Insatsplan-standard är en enklare och billigare version av insatsplan. Vi erbjuder denna version för både byggnader och lantbruk. Kontakta prislista@ritkonsult.se för prisuppgifter'
 banner:
-    subline: 'Insatsplan-standard. '
+    subline: 'Insatsplan-standard är en fullständing insatsplan. Den kommer med situationsplan, innehållsförteckning, symbolförteckning, objektsinformation och planritningar som standard.'
     image: 'insatsplan-standard-exempel.webp'
     image_alt: "En insatsplan ritad enligt vår mall insatsplan-standard"
 heroBackground: 'name'

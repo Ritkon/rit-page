@@ -85,6 +85,9 @@ other = 'Ritkonsults kunder säger'
 [see_all]
 other = 'se alla'
 
+[summary]
+other = "sammanfattning"
+
 [Tio_skal_att_anlita_oss]
 other = 'Tio skäl att anlita oss'
 

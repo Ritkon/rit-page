@@ -17,7 +17,7 @@
             </div>
             {{ if .Params.tldr }}
             <div class="product-wrapper- flow lead-box">
-                <h2>Sammanfattning</h2>
+                <h2>{{ strings.FirstUpper (i18n "summary") }}</h2>
                 <p>{{ .Params.tldr | markdownify }}</p>
             </div>
             {{ end }}
@@ -29,7 +29,18 @@
     {{ else }}
     {{- partial "page-header.html" . -}}
 
-        <img src="{{ .Params.banner.image }}" alt="">
+        {{ partial "helpers/picture-responsive.html" (dict 
+            "src" .Params.banner.image
+            "alt" .Params.banner.image_alt
+            "sizes" "(min-width: 861px) 98vw, 98vw"
+        ) }}
+
+        {{ if .Params.tldr }}
+            <div class="product-wrapper- flow lead-box">
+                <h2>{{ strings.FirstUpper (i18n "summary") }}</h2>
+                <p>{{ .Params.tldr | markdownify }}</p>
+            </div>
+        {{ end }}
 
         {{ if .Content }}
             {{ .Content }}

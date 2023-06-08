@@ -1,11 +1,13 @@
 ---
 title: 'Informationstavla'
-description: 'Kontrollritningar till mycket lågt pris.'
+description: 'Informationstavlan liknar en utrymningsplan men innehåller även information om el-central, gasflaskor mm. Informationstavlan fyller en funktion för exempelvis vaktmästare som ansvarar för många olika lokaler.'
 banner:
     subline: 'Informationstavlan liknar en utrymningsplan men innehåller även information om el-central, gasflaskor mm. Informationstavlan fyller en funktion för exempelvis vaktmästare som ansvarar för många olika lokaler.'
-    image: '/produkter/utrymningsplan-banner.jpg'
+    image: 'informationstavla-exempel.webp'
+    image_alt: "exempel på informationstavla"
 heroBackground: 'name'
 translationKey: 'informationstavla'
+tldr: "**Pris:** hans@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 color:
 weight: 80
 ---

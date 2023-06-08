@@ -15,7 +15,7 @@ order_form: true
 weight: 50
 ---
 
-Insatsplan-enkel är en **enklare, snabbare och billigare** version av insatsplan. Denna typ av insatsplan lämpar sig mest till...? Är du intresserad av en full detaljerad insatsplan så erbjuder vi [insatsplan-standard]() för just detta.
+Insatsplan-enkel är en **enklare, snabbare och billigare** version av insatsplan. Den bidrar till en effektivare och säkrare räddningsinsats. Är du intresserad av en full detaljerad insatsplan så erbjuder vi [insatsplan-standard]() för just detta.
 
 ## Design
 

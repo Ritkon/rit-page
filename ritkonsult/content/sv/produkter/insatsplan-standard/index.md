@@ -19,25 +19,31 @@ weight: 60
 
 Denna insatsplan kommer med följande sidor som standard:
 
-Situationsplan
+1. **Situationsplan**
 
-Innehållsförteckning
+    Situationsplanen ska ge information om områdets utformning, byggnader, anläggningar, körbara vägar för räddningstjänsten.
 
-Symbolförteckning
+2. **Innehållsförteckning**
+    
+    Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad och placeras på denna sida.
 
-Objektsinformation
+3. **Symbolförteckning**
+    
+    Symbolförteckningen innehåller endast de symboler som används för den aktuella insatsplanen.
 
-Planritningar
+4. **Objektsinformation**
 
-Du kan även lägga till sidor som
+5. **Planritningar**
 
-Tekniska system
+Du kan även lägga till sidor som:
 
-Taktik
+- **Tekniska system**
 
-Bilder
+- **Taktik**
 
-Vill du ha en enklare form av insatsplan kan du ta en titt på våran [insatsplan-enkel](/produkter/insatsplan-enkel). Insatsplan-enkel finns i två versioner en för byggnader och en för lantbruk.
+- **Bilder**
+
+Vill du göra några anpassningar eller ta bort någon av sidorna ovan så kan vi givetvis fixa detta. Ta även en titt på våran enklare form av insatsplan, [insatsplan-enkel](/produkter/insatsplan-enkel). **Insatsplan-enkel** finns i två versioner en för **byggnader** och en för **lantbruk.**
 
 
 ## Pris

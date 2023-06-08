@@ -248,9 +248,9 @@ body > header ul li {margin-top: 0;}
 
 .number-list li:first-child { margin-top: 0;}
 
-.image-box{ max-width: 100% !important; background-color: #fff;}
-.image-box + figcaption {margin-top: .6rem;}
-.image-box + .image-box {margin-top: .4rem;}
+.image-box img{ max-width: 100% !important; background-color: #fff;}
+figcaption {margin-top: .6rem;}
+.image-box img + img {margin-top: .4rem;}
 
 blockquote {
   quotes: """ """ "‘" "’";

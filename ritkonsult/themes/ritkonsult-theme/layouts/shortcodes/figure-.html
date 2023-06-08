@@ -1,0 +1,43 @@
+{{ $image_class := "image-box" }}
+{{ if eq (.Get "class") "grid" }}
+    {{ $image_class = "nothing" }}
+{{ end }}
+<figure{{ with .Get "class-" }} class="{{ . }}"{{ end }} style="--space: 0.4rem; ">
+    <div{{ with .Get "class" }} class="{{ . }}"{{ end }} style="--min: 17rem">
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end }}
+    <img class="{{ $image_class }}" src="{{ .Get "src" }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    /> <!-- Closing img tag -->
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if .Get "src2" }}
+    <img class="{{ $image_class }}" src="{{ .Get "src2" }}"
+    {{- if or (.Get "alt2") (.Get "caption") }}
+    alt="{{ with .Get "alt2" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+    {{- end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+/> <!-- Closing img tag -->
+    {{ end -}}
+</div>
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</figure>

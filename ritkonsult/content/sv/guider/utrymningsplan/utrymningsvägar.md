@@ -17,15 +17,15 @@ weight: 20
 
 **Rita en grön linje (överstrykningspenna)** där du vill att utrymningsvägen ska vara och **avsluta med en tydlig pil**. Om du bara vill en pil så ritar du en grön pil där du vill att den ska vara.
 
-{{< figures src="/guides/utp/escape-1-b.svg, /guides/utp/escape-1-demo-b.svg" alt="Ett grönt streck ritat mellan två dörrar. Strecket avslutas med tydliga pilar i dörröppningarna, Färdig utrymningsplan som visar hur pilarna och utrymningsvägen har ritats ut enligt markeringarna på underlaget" caption="Utrymningsväg med linje." >}}
+{{< figure src="/guides/utp/escape-1-b.svg, /guides/utp/escape-1-demo-b.svg" alt="Ett grönt streck ritat mellan två dörrar. Strecket avslutas med tydliga pilar i dörröppningarna, Färdig utrymningsplan som visar hur pilarna och utrymningsvägen har ritats ut enligt markeringarna på underlaget" caption="Utrymningsväg med linje." >}}
 
-{{< figures src="/guides/utp/escape-2-b.svg, /guides/utp/escape-2-demo-b.svg" alt="Pilar ritade i dörröppningarna på underlaget till en utrymningsplan, Färdig utrymningsplan som visar hur pilarna har markerats ut i dörrarna som markerades på underlaget" caption="Utrymningsväg med endast pil." >}}
+{{< figure src="/guides/utp/escape-2-b.svg, /guides/utp/escape-2-demo-b.svg" alt="Pilar ritade i dörröppningarna på underlaget till en utrymningsplan, Färdig utrymningsplan som visar hur pilarna har markerats ut i dörrarna som markerades på underlaget" caption="Utrymningsväg med endast pil." >}}
 
 ## Trappor
 
 Trappor som används för utrymning ska markeras med grön färg (överstrykningspenna).
 
-{{< figure src="/images/guides/utp/escape-stairs.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-stairs-demo.svg" caption="Trappor som används för utrymning" >}}
+{{< figure src="guides/utp/escape-stairs.svg, guides/utp/escape-stairs-demo.svg" alt="Trapporna på underlaget som är del av utrymningsvägen har markerats med grön färg, Utrymningsplan med trappor som har grön bakgrund" caption="Trappor som används för utrymning" >}}
 
 ## Funktionsanpassad utrymning
 

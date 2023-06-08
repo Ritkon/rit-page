@@ -594,3 +594,6 @@ Om du redan är kund så finns även möjligheten att beställa genom ett webbfo
 
 
             Insatsplanen är ett beslutsstöd för räddningstjänsten och innehåller viktig information om ett objekt i form av text och ritningar. Den bidrar till en effektivare och säkrare räddningsinsats. 
+
+
+            {{ with .Get "class" }} class="{{ . }}"{{ end }}

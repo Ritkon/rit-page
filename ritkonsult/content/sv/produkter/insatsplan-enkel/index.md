@@ -2,7 +2,7 @@
 title: 'Insatsplan-enkel'
 description: 'Insatsplan-enkel är en enklare och billigare version av insatsplan. Vi erbjuder denna version för både byggnader och lantbruk. Kontakta prislista@ritkonsult.se för prisuppgifter'
 banner:
-    subline: 'Insatsplan-enkel är en enklare, snabbare och billigare version av insatsplan. Vi erbjuder två olika versioner, en för byggnader och en annan för lantbruk.'
+    subline: 'Insatsplan-enkel är en enklare, snabbare och billigare version av insatsplan. Vi erbjuder två olika versioner, en för byggnader och en för lantbruk.'
     image: 'insatsplan-enkel-exempel.webp'
     image_alt: "En insatsplan ritad enligt vår mall insatsplan-enkel"
 heroBackground: 'name'

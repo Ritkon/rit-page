@@ -10,7 +10,7 @@ translationKey: '3d'
 toc: true
 toc_heading: ''
 color: 
-weight: 60
+weight: 70
 ---
 
 Vi har arbetat med [utrymningsplaner i 3D](/produkter/utrymningsplan) sedan 2006 och erbjuder även andra tjänster inom 3D och 3D visualisering. Vi ritar i **Sketchup** och **Blender**. 

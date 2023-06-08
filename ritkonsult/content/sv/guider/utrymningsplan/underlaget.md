@@ -18,11 +18,11 @@ Tar du kort på ritningen så ska du tänka på att centrera din kamera/mobil me
 
 {{< imgh src="guides/utp/position-front.svg" alt="Centrerar sin kamera/mobil över ritningen för att ta kort">}}
 
-{{< imgh src="guides/utp/position-side.svg" alt="Plaserar sin kamera/mobil felaktigt på sidan om ritningen för att ta kort">}}
+{{< imgh src="guides/utp/position-side.svg" alt="Placerar sin kamera/mobil felaktigt på sidan om ritningen för att ta kort">}}
 
 Tänk även på att hålla din kamera parallell med objektet du fotograferar.
 
-{{< imgh src="guides/utp/parallel.svg" alt="Plaserar sin kamera/mobil korrekt parallelt med ritningen för att ta kort">}}
+{{< imgh src="guides/utp/parallel.svg" alt="Placerar sin kamera/mobil korrekt parallelt med ritningen för att ta kort">}}
 
 
 ## Kontrast

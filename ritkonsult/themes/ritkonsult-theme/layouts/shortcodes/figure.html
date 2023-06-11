@@ -8,7 +8,7 @@
             {{- range $i, $e := ( split . ", " ) -}}
                 {{ partial "helpers/picture-responsive.html" (dict
                     "src" .
-                    "alt" (index $alt $i)
+                    "alt" (htmlUnescape (index $alt $i))
                 ) }}
             {{- end -}}
         {{- end -}}

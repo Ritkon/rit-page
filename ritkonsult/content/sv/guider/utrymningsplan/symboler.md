@@ -26,7 +26,7 @@ Ska flera objekt sitta på samma plats. Så skriver du kommatecken mellan siffro
 
 Är det trångt så dra ett streck från där du vill ha objektet till en tom yta och skriv siffran där.
 
-{{< figure src="/images/guides/utp/symbol-3-b.svg" alt="Exempel på hur man gör när det är trångt och man ej kan skriva siffran för objektet på underlaget utan att det blir otydligt. Exemplet visar en ring där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit siffran för det objekt man vill ha, i detta fall siffran 3 första hjälpen." src2="/images/guides/utp/symbol-3-demo-b.svg" >}}
+{{< figure src="guides/utp/symbol-3-b.svg, guides/utp/symbol-3-demo-b.svg" alt="Exempel på hur man gör när det är trångt och man ej kan skriva siffran för objektet på underlaget utan att det blir otydligt. Exemplet visar en punkt där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit siffran för det objekt man vill ha, i detta fall siffran 3 första hjälpen\e På utrymningsplanen har först hälpen placerats ut med ett blått streck med en punkt som visar var symbolen är placerad i byggnaden" >}}
 
 ## "Här är du" -punkt
 
@@ -38,7 +38,7 @@ Vid "Här är du" -punkten ska följande skrivas:
 - Namnet på plan/våning/avdelning
 - Rita en pil som pekar mot den vägg där planen ska sitta
 
-{{< figure src="/images/guides/utp/symbol-1-b.svg" alt="Ett exempel på hur man märker ut &quot;Här är du&quot; -punkten (nr 1) på underlaget. Exemplet visar en ring där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit informationen som ska vara med för objekt nr 1" src2="/images/guides/utp/symbol-1-demo-b.svg" >}}
+{{< figure src="guides/utp/symbol-1-b.svg, guides/utp/symbol-1-demo-b.svg" alt="Ett exempel på hur man märker ut &quot;Här är du&quot; -punkten (nr 1) på underlaget. Exemplet visar en punkt där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit informationen som ska vara med för objekt nr 1\e &quot;Här är du&quot; -punkten har placerats ut och ett blått streck visar vart i byggnaden tavlan för utrymningsplanen sitter." >}}
 
 Har alla punkter samma objektnamn, plan och storlek går det bra att skriva denna information vid en av punkterna eller tydligt någon stans på sidan. Pilen som pekar mot den vägg där planen ska sitta ska alltid vara med.
 

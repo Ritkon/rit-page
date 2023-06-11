@@ -4,7 +4,10 @@
 <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
   <div class="symbol-card-image-box">
     {{ if .Params.symbol_image}}
-    <img src="{{ .Params.symbol_image }}" alt="test" loading="lazy">
+      {{ partial "helpers/picture-responsive.html" (dict 
+          "src" .Params.symbol_image 
+          "alt" .Title
+      ) }}
     {{ end }}
   </div>
   <div class="card-content-box">

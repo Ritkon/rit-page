@@ -3,7 +3,7 @@
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-            {{ $alt := ( split ( .Get "alt") "\e " ) }}
+            {{ $alt := ( split ( .Get "alt") "\\e " ) }}
         {{- with ( .Get "src" ) -}}
             {{- range $i, $e := ( split . ", " ) -}}
                 {{ partial "helpers/picture-responsive.html" (dict

@@ -19,7 +19,7 @@ weight: 10
 ## Design
 Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/produkter/terminologi-och-dokumentation/grafiska-symboler/publika-informationssymboler-skyltar-platar-etiketter/ss-28752019/) och kan fås i [3D eller 2D](#valet-mellan-3d-eller-2d) utförande. Utrymningsplanerna är försedda med utrymningsvägar och brandredskap samt instruktioner hur man skall bete sig vid brand eller fara. Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad. 
 
-{{< figure src="Utrymningsplan-2D.webp, Utrymningsplan-3D.webp" alt="Ritkonsult standard utrymningsplan där byggnaden är ritad i 2D, Ritkonsult standard utrymningsplan där byggnaden är ritad i 3D" caption="Ritkonsults standard design enligt SS-2875 i 2D och 3D utförande." class="grid" >}}
+{{< figure src="Utrymningsplan-2D.webp, Utrymningsplan-3D.webp" alt="Ritkonsult standard utrymningsplan där byggnaden är ritad i 2D\e Ritkonsult standard utrymningsplan där byggnaden är ritad i 3D" caption="Ritkonsults standard design enligt SS-2875 i 2D och 3D utförande." class="grid" >}}
 
 Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
 

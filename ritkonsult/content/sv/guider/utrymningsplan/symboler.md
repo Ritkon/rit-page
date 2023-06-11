@@ -18,11 +18,11 @@ Vår mall bygger på att varje objekt som handbrandsläckare, brandpost mm marke
 
 Du behöver bara skriva ut siffran där objektet ska vara placerad.
 
-{{< figure src="/images/guides/utp/symbol-5-b.svg" alt="Ett exempel på hur man märker ut vart en handbrandsläckare ska sitta på underlaget. Detta görs med siffran 5 på den plats man vill ha handbrandsläckaren." src2="/images/guides/utp/symbol-5-demo-b.svg" >}}
+{{< figure src="guides/utp/symbol-5-b.svg, guides/utp/symbol-5-demo-b.svg" alt="En 5 är skriven vid en väg på underlaget för att visa var brandsläckarsymbol ska placeras\e En brandsläckarsymbol har placerats vid en väg på den färdiga utrymningsplanen" >}}
 
 Ska flera objekt sitta på samma plats. Så skriver du kommatecken mellan siffrorna. 
 
-{{< figure src="/images/guides/utp/symbol-527-b.svg" alt="Ett exempel på hur man märker ut flera objekt som ska sitta på samma plats på underlaget. Exemplet visar detta genom att markera ut siffrorna 5 (handbrandsläckare), 2 brandfilt, 7 larmtryckknapp separerade med ett kommatecken." src2="/images/guides/utp/symbol-527-demo-b.svg" >}}
+{{< figure src="guides/utp/symbol-527-b.svg, guides/utp/symbol-527-demo-b.svg" alt="Ett exempel på hur man märker ut flera objekt som ska sitta på samma plats på underlaget. Exemplet visar detta genom att skriva siffrorna 5 (handbrandsläckare), 2 (brandfilt), 7 (larmtryckknapp) separerade med ett kommatecken\e Symbolerna för handbrandsläckare, brandfilt, larmtryckknapp har placerats vid en väg på den färdiga utrymningsplanen" >}}
 
 Är det trångt så dra ett streck från där du vill ha objektet till en tom yta och skriv siffran där.
 

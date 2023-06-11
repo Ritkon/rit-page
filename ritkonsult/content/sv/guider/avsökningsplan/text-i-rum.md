@@ -16,6 +16,6 @@ weight: 70
 
 Texten som ska skrivas i rummet **markeras med en linje under texten**. Får texten inte plats i rummet kan ni dra en linje som visar vilket rum den tillhör.
 
-{{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
+{{< figure src="guides/utp/text1.svg, guides/utp/escape-2-demo-b.svg" alt="" >}}
 
 

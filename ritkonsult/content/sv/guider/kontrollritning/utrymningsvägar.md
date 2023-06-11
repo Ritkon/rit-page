@@ -4,8 +4,8 @@ linktitle: 'Utrymningsvägar'
 description: 'I denna del av guiden för kontrollritningar går vi igenom hur du ska markera ut utrymningsvägar'
 listHeading: 'Utrymningsvägar'
 list_description: ''
-translationKey: 'escape-route'
-series: 'utrymningsplans-guide'
+translationKey: 'kr-escape-route'
+series: 'kontrollritnings-guide'
 toc: true
 toc_h1: true
 toc_heading: ''

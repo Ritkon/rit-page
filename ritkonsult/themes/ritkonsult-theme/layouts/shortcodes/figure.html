@@ -1,5 +1,5 @@
 <figure{{ with .Get "class-" }} class="{{ . }}"{{ end }} style="--space: 0.4rem; ">
-    <div class="{{ cond (ne (.Get "class") "grid") (printf "%s image-box" (.Get "class")) (.Get "class") }}" style="--min: 17rem">
+    <div class="{{ cond (ne (.Get "class") "grid") (printf "%s image-box" (.Get "class")) (.Get "class") }}" style="--min: 15rem">
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}

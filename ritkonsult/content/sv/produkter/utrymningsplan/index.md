@@ -4,7 +4,7 @@ description: 'Utrymningsplaner i 2D och 3D. Planerna ritas i enlighet med Svensk
 banner:
     subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.'
     link_text: 'Läs mer om våra utrymningsplaner'
-    image: '/images/utp.jpg'
+    image: 'utrymningsplaner.webp'
     image_alt: 'utrymningsplans exempel i 2D utförande'
 heroBackground: 'name'
 translationKey: 'utrymningsplan'

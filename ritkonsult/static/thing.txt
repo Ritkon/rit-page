@@ -597,3 +597,6 @@ Om du redan är kund så finns även möjligheten att beställa genom ett webbfo
 
 
             {{ with .Get "class" }} class="{{ . }}"{{ end }}
+
+
+            {{/* <script src="/js/main.js" defer></script> */}}

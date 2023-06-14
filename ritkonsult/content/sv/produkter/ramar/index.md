@@ -3,7 +3,7 @@ title: 'Ramar'
 description: "Vi erbjuder 4 olika ramar. Aluminiumram ALF, Snäppram, Plexiglasram och Plastram i silver. Du kan köpa våra ramar via www.billigaramar.se"
 banner:
     subline: 'Vi erbjuder fyra olika ramar.'
-    image: '/images/products/ramalf.jpg'
+    image: 'frames.webp'
     image_alt: "4 olika ramar"
 heroBackground: 'name'
 translationKey: 'ramar'

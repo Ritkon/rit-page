@@ -13,6 +13,8 @@ weight: 90
 
 Vi importerar egna ramar och säljer dem på [www.billigaramar.se](https://www.billigaramar.se/).
 
+{{< switcher image="aluram1.png">}}
+
 ## Aluminiumram ALF
 
 Detta är vår bästa aluminiumram. Ramen är i matt aluminium och har en 	antireflexbehandlad front i UV-resistent plast.
@@ -27,6 +29,10 @@ Till ramen kan ni köpa ett säkerhetskitt som gör att ramen kan spännas fast 
 
 [Läs mer om aluminiumram ALF på billigaramar.se](http://www.billigaramar.se/ramar/2-aluminiumram-a3.html)
 
+{{< /switcher >}}
+
+{{< switcher image="snappram1.png" >}}
+
 ## Snäppram
 
 Snäppram innebär att kanterna går att vika upp och utrymningsplanen lätt kan bytas. Ramen är i matt aluminium och har en antireflexbehandlad front i klarplast.
@@ -39,6 +45,10 @@ En stor fördel med snäppramen är att den inte kräver något förarbete på k
 
 [Läs mer om snäppramen på billigaramar.se](http://www.billigaramar.se/4-snappramar)
 
+{{< /switcher >}}
+
+{{< switcher >}}
+
 ## Plexiglasram
 
 Plexiglasramen är en snygg och exklusiv ram. Den består av två tjocka plexiglasskivor som hänger ut från väggen. Den bakre skivan är frostad vilket gör att bakgrund inte behöver vara vit, dock är det i regel inte lämpligt med en kraftigt mörk bakgrund.
@@ -46,6 +56,8 @@ Plexiglasramen är en snygg och exklusiv ram. Den består av två tjocka plexigl
 Ramen finns i storlekarna från A4, A3 och A2.
 
 [Läs mer om plexiglasramen på billigaramar.se](http://www.billigaramar.se/2-plexiglasramar)
+
+{{< /switcher >}}
 
 ## Plastram i silver
 

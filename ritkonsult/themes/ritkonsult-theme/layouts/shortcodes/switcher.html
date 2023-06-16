@@ -4,7 +4,10 @@
     </div>
     <div class="image">
         {{- if .Get "image" -}}
-        <img src="{{- .Get "image" -}}" alt="{{- .Get "alt" -}}" loading="lazy">
+            {{ partial "helpers/picture-responsive.html" (dict 
+                "src" ( .Get "image")
+                "alt" ( .Get "alt")
+            ) }}
         {{- end -}}
     </div>
 </div>

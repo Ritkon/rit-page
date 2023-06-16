@@ -14,7 +14,6 @@ tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortim
 order_form: true
 weight: 30
 ---
-{{< switcher image="/images/utp.jpg" >}}
 
 ## Design
 
@@ -26,23 +25,11 @@ Vi har därför tagit fram en egen mall för kontrollritningar där varje kontro
 
 Vi ritar vanligtvis i CorelDraw men om ni önskar kan vi även leverera CAD-filer. 
 
-{{< /switcher >}}
-
-{{< switcher image="/images/utp.jpg" >}}
-
 ## Leveranstid
 Leveranstid är normalt inom sju dagar. Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få filerna med de utrymningsplaner vi har ritat åt er.
 
-{{< /switcher >}}
-
-{{< switcher image="/images/utp.jpg" >}}
-
 ## Garanti
 Vi lämnar kvalitetsgaranti, leveransgaranti, prisgaranti och nöjdkund-garanti. Det främsta skälet att anlita oss är inte priset utan vår kvalité och goda service.
-
-{{< /switcher >}}
-
-{{< switcher >}}
 
 ## Pris
 
@@ -50,7 +37,6 @@ Arbetar ni med Systematiskt Brandskyddsarbete kan vi erbjuda produktion av kontr
 
 De priser som anges i vår prislista gäller om ni jobbar enligt vår [guide för kontrollritningar](/guider/kontrollritning). 
 
-{{< /switcher >}}
 
 {{% banner-box color="white" title="Exempel" title-h="2" %}}
 -  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)

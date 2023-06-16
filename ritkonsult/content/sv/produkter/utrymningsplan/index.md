@@ -23,6 +23,8 @@ Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/p
 
 Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
 
+{{< figure src="plexi-utrymningsplan-3d-exempel.webp" alt="Ritkonsult utrymningsplan för plexiglasram ritad i 3D" caption="Design för plexiglasram" class="grid" >}}
+
 ## Sortiment
 
 Vi erbjuder ett brett utbud av olika lösningar och räcker inte vårt ordinarie sortiment är vi alltid öppna för kundunika lösningar. Vi levererar utrymningsplaner på följande sätt:
@@ -68,18 +70,9 @@ Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa s
 
 Valet mellan 2D och 3D är i mångt och mycket en fråga om tycke och smak. 3D ger ofta ett överlägset och lättförståeligt perspektiv över lokalerna men i vissa fall kan 3D minska förståelsen. En mycket stor byggnad på flera tusen kvadratmeter blir sällan bra i 3D format. Däremot passar 3D extra bra i lokaler som har nivåskillnader på samma plan.
 
-### 3D { .h2 }
-
-{{< imgh src="Utrymningsplan-byggnad-3D.webp" alt="byggnad ritad i 3d perspektiv för utrymningsplan" >}}
+{{< figure src="Utrymningsplan-byggnad-3D.webp, Utrymningsplan-byggnad-2D.webp" alt="En byggnad ritad i 3D perspektiv\e En byggnad ritad i 2D perspektiv" caption="Skillnad mellan en byggnad ritad i 3D och 2D" class="grid" >}}
 
 3D ritningar ritas i ett program som heter Sketchup. Programmet har en gratis version som kan hittas på [www.sketchup.com](https://www.sketchup.com/). Det innebär att ni som mervärde kan sälja kundens byggnad som en separat 3D fil. Filen kan sedan kunden använda för att prova möbler mm.
-
-### 2D { .h2 }
-
-{{< imgh src="Utrymningsplan-byggnad-2D.webp" alt="byggnad ritad i 2d perspektiv för utrymningsplan" >}}
-
-Passar till alla storlekar av lokaler.
-Det bästa alternativet när det kommer till stora byggnader på flera tusen kvadratmeter...
 
 ## Våran arbetsmodell { .h1 }
 

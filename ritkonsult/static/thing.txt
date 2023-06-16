@@ -600,3 +600,18 @@ Om du redan är kund så finns även möjligheten att beställa genom ett webbfo
 
 
             {{/* <script src="/js/main.js" defer></script> */}}
+
+
+
+            ### 3D { .h2 }
+
+{{< imgh src="Utrymningsplan-byggnad-3D.webp" alt="byggnad ritad i 3d perspektiv för utrymningsplan" >}}
+
+3D ritningar ritas i ett program som heter Sketchup. Programmet har en gratis version som kan hittas på [www.sketchup.com](https://www.sketchup.com/). Det innebär att ni som mervärde kan sälja kundens byggnad som en separat 3D fil. Filen kan sedan kunden använda för att prova möbler mm.
+
+### 2D { .h2 }
+
+{{< imgh src="Utrymningsplan-byggnad-2D.webp" alt="byggnad ritad i 2d perspektiv för utrymningsplan" >}}
+
+Passar till alla storlekar av lokaler.
+Det bästa alternativet när det kommer till stora byggnader på flera tusen kvadratmeter...

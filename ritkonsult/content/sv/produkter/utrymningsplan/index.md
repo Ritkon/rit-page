@@ -59,9 +59,11 @@ Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa s
 {{< /banner-box >}}
 
 {{% banner-box color="white" title="Exempel" title-h="2" %}}
--  [\\pdf\\Byggnad 57 2D och 3D](<{{< relpermalink >}}exempel/Byggnad 57 2D och 3D.pdf>)
--  [\\pdf\\Hotellet](<{{< relpermalink >}}exempel/Hotellet.pdf>)
--  [\\pdf\\ICA Supermarket](<{{< relpermalink >}}exempel/ICA Supermarket.pdf>)
+-  [\\pdf\\Byggnad i 2D och 3D](<{{< relpermalink >}}exempel/Byggnad i 2D och 3D.pdf>)
+-  [\\pdf\\Hotell](<{{< relpermalink >}}exempel/Hotell.pdf>)
+-  [\\pdf\\Matbutik](<{{< relpermalink >}}exempel/Matbutik.pdf>)
+-  [\\pdf\\Plexiglasdesign](<{{< relpermalink >}}exempel/Plexiglasdesign.pdf>)
+-  [\\pdf\\Med foto på återsamlingsplatsen](<{{< relpermalink >}}exempel/Med foto på återsamlingsplatsen.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 

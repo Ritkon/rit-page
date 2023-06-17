@@ -60,9 +60,8 @@ Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa s
 
 {{% banner-box color="white" title="Exempel" title-h="2" %}}
 -  [\\pdf\\Byggnad 57 2D och 3D](<{{< relpermalink >}}exempel/Byggnad 57 2D och 3D.pdf>)
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
--  [\\pdf\\banken 3d](/)
--  [\\pdf\\banken 3d](/)
+-  [\\pdf\\Hotellet](<{{< relpermalink >}}exempel/Hotellet.pdf>)
+-  [\\pdf\\ICA Supermarket](<{{< relpermalink >}}exempel/ICA Supermarket.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 

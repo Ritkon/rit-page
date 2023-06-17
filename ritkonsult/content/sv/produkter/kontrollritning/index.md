@@ -39,8 +39,8 @@ De priser som anges i vår prislista gäller om ni jobbar enligt vår [guide fö
 
 
 {{% banner-box color="white" title="Exempel" title-h="2" %}}
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/swedbank utp 2d.pdf>)
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}swedbank utp 2d.pdf>)
+-  [\\pdf\\Segeltorps kyrka](<{{< relpermalink >}}Segeltorps kyrka.pdf>)
+-  [\\pdf\\Grafikvägen](<{{< relpermalink >}}Grafikvägen.pdf>)
 { .text-cloud .cluster }
 Andra typer av kontrollritningar:
 -  [\\pdf\\Hällerum trä](<{{< relpermalink >}}kr-pm.pdf>)

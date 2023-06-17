@@ -3,7 +3,7 @@ title: 'Ramar'
 description: "Vi erbjuder 4 olika ramar. Aluminiumram ALF, Snäppram, Plexiglasram och Plastram i silver. Du kan köpa våra ramar via www.billigaramar.se"
 banner:
     subline: 'Vi erbjuder fyra olika ramar.'
-    image: 'frames.webp'
+    image: 'frames1.webp'
     image_alt: "4 olika ramar"
 heroBackground: 'name'
 translationKey: 'ramar'
@@ -13,7 +13,7 @@ weight: 90
 
 Vi importerar egna ramar och säljer dem på [www.billigaramar.se](https://www.billigaramar.se/).
 
-{{< switcher image="aluram1.png">}}
+{{< switcher image="aluram1.webp">}}
 
 ## Aluminiumram ALF
 
@@ -25,13 +25,13 @@ På baksidan finns det tre upphängningsfästen.  Så att man kan välja att mon
 
 A4, A3 och A2 ramen har exakt samma avstånd mellan fästena på baksidan vilket underlättar monteringen. För att undvika att bakskivan bågnar har vi satt dit extra många spännen. På en A3 ram är det sammanlagt 8 spännen och på en A2 ram är det 10 st spännen.
 
-Till ramen kan ni köpa ett säkerhetskitt som gör att ramen kan spännas fast på väggen utan möjlighet att plockas ner om man inte har en särskild nyckel. Detta är lämpligt på exempelvis skolor eller andra offentliga utrymmen.
+Till ramen kan ni köpa ett [säkerhetskitt](https://www.billigaramar.se/ramar/14-sakerhetsfasten-16st.html) som gör att ramen kan spännas fast på väggen utan möjlighet att plockas ner om man inte har en [särskild nyckel](https://www.billigaramar.se/ramar/15-sakerhetsnyckel.html). Detta är lämpligt på exempelvis skolor eller andra offentliga utrymmen.
 
 [Läs mer om aluminiumram ALF på billigaramar.se](http://www.billigaramar.se/ramar/2-aluminiumram-a3.html)
 
 {{< /switcher >}}
 
-{{< switcher image="snappram1.png" >}}
+{{< switcher image="snappram1.webp" >}}
 
 ## Snäppram
 
@@ -47,7 +47,7 @@ En stor fördel med snäppramen är att den inte kräver något förarbete på k
 
 {{< /switcher >}}
 
-{{< switcher >}}
+{{< switcher image="plexiram.webp" >}}
 
 ## Plexiglasram
 

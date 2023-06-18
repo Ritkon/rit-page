@@ -1,10 +1,9 @@
 ---
 title: 'CAD'
-date: 2022-12-15T23:20:03+01:00
-draft: false
+description: 'Vi erbjuder fyra olika CAD tjänster. Vi kan rita om din pappersritning till en detaljerad CAD ritning eller bara enkla väggar. Vi kan också göra om din skiss till en CAD ritning. Vi kan även rita utrymningsplaner etc i CAD'
 banner:
     subline: 'Vi erbjuder fyra olika CAD tjänster.'
-    image: '/produkter/utrymningsplan-banner.jpg'
+    image: 'cad-papper-exempel-2.webp'
 heroBackground: 'name'
 translationKey: 'cad'
 toc: true
@@ -18,10 +17,12 @@ Vi erbjuder fyra olika CAD tjänster.
 
 Vi kan göra om befintliga pappersritningar, kartor mm till CAD-filer. 
 
+{{< figure src="cad-papper-detaljerad.webp, cad-papper-detaljerad-ritad.webp" alt="En papperritning över en byggnad\e CAD ritning" caption="Pappersritning som har ritats om till CAD detaljerad ritning" class="grid" >}}
+
 Vi vill betona att vi inte jobbar med automatisk vektorisering utan att arbetet utförs manuellt. Det innebär att den CAD-fil ni får av oss är uppdelad i korrekta lager, linjetjockleken blir rätt, cirklar blir runda, texten blir redigeringsbar, linjerna hela raka, fyllningar korrekta mm. Således slipper ni alla de problem som man normalt förknippar med automatisk konvertering.
 
 {{% banner-box color="white" title="Exempel på papper till CAD detaljerad" title-h="3" %}}
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/avsökningsplan-1.pdf>)
+-  [\\pdf\\cad detaljerad](<{{< relpermalink >}}cad.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 
@@ -43,4 +44,4 @@ Tjänsten fungerar utmärkt för er som vill slippa det tråkiga arbetet att rit
 
 Priset per ritning är från 100 kronor till 250 kronor beroende på årlig volym
 
-{{< figure src="cad-papper.webp, cad-papper-ritad.webp" alt="En papperritning över en byggnad\e CAD ritning" caption="En byggnad som ritats i CAD" class="grid" >}}
+{{< figure src="cad-papper.webp, cad-papper-ritad.webp" alt="En papperritning över en byggnad\e CAD ritning" caption="Pappersrintng som ritats om till CAD bara enkla väggar" class="grid" >}}

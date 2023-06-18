@@ -21,7 +21,7 @@ På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggnin
 Byggnaden kan ritas i antingen 2D eller 3D. Sedan delar vi in  
 byggnaden olika färgade områden enligt er önskan och sätter ut eventuella symboler för handbrandsläckare osv. 
 
-{{< figure src="avsökningsplan-3D.webp, avsökningsplan-2D.webp" alt="Ritkonsult standard utrymningsplan där byggnaden är ritad i 2D\e Ritkonsult standard utrymningsplan där byggnaden är ritad i 3D" caption="Ritkonsults standard design enligt SS-2875 i 2D och 3D utförande." class="grid" >}}
+{{< figure src="avsökningsplan-3D.webp, avsökningsplan-2D.webp" alt="Avsöknings plan ritad i 3D, byggnaden har delats upp i 2 zoner med olika färger\e Avsöknings plan ritad i 2D, byggnaden har delats upp i 3 zoner med olika färger" caption="" class="grid" >}}
 
 Avsökningsplanen kommer som standrad med en generell instruktion för utrymningsledare. 
 

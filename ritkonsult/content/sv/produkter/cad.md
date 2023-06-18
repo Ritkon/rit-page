@@ -42,3 +42,5 @@ Filen levereras i valfritt format exempelvis DWG, DXF, EPS eller WMF.
 Tjänsten fungerar utmärkt för er som vill slippa det tråkiga arbetet att rita av väggar och sparar er oerhört mycket tid.
 
 Priset per ritning är från 100 kronor till 250 kronor beroende på årlig volym
+
+{{< figure src="cad-papper.webp, cad-papper-ritad.webp" alt="En papperritning över en byggnad\e CAD ritning" caption="En byggnad som ritats i CAD" class="grid" >}}

@@ -4,6 +4,7 @@ description: 'Vi erbjuder fyra olika CAD tjänster. Vi kan rita om din pappersri
 banner:
     subline: 'Vi erbjuder fyra olika CAD tjänster. Som att rita om din pappersritning till CAD.'
     image: 'cad-papper-exempel-2.webp'
+    image_alt: 'En del av en pappersritning och en del av samma byggnad fast i cad ritning'
 heroBackground: 'name'
 translationKey: 'cad'
 toc: true

@@ -3,11 +3,14 @@ title: 'Avsökningsplan'
 description: 'Avsökningsplaner i 2D och 3D.'
 banner:
     subline: 'Som stöd till utrymningsledare tar vi fram särskilda avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.'
-    image: '/produkter/utrymningsplan-banner.jpg'
+    image: 'avsökningsplan-exempel.webp'
+    image_alt: 'Två olika delar av asvökningsplan. Den ena är ritad i 2D den andra i 3D'
+    page_banner: false
 heroBackground: 'name'
 translationKey: 'avsökningsplan'
 order_form: true
 color:
+tldr: "**Pris:** hans@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF, laminat eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 weight: 20
 ---
 
@@ -15,11 +18,19 @@ På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggnin
 
 ## Design
 
-Vi delar in byggnaden i olika färgade områden/mönster. Du kan välja på dessa färger. Avsökningsplanen kan ritas i 2D eller i 3D.
+Byggnaden kan ritas i antingen 2D eller 3D. Sedan delar vi in  
+byggnaden olika färgade områden enligt er önskan och sätter ut eventuella symboler för handbrandsläckare osv. 
 
-situationsplan.
+{{< figure src="avsökningsplan-3D.webp, avsökningsplan-2D.webp" alt="Ritkonsult standard utrymningsplan där byggnaden är ritad i 2D\e Ritkonsult standard utrymningsplan där byggnaden är ritad i 3D" caption="Ritkonsults standard design enligt SS-2875 i 2D och 3D utförande." class="grid" >}}
 
-Text
+Avsökningsplanen kommer som standrad med en generell instruktion för utrymningsledare. 
+
+
+Du kan även välja att ta med en situationsplan som visar var återsamlingsplatsen ligger. 
+
+bild>
+
+Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad.
 
 ## Pris
 
@@ -27,9 +38,8 @@ Priset avgörs av hur ni önskar få dem utförda samt hur många som vi ska rit
 Skicka ett mail till hans@ritkonsult.se så tar han kontakt med er för vidare diskussion.
 
 {{% banner-box color="white" title="Exempel på avsökningsplaner " title-h="3" %}}
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}exempel/avsökningsplan-1.pdf>)
--  [\\pdf\\swedbank 3d](<{{< relpermalink >}}avsökningsplan-2.pdf>)
--  [\\pdf\\banken 3d](/)
+-  [\\pdf\\Group Solution](<{{< relpermalink >}}Group Solution.pdf>)
+-  [\\pdf\\Skogsbrynets skola](<{{< relpermalink >}}Skogsbrynets skola.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 

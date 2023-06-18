@@ -28,12 +28,13 @@
             </div>
     {{ else }}
     {{- partial "page-header.html" . -}}
-
-        {{ partial "helpers/picture-responsive.html" (dict 
-            "src" .Params.banner.image
-            "alt" .Params.banner.image_alt
-            "sizes" "(min-width: 861px) 98vw, 98vw"
-        ) }}
+            {{ if or (eq .Params.banner.page_banner true) (eq .Params.banner.page_banner nil) }}
+                {{ partial "helpers/picture-responsive.html" (dict 
+                    "src" .Params.banner.image
+                    "alt" .Params.banner.image_alt
+                    "sizes" "(min-width: 861px) 98vw, 98vw"
+                ) }}
+            {{ end }}
 
         {{ if .Params.tldr }}
             <div class="product-wrapper- flow lead-box">

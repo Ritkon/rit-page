@@ -1,6 +1,6 @@
 ---
 title: 'Avsökningsplan'
-description: 'Avsökningsplaner i 2D och 3D.'
+description: 'Avsökningsplaner i 2D och 3D. Ett bra stöd till utrymningsledarna'
 banner:
     subline: 'Som stöd till utrymningsledare tar vi fram särskilda avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.'
     image: 'avsökningsplan-exempel.webp'

@@ -1,8 +1,8 @@
 ---
 title: 'Vektorisering'
-description: ''
+description: 'Vi kan hjälpa dig konvertera en bild på tex en logotyp till en vektoriserad fil som kan förstoras utan att kvaliteten försämras.'
 banner:
-    subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.'
+    subline: 'Vi gör om en vanlig bild, exempelvis logotyp, till en vektoriserad fil.'
     link_text: 'Läs mer om våra utrymningsplaner'
     image: 'vektorisering-exempel.webp'
     image_alt: 'Vektorisering av handritad brandsläckarfigur och en hand ritat text. En pixelerad logga och ett foto på en romersk soldat har också vektoriserats'

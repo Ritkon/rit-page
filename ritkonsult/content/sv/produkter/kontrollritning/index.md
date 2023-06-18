@@ -1,6 +1,6 @@
 ---
 title: 'Kontrollritning'
-description: 'Kontrollritningar till mycket lågt pris.'
+description: 'Kontrollritningar till mycket lågt pris. Leveranstid är normalt inom sju dagar.'
 banner:
     subline: 'Kontrollritningar är en del av det systematiska brandskyddsarbetet (SBA). Vi ritar idag huntratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell.'
     image: 'kontrollritning-exempel.webp'

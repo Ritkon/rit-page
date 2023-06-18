@@ -2,7 +2,7 @@
 title: 'CAD'
 description: 'Vi erbjuder fyra olika CAD tjänster. Vi kan rita om din pappersritning till en detaljerad CAD ritning eller bara enkla väggar. Vi kan också göra om din skiss till en CAD ritning. Vi kan även rita utrymningsplaner etc i CAD'
 banner:
-    subline: 'Vi erbjuder fyra olika CAD tjänster.'
+    subline: 'Vi erbjuder fyra olika CAD tjänster. Som att rita om din pappersritning till CAD.'
     image: 'cad-papper-exempel-2.webp'
 heroBackground: 'name'
 translationKey: 'cad'

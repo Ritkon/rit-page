@@ -12,7 +12,7 @@ toc: true
 toc_heading: ''
 color: 
 tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** varierar. **Sortimnet:** cdr, eps, PDF, svg."
-order_form: true
+order_form: 
 weight: 90
 ---
 

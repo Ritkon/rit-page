@@ -32,9 +32,9 @@ Insatsplan-enkel för lantbruk består av en situationsplan över lantbruket med
 Skicka ett mail till prislista@ritkonsult.se för vidare diskussion.
 
 {{% banner-box color="white" title="Exempel" title-h="2" %}}
--  [\\pdf\\Bäckgården](<{{< relpermalink >}}Bäckgården Insatsplan-enkel.pdf>)
--  [\\pdf\\Fårbo Insatsplan-enkel](<{{< relpermalink >}}Fårbo Insatsplan-enkel.pdf>)
--  [\\pdf\\Nefab Insatsplan-enkel](<{{< relpermalink >}}Nefab Insatsplan-enkel.pdf>)
+-  [\\pdf\\Bäckgården - med text sida](<{{< relpermalink >}}Bäckgården Insatsplan-enkel.pdf>)
+-  [\\pdf\\Fårbo](<{{< relpermalink >}}Fårbo Insatsplan-enkel.pdf>)
+-  [\\pdf\\Nefab](<{{< relpermalink >}}Nefab Insatsplan-enkel.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
 

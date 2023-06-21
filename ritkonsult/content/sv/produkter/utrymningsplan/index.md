@@ -83,8 +83,6 @@ Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen en
 
 Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till er. När ni godkänt korrekturet skickar vi utrymningsplanen till er.
 
-Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få en CD-romskiva med de utrymningsplaner vi har ritat åt er.
-
 [Ni hittar guiden för denna arbetsprocess här.](/guider/utrymningsplan)
 
 

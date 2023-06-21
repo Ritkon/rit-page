@@ -44,6 +44,10 @@ Har alla punkter samma objektnamn, plan och storlek går det bra att skriva denn
 
 Har ni beställt olika typer av produkter (tex laminat och utskrift). Skriv då ut detta vid "Här är du" -punkten.
 
+### Flera "Här är du" -punkter på samma sida
+
+Har ritningen/planet flera "Här är du" -punkter på samma sida så skickar vi första korrektur med alla punkter på en sida. Detta för att göra det smidigare att märka ut [eventuella ändringar](/guider/utrymningsplan/korrigering/) som du vill göra. När du har godkänt sidan för vridning (instruktioner för detta finns i mailet som kommer med korrekturen) så vrider vi alla "Här är du" -punkter till var sin sida.
+
 
 
 

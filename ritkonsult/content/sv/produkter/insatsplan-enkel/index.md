@@ -9,7 +9,7 @@ heroBackground: 'name'
 translationKey: 'insatsplan'
 toc: true
 toc_heading: ''
-tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall för byggnad/lantbruk."
+tldr: "**Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall för byggnad/lantbruk."
 color: 
 order_form: true
 weight: 50

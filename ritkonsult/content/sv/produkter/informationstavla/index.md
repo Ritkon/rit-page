@@ -7,7 +7,7 @@ banner:
     image_alt: "exempel på informationstavla"
 heroBackground: 'name'
 translationKey: 'informationstavla'
-tldr: "**Pris:** hans@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
+tldr: "**Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 color:
 weight: 80
 ---

@@ -9,7 +9,7 @@ series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''
 by_weight: true
-weight: 55
+weight: 61
 ---
 
 När du beställer ett jobb utan att [placera ut "Här är du" punkter](/guider/utrymningsplan/symboler/#här-är-du--punkt) så måste det ändå tydligt framgå om planen ska vara liggande eller stående, samt vad som ska vara upp på ritningen.

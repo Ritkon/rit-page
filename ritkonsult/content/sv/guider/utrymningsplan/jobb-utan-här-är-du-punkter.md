@@ -1,8 +1,8 @@
 ---
-title: 'Jobb utan "Här är du" punkter'
-linktitle: 'Jobb utan "Här är du" punkter'
-description: 'När du beställer jobb utan "Här är du" punkter så ska du göra så här'
-listHeading: 'Jobb utan "Här är du" punkter'
+title: 'Jobb utan "Här är du" symbol'
+linktitle: 'Jobb utan "Här är du" symbol'
+description: 'När du beställer jobb utan "Här är du" symbol så ska du göra så här'
+listHeading: 'Jobb utan "Här är du" symbol'
 list_description: ''
 translationKey: 'no_here_are_you'
 series: 'utrymningsplans-guide'

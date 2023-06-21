@@ -42,13 +42,14 @@ Vid "Här är du" -punkten ska följande skrivas:
 
 Har alla punkter samma objektnamn, plan och storlek går det bra att skriva denna information vid en av punkterna eller tydligt någon stans på sidan. Pilen som pekar mot den vägg där planen ska sitta ska alltid vara med.
 
-Har ni beställt olika typer av produkter (tex laminat och utskrift). Skriv då ut detta vid "Här är du" -punkten.
+Har ni beställt olika typer av produkter (tex laminat och ram). Skriv då ut detta vid "Här är du" -punkten.
 
 ### Flera "Här är du" -punkter på samma sida
 
 Har ritningen/planet flera "Här är du" -punkter på samma sida så skickar vi första korrektur med alla punkter på en sida. Detta för att göra det smidigare att märka ut [eventuella ändringar](/guider/utrymningsplan/korrigering/) som du vill göra. När du har godkänt sidan för vridning (instruktioner för detta finns i mailet som kommer med korrekturen) så vrider vi alla "Här är du" -punkter till var sin sida.
 
+### Ingen här är du punkt
+{ .hide-on-print }
 
-
-
-
+Ska utrymningsplanen inte ha någon "Här är du" symbol så följer du instruktionerna för [jobb utan "Här är du" symbol](/guider/utrymningsplan/jobb-utan-här-är-du-punkter/).
+{ .hide-on-print }

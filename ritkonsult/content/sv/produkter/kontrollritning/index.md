@@ -9,7 +9,7 @@ heroBackground: 'name'
 translationKey: 'kontrollritning'
 toc: true
 toc_heading: ''
-color:
+color: 'red'
 tldr: "**Pris:** prislista@ritkonsult.se **Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 order_form: true
 weight: 30

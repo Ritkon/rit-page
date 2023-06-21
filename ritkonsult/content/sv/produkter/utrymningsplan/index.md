@@ -30,7 +30,7 @@ Har ni tidigare använt en speciell design för era planer kan vi fortsätta att
 Vi erbjuder ett brett utbud av olika lösningar och räcker inte vårt ordinarie sortiment är vi alltid öppna för kundunika lösningar. Vi levererar utrymningsplaner på följande sätt:
 
 - #### Färdig i ram
-    Välja mellan [4 olika typer av ramar](/produkter/ramar) i storleken A4 till A1. Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig pga ålder eller fukt och ramas sedan in innan vi skickar den till er.
+    Välja mellan [3 olika typer av ramar](/produkter/ramar) i storleken A4 till A1. Utrymningsplanen skrivs ut på en plastfilm som inte veckar sig pga ålder eller fukt och ramas sedan in innan vi skickar den till er.
 - #### PDF-fil
     Väljer ni att få utrymningsplanen levererad som PDF-fil får ni själva skriva ut och rama in den. Denna lösning är prisvärd för er som inte behöver planer över A3-storlek. En A3-skrivare kostar inte mer än ca 2000 kronor.
 

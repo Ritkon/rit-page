@@ -1,10 +1,10 @@
 ---
 title: 'Ramar'
-description: "Vi erbjuder 4 olika ramar. Aluminiumram ALF, Snäppram, Plexiglasram och Plastram i silver. Du kan köpa våra ramar via www.billigaramar.se"
+description: "Vi erbjuder tre olika ramar. Aluminiumram ALF, Snäppram, Plexiglasram. Du kan köpa våra ramar via www.billigaramar.se"
 banner:
-    subline: 'Vi erbjuder fyra olika ramar.'
+    subline: 'Vi erbjuder tre olika ramar.'
     image: 'frames1.webp'
-    image_alt: "4 olika ramar"
+    image_alt: "3 olika ramar"
 heroBackground: 'name'
 translationKey: 'ramar'
 color: 
@@ -59,16 +59,6 @@ Ramen finns i storlekarna från A4, A3 och A2.
 
 {{< /switcher >}}
 
-## Plastram i silver
-
-Vår plastram är lika prisvärd som snygg. Det är först när man tar på ramen som man känner att ramen inte är i metall utan i plast.
-
-A4 och A3 ramen har exakt samma avstånd 24 cm mellan fästena på baksidan. 	För att undvika att bakskivan bågnar har vi satt dit 8 spännen på A3 ramen. 
-
-Ramen finns i storlekarna från A4 och A3.
-
-[Läs mer om plastramen på billigaramar.se](http://www.billigaramar.se/plastramar/25-billig-plastram-silver.html)
-
 {{% banner-box color="blue" title="Spartips!" title-h="2" %}}
 Låt oss rita men skriv ut och gör inramningen själv. Ramar kan ni beställa via oss.
 {{% /banner-box %}}
@@ -79,7 +69,7 @@ Företag som **jobbar med utrymningsplaner**, **säljer ramar** eller på annat 
 Maila **<hans@ritkonsult.se>** och beskriv vad ni gör och vilka ramar ni önskar prov på.
 
 Priset för provramarna är:
-- Aluminiumram  **100 kr**
+- Aluminiumram  **150 kr**
 - Snäppram    	**200 kr**
 - Plexiglasram	**250 kr**
 {{% /banner-box %}}

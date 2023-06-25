@@ -7,7 +7,7 @@ cascade:
 translationKey: 'kontakt'
 toc: false
 cover: true
-cover_image: '/images/contact-ritkonsult.webp'
+cover_image: 'contact-ritkonsult.webp'
 weight: 30
 ---
 

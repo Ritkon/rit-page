@@ -5,7 +5,7 @@
     {{ end }}
     <div class="grid hero-box" style="--min:16rem;">
         <h1 id="main-content" class="fs-hero hero hero-with-image text-center">{{ if .Params.hero_tagline }}<span class="h3 h-tagline">{{- .Params.hero_tagline -}}</span>{{ end }}{{ $title }}</h1>
-        <div class="fixed-ratio" style="/*padding-bottom: 100%;*/">
+        <div class="fixed-ratio">
             {{/* {{ $image := resources.Get .Params.cover_image }}
             {{ with $image }}
             <img class="fixed-ratio-content" src="{{ .RelPermalink }}" alt="" loading="eager" height="{{ .Height }}" width="{{ .Width }}">

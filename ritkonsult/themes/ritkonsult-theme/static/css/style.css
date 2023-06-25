@@ -414,7 +414,8 @@ blockquote + figcaption
   border-left: 0.5em solid var(--clr-neutral-900);
   overflow-wrap: break-word;
   word-wrap: break-word;
-  /* hyphens: auto; */
+  hyphens: auto;
+  word-break: break-word;
 }
 
 .banner h2 {

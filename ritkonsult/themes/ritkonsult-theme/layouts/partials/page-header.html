@@ -12,7 +12,7 @@
             {{ end }} */}}
             {{ partial "helpers/picture-responsive.html" (dict 
                 "src" .Params.cover_image
-                "alt" "test"
+                "alt" .Params.cover_alt
                 "sizes" "hero"
                 "loading" "eager"
             ) }}

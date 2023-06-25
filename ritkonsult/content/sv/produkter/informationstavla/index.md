@@ -8,6 +8,7 @@ banner:
 heroBackground: 'name'
 translationKey: 'informationstavla'
 tldr: "**Leveranstid:** inom 7 dagar. **Sortimnet:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
+order_form: true
 color:
 weight: 80
 ---

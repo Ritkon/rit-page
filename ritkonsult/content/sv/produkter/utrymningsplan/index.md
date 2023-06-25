@@ -5,7 +5,7 @@ banner:
     subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.'
     link_text: 'Läs mer om våra utrymningsplaner'
     image: 'utrymningsplaner.webp'
-    image_alt: 'utrymningsplans exempel i 2D utförande'
+    image_alt: 'utrymningsplans exempel i plexi, standardram och tryck'
 heroBackground: 'name'
 translationKey: 'utrymningsplan'
 toc: true

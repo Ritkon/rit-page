@@ -11,7 +11,7 @@ translationKey: 'vektorisering'
 toc: true
 toc_heading: ''
 color: 
-tldr: "**Leveranstid:** varierar. **Sortimnet:** cdr, eps, PDF, svg."
+tldr: "**Leveranstid:** varierar. **Sortiment:** cdr, eps, PDF, svg."
 order_form: 
 weight: 90
 ---

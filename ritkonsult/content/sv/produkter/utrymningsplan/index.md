@@ -11,7 +11,7 @@ translationKey: 'utrymningsplan'
 toc: true
 toc_heading: ''
 color: 'green'
-tldr: "**Leveranstid:** inom 7 dagar. **Sortimnet:** Färdig i ram, PDF-fil, utskrift eller laminat. **Design:** 2D eller 3D."
+tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** Färdig i ram, PDF-fil, utskrift eller laminat. **Design:** 2D eller 3D."
 order_form: true
 weight: 10
 ---

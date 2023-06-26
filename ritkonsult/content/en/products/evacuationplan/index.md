@@ -10,7 +10,7 @@ translationKey: 'utrymningsplan'
 toc: true
 toc_heading: ''
 color: 'green'
-tldr: "**Delivery time:** within 7 days. **Sortimnet:** Ready in frame, PDF file, print or laminated. **Design:** 2D or 3D."
+tldr: "**Delivery time:** within 7 days. **Assortment:** Ready in frame, PDF file, print or laminated. **Design:** 2D or 3D."
 order_form: true
 weight: 10
 ---

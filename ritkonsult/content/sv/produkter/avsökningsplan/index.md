@@ -10,7 +10,7 @@ heroBackground: 'name'
 translationKey: 'avsökningsplan'
 order_form: true
 color:
-tldr: "**Leveranstid:** inom 7 dagar. **Sortimnet:** PDF, laminat eller utskrift. **Design:** Ritkonsults mall eller er egen design."
+tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** PDF, laminat eller utskrift. **Design:** Ritkonsults mall eller er egen design."
 weight: 20
 ---
 

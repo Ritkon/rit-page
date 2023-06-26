@@ -20,17 +20,25 @@ Om du vill kan vi hjälpa dig ta fram bilder.. manualer/installationer&navigerin
 
 ## Byggnader
 
+![](2_hus_mittemellan_s.jpg)
+
 ## Objekt
 
 En ide du vill visaullisera i 3d. Bilder du kan använda för manualer..
 
 ## Planritningar
 
+![](planrit_3D_s.jpg)
+
 ## Butiksplaner
+
+![](Shop_s.png)
 
 Hyllor och butiks inredning kan göras i 3D. 
 
 ## Hotellplaner
+
+![](HotelResort_s.png)
 
 Överskådliga Hotelplaner i 3D med rumsnummer som gör att gäster lättare hittar sitt rum.
 

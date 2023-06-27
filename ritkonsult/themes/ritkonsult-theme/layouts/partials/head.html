@@ -33,7 +33,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- favicon -->
     {{ partial "favicon.html" . }}
-
+    <!-- webmanifest -->
+    {{ partial "helpers/webmanifest.html" }}
     <!-- js -->
     {{ if hugo.IsProduction }}
         {{/* umami stats included on production */}}

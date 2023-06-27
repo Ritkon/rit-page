@@ -1,0 +1,53 @@
+{{ $manifest := `{
+    "name": "Ritkonsult",
+    "short_name": "RK",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512-maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "",
+    "theme_color": "",
+    "background_color": "",
+    "display": "standalone"
+}` }}
+
+<link rel="manifest" href='data:application/manifest+json, {
+    "name": "Ritkonsult",
+    "short_name": "RK",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512-maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "{{- site.Home.RelPermalink -}}{{ i18n "guides" }}",
+    "theme_color": "#9dab5f",
+    "background_color": "#e8eae1",
+    "display": "standalone"
+}'>

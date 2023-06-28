@@ -12,6 +12,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     email = 'info@ritkonsult.se'
     adress = 'Ritkonsult <br> Järnvägsgatan 15 <br> 331 37 Värnamo'
     og_image = 'image_here'
+    manifest_background = '#e8eae1'
+    manifest_theme_color = '#9dab5f'
 [markup.goldmark.parser.attribute]
     block = true
 [outputFormats]
@@ -20,6 +22,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         mediaType = 'text/html'
         baseName = 'print'
         isPlainText = false
+    [outputFormats.webmanifest]
+        name = 'site'
+        mediaType = 'application/manifest+json'
+        baseName = 'site'
+        isPlainText = true
 [languages]
     [languages.sv]
         contentDir = 'content/sv'

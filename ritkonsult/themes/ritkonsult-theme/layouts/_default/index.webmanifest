@@ -1,6 +1,8 @@
 {
-    "name": "Ritkonsult",
-    "short_name": "RK",
+    "name": "{{ .Site.Title }}",
+    {{- if .Params.webmanifest.short_name }}
+    "short_name": "{{ .Params.webmanifest.short_name }}",
+    {{ end -}}
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -19,11 +21,11 @@
             "purpose": "maskable"
         }
     ],
-    "start_url": "{{- site.Home.RelPermalink -}}{{ i18n "guides" }}",
+    "start_url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}",
     "shortcuts": [
         {
             "name": "{{ i18n "evacuation_plan" }}",
-            "url": "{{- site.Home.RelPermalink -}}{{ i18n "guides" }}/{{ i18n "evacuation_plan" }}"
+            "url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}/{{ replace (i18n "evacuation_plan") " " "-" }}"
         },
         {
             "name": "",
@@ -34,7 +36,11 @@
             "url": ""
         }
     ],
-    "theme_color": "#9dab5f",
-    "background_color": "#e8eae1",
+    {{- if $.Site.Params.manifest_theme_color -}}
+    "theme_color": "{{ $.Site.Params.manifest_theme_color }}",
+    {{- end }}
+    {{- if $.Site.Params.manifest_background -}}
+    "background_color": "{{ $.Site.Params.manifest_background }}",
+    {{- end -}}
     "display": "standalone"
 }

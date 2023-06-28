@@ -3,7 +3,7 @@
 </aside>
     <header>
         <div class="wrapper flex">
-            <p class="fs-label-small">Language: </p>
+            <p class="fs-label-small" style="margin-bottom: 1.25rem;">Language: </p>
             <ul class="language-list flex fs-label-small">
                 {{ range (sort .AllTranslations ".Language.LanguageName") }}
                     {{ if eq .Language $.Site.Language}}

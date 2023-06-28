@@ -13,3 +13,30 @@ ErrorDocument 404 /404.html
 <If "%{REQUEST_URI} =~ /en\x2F.*/">
     ErrorDocument 404 /en/404.html
 </If>
+
+# Rules for old ritkonsult 301 redirects
+# Redirect 301 /index.htm https://ritkonsult.se/
+# Redirect 301 /-kontakt/kontakta_oss.htm https://ritkonsult.se/kontakt/
+# Redirect 301 /-om/om_oss.htm https://ritkonsult.se/om-oss/
+# Redirect 301 /-kunder/kunder.htm https://ritkonsult.se/
+# Redirect 301 /-om/blanketter/filer.htm https://ritkonsult.se/blanketter/
+
+
+# Redirect 301 /utrymningsplan/utrymningsplan.htm https://ritkonsult.se/produkter/utrymningsplan/
+
+# Redirect 301 /-sba/sba.htm https://ritkonsult.se/produkter/kontrollritning/
+
+# Redirect 301 /-orienteringsritning/brandlarmsritning.htm https://ritkonsult.se/produkter/brandlarmsritning/
+
+# Redirect 301 /utrymningsplan/avsokningsplan.htm https://ritkonsult.se/produkter/avs%C3%B6kningsplan/
+
+# 3D
+# Redirect 301 /-3D/3D.htm https://ritkonsult.se/produkter/3d/
+
+# Redirect 301 /-vektor/vektor.htm https://ritkonsult.se/produkter/vektorisering/
+
+# Redirect 301
+
+# Redirect 301
+
+# Redirect 301

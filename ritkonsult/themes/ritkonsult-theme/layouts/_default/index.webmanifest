@@ -1,7 +1,7 @@
 {
-    "name": "{{ .Site.Title }}",
+    "name": "{{ .Site.Title }} - {{ i18n "guides" }}",
     {{- if .Params.webmanifest.short_name }}
-    "short_name": "{{ .Params.webmanifest.short_name }}",
+    "short_name": "{{ .Params.webmanifest.short_name }} - {{ i18n "guides" }}",
     {{ end -}}
     "icons": [
         {

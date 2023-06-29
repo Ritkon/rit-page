@@ -27,11 +27,11 @@
             "purpose": "maskable"
         }
     ],
-    "start_url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}",
+    "start_url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}/",
     "shortcuts": [
         {
             "name": "{{ i18n "symbol_number" }} - {{ i18n "evacuation_plan" }}",
-            "url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}/{{ replace (i18n "evacuation_plan") " " "-" }}/{{ replace (i18n "symbol_number") " " "-" }}",
+            "url": "{{- site.Home.Permalink -}}{{ i18n "guides" }}/{{ replace (i18n "evacuation_plan") " " "-" }}/{{ replace (i18n "symbol_number") " " "-" }}/",
             "icons": [{ "src": "/icon-192-green.png", "sizes": "192x192"}]
         }
     ],

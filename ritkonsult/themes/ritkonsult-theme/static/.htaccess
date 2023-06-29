@@ -4,6 +4,13 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
+
+# test all subolders from products foto,3d on old ritkonsult.se
+# RewriteRule ^-foto https://ritkonsult.se/produkter/ [R=301,L]
+# RewriteRule ^-3D https://ritkonsult.se/produkter/3d/ [R=301,L]
+# RewriteRule ^-vektor https://ritkonsult.se/produkter/vektorisering/ [R=301,L]
+# RewriteRule ^ramar https://ritkonsult.se/produkter/ramar/ [R=301,L]
+
 # END Redirects
 
 # Get 2 char language code from URL (default to "en") and assign to LANG env var
@@ -24,19 +31,9 @@ ErrorDocument 404 /404.html
 
 # Redirect 301 /utrymningsplan/utrymningsplan.htm https://ritkonsult.se/produkter/utrymningsplan/
 
+
 # Redirect 301 /-sba/sba.htm https://ritkonsult.se/produkter/kontrollritning/
 
 # Redirect 301 /-orienteringsritning/brandlarmsritning.htm https://ritkonsult.se/produkter/brandlarmsritning/
 
-# Redirect 301 /utrymningsplan/avsokningsplan.htm https://ritkonsult.se/produkter/avs%C3%B6kningsplan/
-
-# 3D
-# Redirect 301 /-3D/3D.htm https://ritkonsult.se/produkter/3d/
-
-# Redirect 301 /-vektor/vektor.htm https://ritkonsult.se/produkter/vektorisering/
-
-# Redirect 301
-
-# Redirect 301
-
-# Redirect 301
+# Redirect 301 /utrymningsplan/avsokningsplan.htm https://ritkonsult.se/produkter/avsökningsplan/

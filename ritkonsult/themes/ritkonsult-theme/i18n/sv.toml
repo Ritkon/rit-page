@@ -88,6 +88,9 @@ other = 'se alla'
 [summary]
 other = "sammanfattning"
 
+[symbol_number]
+other = "symbolnummer"
+
 [Tio_skal_att_anlita_oss]
 other = 'Tio skäl att anlita oss'
 

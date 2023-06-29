@@ -84,6 +84,9 @@ other = 'see all'
 [summary]
 other = "summary"
 
+[symbol_number]
+other = "symbol number"
+
 [Tio_skal_att_anlita_oss]
 other = 'Ten reasons to hire us'
 

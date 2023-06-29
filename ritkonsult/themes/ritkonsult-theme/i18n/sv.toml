@@ -106,4 +106,14 @@ other = 'Du kan hitta ritningar gjorda av Ritkonsult hos'
 [404_title]
 other = 'Denna sida kan tyvärr inte hittas. :('
 
+[404_paragraph]
+other = 'Du har landat på en URL som inte verkar finnas på Ritkonsult.se. Här är några alternativ:'
 
+[404_option_01]
+other = 'Om du tror att detta är ett fel från vår sida, vänligen <a href="mailto:info@ritkonsult.se">mejla oss</a>.'
+
+[404_option_02]
+other = 'Om du letar efter en specifik produkt, gå till vår <a href="{{ .link }}">produktsida</a> för att se vad vi erbjuder.'
+
+[404_option_03]
+other = 'Om du behöver hjälp med någon av våra produkter, kan du gå till våra  <a href="{{ .link }}">guider</a> och se om du hittar ditt svar där.'

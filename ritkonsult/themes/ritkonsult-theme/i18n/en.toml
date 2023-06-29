@@ -101,3 +101,15 @@ other = 'You can find drawings made by Ritkonsult at'
 
 [404_title]
 other = 'Sorry, we can’t seem to find what you’re looking for.'
+
+[404_paragraph]
+other = "You've landed on a URL that doesn't seem to exist on Ritkonsult.se. Here's some options:"
+
+[404_option_01]
+other = 'If you think this is an error on our part, please <a href="mailto:info@ritkonsult.se">email us</a>.'
+
+[404_option_02]
+other = 'If you are looking for specific product, head over to the <a href="{{ .link }}">product page</a> to see what we offer.'
+
+[404_option_03]
+other = 'If you need help with a product, head over to our <a href="{{ .link }}">product guides</a> and see if you can find your answear there.'

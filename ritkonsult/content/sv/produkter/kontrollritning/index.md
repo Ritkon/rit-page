@@ -38,7 +38,7 @@ Arbetar ni med Systematiskt Brandskyddsarbete kan vi erbjuda produktion av kontr
 De priser som anges i vår prislista gäller om ni jobbar enligt vår [guide för kontrollritningar](/guider/kontrollritning). 
 
 
-{{% banner-box color="white" title="Exempel" title-h="2" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" link_icon=true %}}
 -  [\\pdf\\Segeltorps kyrka](<{{< relpermalink >}}Segeltorps kyrka.pdf>)
 -  [\\pdf\\Grafikvägen](<{{< relpermalink >}}Grafikvägen.pdf>)
 { .text-cloud .cluster }

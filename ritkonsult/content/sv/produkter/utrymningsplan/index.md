@@ -58,7 +58,7 @@ Till företag som säljer utrymningsplaner kan vi erbjuda produktion av utrymnin
 Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa så skickar vi en utrymningsplan med posten.
 {{< /banner-box >}}
 
-{{% banner-box color="white" title="Exempel" title-h="2" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" link_icon=true %}}
 -  [\\pdf\\Byggnad i 2D och 3D](<{{< relpermalink >}}exempel/Byggnad i 2D och 3D.pdf>)
 -  [\\pdf\\Hotell](<{{< relpermalink >}}exempel/Hotell.pdf>)
 -  [\\pdf\\Matbutik](<{{< relpermalink >}}exempel/Matbutik.pdf>)

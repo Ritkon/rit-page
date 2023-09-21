@@ -20,7 +20,7 @@ Informationstavlan liknar en utrymningsplan men innehåller även information om
 ## Pris
 Skicka ett mail till hans@ritkonsult.se så tar han kontakt med er för vidare diskussion.
 
-{{% banner-box color="white" title="Exempel informationstavla" title-h="2" %}}
+{{% banner-box color="white" title="Exempel informationstavla" title-h="2" link_icon=true %}}
 -  [\\pdf\\Lilldalshemmet](<{{< relpermalink >}}Informationstavlor Lilldalshemmet.pdf>)
 -  [\\pdf\\Kållekärr](<{{< relpermalink >}}Informationstavlor Kallekarr.pdf>)
 { .text-cloud .cluster }

@@ -1,6 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $hn := 2 }}
 {{ $color := "blue" }}
+{{ $link_icon := .Get "link_icon" }}
 {{ $type:= "flow" }}
 {{ if (.Get "title-h") }}
     {{ $hn = .Get "title-h" }}
@@ -15,7 +16,9 @@
 <div class="{{ cond (ne $color nil) (printf " bg-symbol-%s" $color) "bg-symbol-blue" }} banner">
     <div class="{{ $type }}">
             {{ with (.Get "title") -}}
-                <h{{ $hn }} id="{{ anchorize (safeHTML .) }}">{{ safeHTML . }}</h{{ $hn }}>
+                <h{{ $hn }} id="{{ anchorize (safeHTML .) }}">{{ safeHTML . }}
+                    {{- if $link_icon -}}<a href="#{{ anchorize (safeHTML .) }}"><img style="padding: 0;" class="icon" src="/images/icons/link-45deg.svg" alt=""></a>{{- end -}}
+                </h{{ $hn }}>
             {{- end -}}
         <div class="flow banner-content">
             <!-- {{ with (.Get "body") -}}

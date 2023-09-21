@@ -19,7 +19,7 @@ Vid större fastigheter ska det vid behov finnas räddningsvägar i anslutning t
 
 Vi tar fram översiktsritningar till bostadsområden som visar: Räddningsvägar, uppställningsplatser för räddningstjänstens fordon, räddningsvägsskyltar och husnummer
 
-{{% banner-box color="white" title="Exempel" title-h="2" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" link_icon=true %}}
 -  [\\pdf\\Räddningsvägar Farsta](<{{< relpermalink >}}Raddningsvagar Farsta.pdf>)
 -  [\\pdf\\Räddningsvägar Rinkeby](<{{< relpermalink >}}Raddningsvagar Rinkeby.pdf>)
 -  [\\pdf\\Räddningsvägar Rinkebystråket](<{{< relpermalink >}}Raddningsvagar Rinkebystraket.pdf>)

@@ -1142,7 +1142,7 @@ nav .card a span span:first-child {
   color: var(--link-color, var(--clr-secondary-400))
 }
 
-.card a:hover {
+.card > a:hover {
   outline-offset: -4px;
   outline: 2px solid var(--link-color, var(--clr-neutral-100));
 }

@@ -4,7 +4,10 @@
         {{ range where .Pages.ByTitle "Params.order_form" "eq" true }}
             <li id="{{ anchorize .LinkTitle }}">
                     <div class="flow">
-                        {{ .Title }}
+                        <span class="ignore-flow">
+                            {{ .Title }}
+                            <a href="#{{ .Title | anchorize }}"><img style="padding: 0;" class="icon" src="/images/icons/link-45deg.svg" alt=""></a>
+                        </span>
                         <ul class="clean-list p">
                             {{ with (.Resources.Match "forms/*.pdf") | union (.Resources.Match "forms/*.doc") | union (.Resources.Match "forms/*.docx")  }}
                                 {{ range . }}
@@ -21,10 +24,14 @@
         {{ end }}
     {{ end }}
     {{ $other := where .Site.Pages "Section" "blanketter" }}
+    {{ $other_header := (strings.FirstUpper (i18n "other"))}}
     {{ range $other}}
-        <li id="{{ anchorize .LinkTitle }}">
+        <li id="{{ anchorize $other_header }}">
             <div class="flow">
-                {{ strings.FirstUpper (i18n "other") }}
+                <span class="ignore-flow">
+                    {{ printf "%s" $other_header}}
+                    <a href="#{{ $other_header | anchorize }}"><img style="padding: 0;" class="icon" src="/images/icons/link-45deg.svg" alt=""></a>
+                </span>
                 <ul class="clean-list p">
                     {{ with (.Resources.Match "*.pdf") | union (.Resources.Match "*.doc") | union (.Resources.Match "*.docx")  }}
                         {{ range . }}

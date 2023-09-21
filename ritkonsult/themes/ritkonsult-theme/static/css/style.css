@@ -392,6 +392,10 @@ blockquote + figcaption
   margin-top: var(--scale5);
 }
 
+.flow > .ignore-flow + * {
+  margin-top: 0;
+}
+
 /* .flow > * + *
 ,.flow > .h1 + p { margin-top: var(--gap,4.2rem); } 
 .flow > * + h4 { margin-top: 2.8rem;}

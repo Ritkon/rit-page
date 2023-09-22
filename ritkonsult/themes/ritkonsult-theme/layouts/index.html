@@ -11,5 +11,7 @@
     {{- partial "why-work-with-us-cards.html" . -}}
     {{ $new_customer := (dict "context" . "b" "/hem" "m" "offer" )}}
     {{- partial "banner-display.html" $new_customer }}
+    {{ $keep_track_of_your_jobs := (dict "context" . "b" "/hem" "m" "keep_track" )}}
+    {{- partial "banner-display" $keep_track_of_your_jobs -}}
     {{- partial "testimonials.html" . -}}
 {{ end }}

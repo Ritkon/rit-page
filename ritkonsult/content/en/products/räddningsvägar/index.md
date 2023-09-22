@@ -1,6 +1,6 @@
 ---
 title: 'Emergency routes'
-description: 'Emergency routes'
+description: 'Emergency routes are an overview drawing for larger properties that shows parking spaces for emergency services vehicles, rescue route signs and house numbers'
 banner:
     subline: 'Emergency routes are an overview drawing for larger properties that shows parking spaces for emergency services vehicles, rescue route signs and house numbers'
     image: 'räddningsvägar-exempel-2.webp'

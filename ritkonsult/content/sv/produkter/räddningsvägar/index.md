@@ -1,6 +1,6 @@
 ---
 title: 'Räddningsvägar'
-description: 'Räddningsvägar'
+description: 'Räddningsvägar är en översiktsritning för större fastigheter som visar uppställningsplatser för räddningstjänstens fordon, räddningsvägsskyltar och husnummer'
 banner:
     subline: 'Räddningsvägar är en översiktsritning för större fastigheter som visar uppställningsplatser för räddningstjänstens fordon, räddningsvägsskyltar och husnummer'
     image: 'räddningsvägar-exempel-2.webp'

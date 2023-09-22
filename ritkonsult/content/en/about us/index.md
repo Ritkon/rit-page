@@ -11,6 +11,15 @@ Ritkonsult started in the mid-90s as an IT company. We have worked with IT suppo
 
 In terms of evacuation plans and Systematic Fire Protection Work, we primarily work together with various fire protection companies.
 
-Today, we are Sweden's largest supplier of evacuation plans and we now have offices in Uddevalla, Örebro, Värnamo and Trollhättan.
+Today, we are Sweden's largest supplier of evacuation plans and we now have offices in Uddevalla, Värnamo and Trollhättan.
+
+## Ritkonsult has a clear business idea
+
+We shall be better than our competitors in all areas.
+
+- We have the fastest delivery time.
+- Draw with the best quality.
+- Offers the widest range of services.
+- Always have the lowest price.
 
 {{< /switcher >}}

@@ -2,7 +2,7 @@
 title: 'Räddningsvägar'
 description: 'Räddningsvägar'
 banner:
-    subline: 'Kontrollritningar är en del av det systematiska brandskyddsarbetet (SBA). Vi ritar idag huntratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell.'
+    subline: 'Räddningsvägar är en översiktsritning för större fastigheter som visar uppställningsplatser för räddningstjänstens fordon, räddningsvägsskyltar och husnummer'
     image: 'räddningsvägar-exempel-2.webp'
     image_alt: 'Ritning för räddningsvägar'
 heroBackground: 'name'

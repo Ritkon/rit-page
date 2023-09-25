@@ -4,10 +4,14 @@
     </div>
     <div class="image">
         {{- if .Get "image" -}}
-            {{ partial "helpers/picture-responsive.html" (dict 
-                "src" ( .Get "image")
-                "alt" ( .Get "alt")
-            ) }}
+            {{- if eq (.Get "image") "hans-jonasson-vd-ritkonsult.png" -}}
+                <img style="margin: 0 auto" src="/images/{{- .Get "image" -}}" alt="Hans Jonasson">
+            {{- else -}}
+                {{ partial "helpers/picture-responsive.html" (dict 
+                    "src" ( .Get "image")
+                    "alt" ( .Get "alt")
+                ) }}
+            {{- end -}}
         {{- end -}}
     </div>
 </div>

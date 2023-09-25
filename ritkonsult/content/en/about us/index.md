@@ -13,6 +13,10 @@ In terms of evacuation plans and Systematic Fire Protection Work, we primarily w
 
 Today, we are Sweden's largest supplier of evacuation plans and we now have offices in Uddevalla, Värnamo and Trollhättan.
 
+{{< /switcher >}}
+
+{{< switcher image="hans-jonasson-vd-ritkonsult.png" >}}
+
 ## Ritkonsult has a clear business idea
 
 We shall be better than our competitors in all areas.
@@ -21,5 +25,8 @@ We shall be better than our competitors in all areas.
 - Draw with the best quality.
 - Offers the widest range of services.
 - Always have the lowest price.
+
+**Hans Jonasson**\
+CEO Ritkonsult AB
 
 {{< /switcher >}}

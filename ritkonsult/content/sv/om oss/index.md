@@ -15,6 +15,9 @@ Vad det gäller utrymningsplaner och Systematiskt Brandskyddsarbete jobbar vi pr
 
 Vi är idag Sveriges största leverantör av utrymningsplaner och har idag kontor i Uddevalla, Värnamo och Trollhättan.
 
+{{< /switcher >}}
+
+{{< switcher image="hans-jonasson-vd-ritkonsult.png" >}}
 
 ## Ritkonsult har en tydlig affärside
 
@@ -27,5 +30,6 @@ Vi ska vara bättre än våra konkurrenter på alla områden.
 - Erbjuder det bredaste utbudet.
 - Har alltid det lägsta priset.
 
-
+**Hans Jonasson**\
+VD Ritkonsult AB
 {{< /switcher >}}

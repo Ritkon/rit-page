@@ -26,7 +26,7 @@ Vi har därför tagit fram en egen mall för kontrollritningar där varje kontro
 Vi ritar vanligtvis i CorelDraw men om ni önskar kan vi även leverera CAD-filer. 
 
 ## Leveranstid
-Leveranstid är normalt inom sju dagar. Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få filerna med de utrymningsplaner vi har ritat åt er.
+Leveranstid är normalt inom sju dagar. Som kund har ni också fri tillgång till originalfilen och kan när helst ni önskar få filerna med de kontrollritningar vi har ritat åt er.
 
 ## Garanti
 Vi lämnar kvalitetsgaranti, leveransgaranti, prisgaranti och nöjdkund-garanti. Det främsta skälet att anlita oss är inte priset utan vår kvalité och goda service.
@@ -53,6 +53,6 @@ Andra typer av kontrollritningar:
 
 Tillsammans med våra kunder har vi tagit fram en [arbetsmodell](/guider/kontrollritning) som sparar mycket tid för både er som kund och för oss när vi ritar. 
 
-Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen enligt vår mall för projektering. Mallen anger hur handbrandsläckare, larmknapp osv ska markeras, hur utrymningslinjerna ska dras och hur ritningen ska delas upp om den innehåller flera planer. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#kontrollritning).
+Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen enligt vår mall för projektering. Mallen anger hur handbrandsläckare, larmknapp osv ska markeras och hur ritningen ska delas upp om den innehåller flera planer. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#kontrollritning).
 
 Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till er. När ni godkänt korrekturet skickar vi kontrollritningen till er.

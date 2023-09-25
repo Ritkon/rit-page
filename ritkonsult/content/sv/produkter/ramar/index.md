@@ -69,6 +69,7 @@ Företag som **jobbar med utrymningsplaner**, **säljer ramar** eller på annat 
 Maila **<hans@ritkonsult.se>** och beskriv vad ni gör och vilka ramar ni önskar prov på.
 
 Priset för provramarna är:
+{ .ignore-flow }
 - Aluminiumram  **150 kr**
 - Snäppram    	**200 kr**
 - Plexiglasram	**250 kr**

@@ -1,6 +1,6 @@
 ---
 title: 'Frames'
-description: "We offer three different frames. Aluminum frame ALF, Snap frame, Plexiglas frame. You can buy our frames via www.billigaramar.se"
+description: "We offer three different frames. Aluminum frame ALF, Snap frame, Plexiglass frame. You can buy our frames via www.billigaramar.se"
 banner:
     subline: 'We have three different picture frames for you to choose from'
     image: 'frames1.webp'
@@ -49,7 +49,7 @@ A major advantage of the snap frame is that it requires no preparation in the of
 
 {{< switcher image="plexiram.webp" >}}
 
-## Plexiglas frame
+## Plexiglass frame
 
 The plexiglass frame is a stylish and exclusive frame. It consists of two thick sheets of plexiglass that protrudes from the wall when mounted. The rear panel is frosted which means that the background does not have to be white, although a very dark background is generally not suitable.
 
@@ -72,6 +72,6 @@ The price for the sample frames is:
 { .ignore-flow }
 - Aluminum frame    **150 SEK**
 - Snap frame        **200 SEK**
-- Plexiglas frame   **250 SEK**
+- Plexiglass frame   **250 SEK**
 {{% /banner-box %}}
 

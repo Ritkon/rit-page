@@ -5,7 +5,7 @@ translationKey: 'about'
 toc: false
 weight: 30
 ---
-{{< switcher image="/images/utp.jpg" >}}
+{{< switcher image="om_ritkonsult.png" >}}
 
 Ritkonsult started in the mid-90s as an IT company. We have worked with IT support and web production and that lead us to evacuation plans. One of our clients was a fire protection company who asked if we could also draw evacuation plans and of course we could. Nowadays, we have chosen to focus entirely on various drawing and picture services. Since 2009, we also sell picture frames at www.billigaramar.se.
 

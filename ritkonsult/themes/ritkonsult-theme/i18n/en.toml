@@ -7,6 +7,12 @@ other = 'Address'
 [blanketter]
 other = 'Forms'
 
+[contact]
+other = 'contact'
+
+[custom_product_banner]
+other = 'If you think we can help you draw something that is not listed in our products, you are more than welcome to <a href="{{ .link }}">contact us</a>.'
+
 [evacuation_plan]
 other = 'evacutaion plan'
 

@@ -1,0 +1,10 @@
+{{- $link := (printf "%s%s" site.Home.RelPermalink (i18n "contact")) -}}
+<div class="wrapper">
+    <div class="bg-symbol-green banner">
+        <div class="flow">
+            <div class="flow">
+                <p>{{- strings.FirstUpper (i18n "custom_product_banner" ( dict "link" $link)) | safeHTML  -}}</p>
+            </div>
+        </div>
+    </div>
+</div>

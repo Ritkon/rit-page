@@ -10,6 +10,12 @@ other = 'Adress'
 [blanketter]
 other = 'Blanketter'
 
+[contact]
+other = 'kontakt'
+
+[custom_product_banner]
+other = 'Tror du att vi kan hjälpa dig rita något som ej finns listat i våra produkter så är du varmt välkommen att <a href="{{ .link }}">höra av dig.</a>'
+
 [evacuation_plan]
 other = 'utrymningsplan'
 

@@ -7,4 +7,5 @@ cascade:
 translationKey: 'guider'
 green: true
 weight: 40
+construction: true
 ---

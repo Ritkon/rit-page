@@ -17,5 +17,5 @@ As a **registered customer**, you can also **[order through the web form at ritk
 {{< order-form-list >}}
 
 {{% banner-box color="white" title="Program for PDF files" title-h="2" %}}
-To open and easily comment on a PDF file, we recommend Foxit PDF reader which is free and can be downloaded here: [http://www.foxitsoftware.com/downloads/](http://www.foxitsoftware.com/downloads /)
+To open and easily comment on a PDF file, we recommend Foxit PDF reader which is free and can be downloaded here: [http://www.foxitsoftware.com/downloads/](http://www.foxitsoftware.com/downloads/)
 {{% /banner-box %}}

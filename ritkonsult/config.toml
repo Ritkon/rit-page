@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
     tel = '0522-829 98' 
     email = 'info@ritkonsult.se'
-    adress = 'Ritkonsult <br> Järnvägsgatan 15 <br> 331 37 Värnamo'
+    adress = 'Ritkonsult <br> Järnvägsgatan 15 <br> 331 37 Värnamo <br> Sweden'
     og_image = 'image_here'
     manifest_background = '#e8eae1'
     manifest_theme_color = '#9dab5f'
@@ -32,6 +32,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         contentDir = 'content/sv'
         languageName = 'Svenska'
         weight = 10
+        [languages.sv.params]
+            adress = 'Ritkonsult <br> Järnvägsgatan 15 <br> 331 37 Värnamo'
     [languages.en]
         contentDir = 'content/en'
         languageCode = 'en'

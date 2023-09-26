@@ -4,7 +4,7 @@
 {{ $page = where .context.Site.Pages "Type" $match }}
 {{ $color := "blue" }}
 
-<div class="wrapper">
+<div>
     {{ range first 1 $page}}
     <div class="{{ cond (ne .Params.color nil) (printf " bg-symbol-%s" .Params.color) "bg-symbol-blue" }} banner">
         <div class="flow">

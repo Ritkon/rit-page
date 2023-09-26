@@ -11,7 +11,7 @@ weight: 50
 Download the desired order form and send your order to <nytt@ritkonsult.se> together with the completed order form.
 
 {{% banner-box color="green" title="" title-h="2" type="sss" %}}
-As a **registered customer**, you can also **[order through the web form at ritkonsult.com](https://www.ritkonsult.com/bestall)**.
+As a **registered customer**, you can also **[order through the web form at ritkonsult.com](https://www.ritkonsult.com/bestall)**. (only evacuation plans for now)
 {{% /banner-box %}}
 
 {{< order-form-list >}}

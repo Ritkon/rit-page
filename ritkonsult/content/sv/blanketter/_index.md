@@ -11,7 +11,7 @@ weight: 50
 Ladda hem önskad blankett och skicka sedan in beställningen till <nytt@ritkonsult.se> tillsammans med den ifyllda beställningsblanketten. 
 
 {{% banner-box color="green" title="" title-h="2" type="sss" %}}
-Som **registrerad kund** kan du även **[beställa genom webbformuläret på ritkonsult.com](https://www.ritkonsult.com/bestall)**. 
+Som **registrerad kund** kan du även **[beställa genom webbformuläret på ritkonsult.com](https://www.ritkonsult.com/bestall)**. (endast utrymningsplaner för tillfället) 
 {{% /banner-box %}}
 
 {{< order-form-list >}}

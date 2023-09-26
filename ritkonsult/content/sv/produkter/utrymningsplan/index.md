@@ -52,7 +52,7 @@ Vi lämnar kvalitetsgaranti, leveransgaranti, prisgaranti och nöjdkund-garanti.
 
 Till företag som säljer utrymningsplaner kan vi erbjuda produktion av utrymningsplaner till mycket låg kostnad. Maila till prislista@ritkonsult.se så kommer den omgående. Kom ihåg att tydligt ange från vilket företag ni mailar. Ta även del av våra attraktiva [erbjudanden till nya kunder.](/erbjudanden)
 
-[Behöver ni en utrymningsplan till er egen fastighet kan ni fylla i era uppgifter här]() så skickar vi eller någon av våra partners en offert.
+[Behöver ni en utrymningsplan till er egen fastighet kan ni fylla i era uppgifter här](https://docs.google.com/forms/d/e/1FAIpQLSeiY4RLIAYLtd4R6pwxNEJjgXu2hsMb1W7wtw9cBG32I2e5eA/viewform) så skickar vi eller någon av våra partners en offert.
 
 {{< banner-box title="Prov" title-h="3" >}}
 Vill ni ha ett prov på vad vi erbjuder kan ni skicka oss ett mail eller ringa så skickar vi en utrymningsplan med posten.

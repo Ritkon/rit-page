@@ -52,7 +52,7 @@ We provide a quality guarantee, delivery guarantee, price guarantee and customer
 
 For companies that sell evacuation plans, we can offer production of evacuation plans at a very low cost. Mail to prislista@ritkonsult.se and it will be sent immediately. Remember to clearly state which company you are emailing from. Also take advantage of our attractive [offers for new customers](/en/offers).
 
-[If you need an evacuation plan for your own property, you can fill in your details here]() and we or one of our partners will send you a quote.
+[If you need an evacuation plan for your own property, you can fill in your details here](https://docs.google.com/forms/d/e/1FAIpQLSeiY4RLIAYLtd4R6pwxNEJjgXu2hsMb1W7wtw9cBG32I2e5eA/viewform) and we or one of our partners will send you a quote.
 
 {{< banner-box title="Sampels" title-h="3" >}}
 If you want a sample of what we offer, send us an email or call us and we will send you an evacuation plan by post.

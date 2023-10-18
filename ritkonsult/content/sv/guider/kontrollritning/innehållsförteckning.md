@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 'Innehållsförteckning'
 linktitle: 'Innehållsförteckning'
 description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritningar'

@@ -297,7 +297,7 @@ button {
 }
 
 .icon { 
-  display: inherit;
+  display: inline; /* inherit */
   /* margin-bottom: -.15em; */
   vertical-align: middle;
   padding-inline-end: .15em;

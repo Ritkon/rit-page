@@ -6,7 +6,7 @@
             <p class="card">
                 <a class="inline-block" title="Next page in {{ .Type }}" href="{{ .Permalink }}">
                     <span class="card-content-box flow">
-                        <span>{{ i18n "Next" }}</span>
+                        <span>{{ i18n "Next" }}<img style="padding: 0; margin-left: var(--scale00);" class="icon" src="/images/icons/arrow-right.svg" alt=""></span>
                             <span>{{ .Title }}</span>
                         
                     </span>
@@ -17,7 +17,7 @@
             <p class="card">
                 <a class="inline-block" title="Previous page in {{ .Type }}" href="{{ .Permalink }}">
                     <span class="card-content-box flow">
-                        <span>{{ i18n "Previous" }}</span>
+                        <span><img style="padding: 0; margin-right: var(--scale00);" class="icon" src="/images/icons/arrow-left.svg" alt="">{{ i18n "Previous" }}</span>
                             <span>{{ .Title }}</span>
                         
                     </span>

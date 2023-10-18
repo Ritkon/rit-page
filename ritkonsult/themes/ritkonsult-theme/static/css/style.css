@@ -632,12 +632,16 @@ blockquote + figcaption
   h1, h2, h3, h4 { break-after: avoid;}
   table, figure { break-inside: avoid;}
 
+  p { max-width: none !important;}
+
 /* figure img { display: inline-block;} */
   img, .image-box {
     display: inline-block;
     break-before: auto;
     break-after: auto;
     break-inside: avoid;
+
+    max-width: 45ch;
   }
 
   body > header
@@ -650,7 +654,7 @@ blockquote + figcaption
     display: none !important;
   }
 
-  .wrapper { --max-width: 100%; --side-padding:0; column-count: 2; column-fill: auto; orphans: 2;}
+  .wrapper { --max-width: 100%; --side-padding:0; column-count: 1; column-fill: auto; orphans: 2;}
   .print {}
   .full-page-print {break-before: page; break-after: page; }
   .full-page-print h1 {break-before: page;}

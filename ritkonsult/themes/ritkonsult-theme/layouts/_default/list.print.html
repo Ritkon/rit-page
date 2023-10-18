@@ -10,8 +10,9 @@
         {{ end }}
         
             <!-- <ul class="gap-big-list flow"> -->
-                {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
-                    
+                {{ range (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
+                    {{ with .Params.skip_in_full_guide_print }}
+                    {{ else }}
                 <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}"> -->
                       <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
                           <h1 class="">
@@ -46,7 +47,7 @@
                             
                       </article>
                   <!-- </li> -->
-
+                      {{ end }}
                 {{ end }}
             <!-- </ul> -->
 

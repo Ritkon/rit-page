@@ -11,6 +11,7 @@ toc_h1: true
 toc_heading: ''
 by_weight: true
 weight: 110
+skip_in_full_guide_print: true
 ---
 
 Behöver du göra någon ändring, som att lägga till symboler eller ändra på väggar. 

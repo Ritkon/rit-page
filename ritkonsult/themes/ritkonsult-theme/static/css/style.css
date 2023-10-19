@@ -617,13 +617,14 @@ blockquote + figcaption
   }
 
   :root {
-    font-size: 1rem;
-    --fs-500: 1.1rem;
+    font-size: 12pt;
+    --ratio: 1.05;
+    /* --fs-500: 1.1rem;
     --fs-600: 1.1rem;
     --fs-700: 1.2rem;
     --fs-800: 1.2rem;
-    --fs-900: 1.4rem;
-    --fs-1000: 1.4rem;
+    --fs-900: 1.25rem;
+    --fs-1000: 1.25rem; */
     --gap:1.4rem;
   }
 
@@ -637,11 +638,13 @@ blockquote + figcaption
 /* figure img { display: inline-block;} */
   img, .image-box {
     display: inline-block;
-    break-before: auto;
-    break-after: auto;
     break-inside: avoid;
 
-    max-width: 45ch;
+    /* max-width: 45ch; */
+  }
+
+  li {
+    break-inside: avoid;
   }
 
   body > header
@@ -654,7 +657,7 @@ blockquote + figcaption
     display: none !important;
   }
 
-  .wrapper { --max-width: 100%; --side-padding:0; column-count: 1; column-fill: auto; orphans: 2;}
+  .wrapper { --max-width: 100%; --side-padding:0; column-count: 2; column-gap: .45cm; /*column-fill: auto;*/ orphans: 2;}
   .print {}
   .full-page-print {break-before: page; break-after: page; }
   .full-page-print h1 {break-before: page;}

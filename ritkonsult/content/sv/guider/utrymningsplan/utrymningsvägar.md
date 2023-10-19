@@ -25,7 +25,7 @@ weight: 20
 
 Trappor som används för utrymning ska markeras med grön färg (överstrykningspenna).
 
-{{< figure src="guides/utp/escape-stairs.svg, guides/utp/escape-stairs-demo.svg" alt="Trapporna på underlaget som är del av utrymningsvägen har markerats med grön färg\e Utrymningsplan med trappor som har grön bakgrund" caption="Trappor som används för utrymning" class-="hide-on-print" >}}
+{{< figure src="guides/utp/escape-stairs.svg, guides/utp/escape-stairs-demo.svg" alt="Trapporna på underlaget som är del av utrymningsvägen har markerats med grön färg\e Utrymningsplan med trappor som har grön bakgrund" caption="Trappor som används för utrymning" class-="hide-on-print-full-guide" >}}
 
 ## Funktionsanpassad utrymning
 

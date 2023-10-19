@@ -18,7 +18,8 @@
                           <h1 class="">
                                 {{ .Title }}
                             </h1>
-                            {{ .Content}}
+                            <!-- {{ .Content}} -->
+                            {{ .Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
                                 {{ if eq .BundleType "branch"}}
                                     <ul class="symbol-card-box grid">
                                         <!-- Ranges through content/posts/*.md -->

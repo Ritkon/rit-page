@@ -3,6 +3,11 @@
 {{ if .Params.card }}
 <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
   <div class="symbol-card-image-box">
+    <!-- test -->
+    <div style="background-color: black; position: absolute;">
+      <p style="padding: .2em .8em; font-size: 1.25rem; color: white;">{{ .Weight }}</p>
+    </div>
+    <!-- test end -->
     {{ if .Params.symbol_image}}
       {{ partial "helpers/picture-responsive.html" (dict 
           "src" .Params.symbol_image 
@@ -12,7 +17,7 @@
   </div>
   <div class="card-content-box">
     <h2 class="">
-          {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}. {{ .Title }}
+          {{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}{{ .Title }}
       </h2>
       {{ .Content}}
   </div>

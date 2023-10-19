@@ -27,6 +27,10 @@ Trappor som används för utrymning ska markeras med grön färg (överstrykning
 
 {{< figure src="guides/utp/escape-stairs.svg, guides/utp/escape-stairs-demo.svg" alt="Trapporna på underlaget som är del av utrymningsvägen har markerats med grön färg\e Utrymningsplan med trappor som har grön bakgrund" caption="Trappor som används för utrymning" class-="hide-on-print-full-guide" >}}
 
+## Utrymning via fönster
+
+Om utrmning sker via fönster så ange det med text intill pilen du har ritat. 
+
 ## Funktionsanpassad utrymning
 
 Utrymning som är anpassade för personer med funktionsvariationer markeras ut med siffrorna 12 (Utrymningsplats) eller 13 (Nödutgång för personer med rörelsenedsättning). [Här kan du se hur symboler ska markeras ut](/guider/utrymningsplan/symboler) och du hittar våra [symbolnnummer här.](/guider/utrymningsplan/symbolnummer)

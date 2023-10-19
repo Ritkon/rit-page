@@ -18,7 +18,7 @@ Vår mall bygger på att varje objekt som handbrandsläckare, brandpost mm marke
 
 Du behöver bara skriva ut siffran där objektet ska vara placerad.
 
-{{< figure src="guides/utp/symbol-5-b.svg, guides/utp/symbol-5-demo-b.svg" alt="En 5 är skriven vid en väg på underlaget för att visa var brandsläckarsymbol ska placeras\e En brandsläckarsymbol har placerats vid en väg på den färdiga utrymningsplanen" >}}
+{{< figure src="guides/utp/symbol-5-b.svg, guides/utp/symbol-5-demo-b.svg" alt="En 5 är skriven vid en väg på underlaget för att visa var brandsläckarsymbol ska placeras\e En brandsläckarsymbol har placerats vid en väg på den färdiga utrymningsplanen" class-="hide-on-print-full-guide">}}
 
 Ska flera objekt sitta på samma plats. Så skriver du kommatecken mellan siffrorna. 
 
@@ -48,8 +48,7 @@ Har ni beställt olika typer av produkter (tex laminat och ram). Skriv då ut de
 
 Har ritningen/planet flera "Här är du" -punkter på samma sida så skickar vi första korrektur med alla punkter på en sida. Detta för att göra det smidigare att märka ut [eventuella ändringar](/guider/utrymningsplan/korrigering/) som du vill göra. När du har godkänt sidan för vridning (instruktioner för detta finns i mailet som kommer med korrekturen) så vrider vi alla "Här är du" -punkter till var sin sida.
 
-### Ingen här är du punkt
-{ .hide-on-print }
+### Ingen här är du punkt { .hide-on-print }
 
 Ska utrymningsplanen inte ha någon "Här är du" symbol så följer du instruktionerna för [jobb utan "Här är du" symbol](/guider/utrymningsplan/jobb-utan-här-är-du-punkter/).
 { .hide-on-print }

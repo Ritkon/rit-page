@@ -11,6 +11,7 @@ toc_h1: true
 toc_heading: ''
 by_weight: true
 weight: 100
+skip_in_full_guide_print: true
 ---
 
 Du behöver en orderblankett för att göra din beställning.

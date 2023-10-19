@@ -19,7 +19,7 @@ weight: 20
 
 {{< figure src="/guides/utp/escape-1-b.svg, /guides/utp/escape-1-demo-b.svg" alt="Ett grönt streck ritat mellan två dörrar. Strecket avslutas med tydliga pilar i dörröppningarna\e Färdig utrymningsplan som visar hur pilarna och utrymningsvägen har ritats ut enligt markeringarna på underlaget" caption="Utrymningsväg med linje." >}}
 
-{{< figure src="/guides/utp/escape-2-b.svg, /guides/utp/escape-2-demo-b.svg" alt="Pilar ritade i dörröppningarna på underlaget till en utrymningsplan\e Färdig utrymningsplan som visar hur pilarna har markerats ut i dörrarna som markerades på underlaget" caption="Utrymningsväg med endast pil." >}}
+{{< figure src="/guides/utp/escape-2-b.svg, /guides/utp/escape-2-demo-b.svg" alt="Pilar ritade i dörröppningarna på underlaget till en utrymningsplan\e Färdig utrymningsplan som visar hur pilarna har markerats ut i dörrarna som markerades på underlaget" caption="Utrymningsväg med endast pil." class-="hide-on-print-full-guide" >}}
 
 ## Trappor
 

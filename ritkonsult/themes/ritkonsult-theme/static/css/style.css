@@ -640,6 +640,7 @@ blockquote + figcaption
     display: inline-block;
     break-inside: avoid;
 
+    max-width: 7cm;
     /* max-width: 45ch; */
   }
 

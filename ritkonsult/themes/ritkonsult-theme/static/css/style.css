@@ -662,6 +662,27 @@ blockquote + figcaption
   .print {}
   .full-page-print {break-before: page; break-after: page; }
   .full-page-print h1 {break-before: page;}
+
+  .sym-table > * {
+    display: flex;
+    padding: .15rem 0;
+    border-bottom: 1px solid;
+    break-inside: avoid;
+  }
+  .sym-table > * > :first-child {
+    min-width: 2rem;
+  }
+  .sym-table > * > :nth-child(2) {
+    min-width: 3rem;
+  }
+  .sym-table > * > :nth-child(2) img {
+    min-width: 2rem;
+  }
+  .sym-table > * > div {
+    display: flex;
+    align-items: center;
+    padding: 0 .4rem 0 .4rem;
+  }
   
   /* .wrapper .full-page-print + .print h1 {break-before: left;} */
   /* article  {break-after:column; display: block;} */

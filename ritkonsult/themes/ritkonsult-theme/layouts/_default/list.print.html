@@ -21,11 +21,29 @@
                             <!-- {{ .Content}} -->
                             {{ .Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
                                 {{ if eq .BundleType "branch"}}
-                                    <ul class="symbol-card-box grid">
+                                    <!-- <ul class="symbol-card-box grid"> -->
+                                    <!-- try table -->
+                                    <div class="sym-table">
                                         <!-- Ranges through content/posts/*.md -->
                                         {{ range .Pages }}
                                         {{ if .Params.card }}
-                                        <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
+                                                    <div>
+                                                        <div>
+                                                            {{ .Weight }}
+                                                        </div>
+                                                        <div>
+                                                            {{ if .Params.symbol_image}}
+                                                                {{ partial "helpers/picture-responsive.html" (dict 
+                                                                    "src" .Params.symbol_image 
+                                                                    "alt" .Title
+                                                                ) }}
+                                                            {{ end }}
+                                                        </div>
+                                                        <div>
+                                                            {{ .Title }}
+                                                        </div>
+                                                    </div>
+                                        <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
                                         <div class="symbol-card-image-box">
                                             {{ if .Params.symbol_image}}
                                                 {{ partial "helpers/picture-responsive.html" (dict 
@@ -37,13 +55,15 @@
                                         <div class="card-content-box">
                                             <h2 class="">
                                                 {{ .Weight }}. {{ .Title }}
-                                            </h2>
+                                            </h2> -->
                                             <!-- {{ .Content}} -->
-                                        </div>
-                                        </li>
+                                        <!-- </div>
+                                        </li> -->
                                         {{ end }}
                                         {{ end }}
-                                        </ul>
+                                        <!-- </ul> -->
+                                    </div>
+                                <!-- end table  -->
                                 {{ end }}
                             
                       </article>

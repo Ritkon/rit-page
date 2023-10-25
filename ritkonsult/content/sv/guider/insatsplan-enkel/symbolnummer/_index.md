@@ -17,7 +17,8 @@ cascade:
         list: true
         render: false
 ---
-
+{{% hide-on-print %}}
 Här hittar du nummren som andvänds för att indikera vilken symbol som ska sättas ut på den färdiga insatsplanen. [Mer information om hur underlaget ska se ut finns här.](/guider/insatsplan)
 
 Finns symbolen du letar efter inte med? Kontakta oss så hjälper vi dig att rita den.
+{{% /hide-on-print %}}

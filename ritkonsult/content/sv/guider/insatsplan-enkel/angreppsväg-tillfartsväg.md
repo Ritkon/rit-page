@@ -15,17 +15,16 @@ weight: 20
 
 ## Angreppsväg
 
-Angreppsväg viktig (numrerad) rita en pil där den ska sitta. På baksidan av pilen gör du en ring och skriver siffran i den.
+Angreppsvägar markeras med en pil där du vill att den ska sitta.
+
+Vill du ha en numrerad pil, gör du en ring på baksidan av pilen och skriver siffran i den.
 
 {{< figure src="/images/guides/utp/escape-1-b.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-1-demo-b.svg" caption="Utrymningsväg med linje" >}}
 
-Angreppsväg viktig (röd) och angreppsväg övrig markeras ut genom att rita en pil där den ska sitta.
-
-{{< figure src="/images/guides/utp/escape-2-b.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" caption="Utrymningsväg med endast pil" >}}
 
 ## Tillfartsväg
 
-Tillfartsväg markeras ut med en pil där den ska sitta. På baksidan av pilen gör du en ring och skriver bokstaven i den.
+Tillfartsväg markeras också ut med en pil. På baksidan av pilen gör du en ring och skriver bokstaven i den.
 
 {{< figure src="/images/guides/utp/escape-stairs.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-stairs-demo.svg" caption="Trappor som används för utrymning" >}}
 

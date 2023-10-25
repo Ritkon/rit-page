@@ -1,6 +1,6 @@
 ---
-title: 'Rumsnamn och rumsnummer som ska vara med'
-linktitle: 'Rumsnamn och rumsnummer som ska vara med'
+title: 'Rumsnamn och nummer'
+linktitle: 'Rumsnamn och nummer'
 description: 'I denna del av guiden för ritkonsults insatspan går vi igenom hur du ska markera rum som ska gråläggas, hyllor och övrig inredning som du vill ha med på insatsplanen.'
 listHeading: 'Namn på rum'
 list_description: ''

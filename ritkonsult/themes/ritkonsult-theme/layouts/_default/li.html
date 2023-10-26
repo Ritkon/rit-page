@@ -5,7 +5,7 @@
   <div class="symbol-card-image-box">
     <!-- test -->
     <div style="background-color: #1b1b1b; position: absolute; box-shadow: 0 0 .6em rgba(0,0,0,.18); margin: -3px 0 0 -3px">
-      <p style="padding: .2em .8em; font-size: 1.25rem; color: white; font-weight: 800;">{{ .Weight }}</p>
+      <p style="padding: .2em .8em; font-size: 1.25rem; color: white; font-weight: 800;">{{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}</p>
     </div>
     <!-- test end -->
     {{ if .Params.symbol_image}}
@@ -17,7 +17,7 @@
   </div>
   <div class="card-content-box">
     <h2 class="">
-          {{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}{{ .Title }}
+          {{ .Title }}
       </h2>
       {{ .Content}}
   </div>

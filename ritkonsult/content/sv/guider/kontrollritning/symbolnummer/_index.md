@@ -4,7 +4,7 @@ linktitle: 'Symbolnummer'
 description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritning'
 listHeading: 'Symbolnummer'
 list_description: ''
-translationKey: 'symbolnummer'
+translationKey: 'kr-symbols'
 series: 'kontrollritnings-guide'
 toc: true
 toc_heading: 'Symboler som finns på denna sida. A-Ö'

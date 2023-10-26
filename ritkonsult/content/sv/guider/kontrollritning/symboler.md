@@ -1,8 +1,8 @@
 ---
-title: 'Objekt/Symbol placering'
-linktitle: 'Objekt/Symbol placering'
+title: 'Placering av kontrollpunkterna'
+linktitle: 'Placering av kontrollpunkterna'
 description: 'Så här markerar du kontrollpunkternas placering på ditt underlag'
-listHeading: 'Objekt/Symbol placering'
+listHeading: 'Placering av kontrollpunkterna'
 list_description: ''
 translationKey: 'kr-symbol-placment'
 series: 'kontrollritnings-guide'
@@ -18,6 +18,6 @@ Vår mall bygger på att varje objekt som handbrandsläckare, brandpost mm marke
 
 Från objektets placering dras ett streck till en tom yta. Där skriver ni först siffran som anger punktens ordning, följt av kontrollpunktens nummer. 
 
-{{< figure src="/images/guides/utp/symbol-527-b.svg" alt="Ett exempel på hur man märker ut flera objekt som ska sitta på samma plats på underlaget. Exemplet visar detta genom att markera ut siffrorna 5 (handbrandsläckare), 2 brandfilt, 7 larmtryckknapp separerade med ett kommatecken." src2="/images/guides/utp/symbol-527-demo-b.svg" >}}
+{{< figure src="guides/kr/kr-placera-kontrollpunkt.svg, guides/kr/kr-placera-kontrollpunkt-ritning.svg" alt="Ett exempel på hur man märker ut två st kontrollpunkter med ordningsnummer. Exemplet visar detta genom att markera ut siffrorna 1-5 (handbrandsläckare), 2-7 larmtryckknapp" >}}
 
 Vill ni ej ha ordningsnummer så hoppar ni bara över att ange dem. 

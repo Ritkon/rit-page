@@ -19,7 +19,7 @@ cascade:
         render: false
 ---
 {{% hide-on-print %}}
-Här hittar du numren som andvänds för att indikera vilken symbol som ska sättas ut på den färdiga utrymningsplanen. [Du märker ut vart symbolen ska sitta på detta s](/guider/kontrollritning/symboler)
+Den svarta rutan bredvid varje symbol visar vilken siffra som tillhör just den symbolen. Se [placering av kontrollpunkterna](/guider/kontrollritning/symboler) för hur du markerar symbolens placering med symbolnumret.
 
 Saknar du en symbol? Kontakta oss så hjälper vi dig att rita den.
 {{% /hide-on-print %}}

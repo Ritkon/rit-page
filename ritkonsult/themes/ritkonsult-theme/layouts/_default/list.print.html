@@ -29,7 +29,7 @@
                                         {{ if .Params.card }}
                                                     <div>
                                                         <div>
-                                                            {{ .Weight }}
+                                                            {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}
                                                         </div>
                                                         <div>
                                                             {{ if .Params.symbol_image}}

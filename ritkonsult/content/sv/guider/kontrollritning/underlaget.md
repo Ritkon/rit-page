@@ -4,7 +4,7 @@ linktitle: 'Bild på byggnadsritning'
 description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritningar'
 listHeading: 'Byggnads underlaget'
 list_description: ''
-translationKey: 'underlaget'
+translationKey: 'kr-blueprint'
 series: 'kontrollritnings-guide'
 toc: true
 toc_heading: ''

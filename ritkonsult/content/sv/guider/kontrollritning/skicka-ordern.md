@@ -4,7 +4,7 @@ linktitle: 'Skicka beställningen'
 description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
 listHeading: 'Grå rum och hyllor'
 list_description: ''
-translationKey: 'send-order'
+translationKey: 'kr-send-order'
 series: 'kontrollritnings-guide'
 toc: true
 toc_h1: true

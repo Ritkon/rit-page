@@ -14,6 +14,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     og_image = 'image_here'
     manifest_background = '#e8eae1'
     manifest_theme_color = '#9dab5f'
+[markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
 [markup.goldmark.parser.attribute]
     block = true
 [outputFormats]

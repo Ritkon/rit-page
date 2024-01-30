@@ -14,11 +14,11 @@
 )) -}}
   <img src="{{ $finalImage.src }}" alt="{{ .alt }}" width="{{ $finalImage.width }}" height="{{ $finalImage.height }}" loading="{{ cond (ne .loading nil) "eager" "lazy" }}" srcset="{{ delimit $finalImage.srcsetw ", " }}"  {{ if eq .sizes "hero" }}sizes="(min-width: 861px) 33vw,
   90vw"{{- else if .sizes -}}sizes="{{ .sizes }}"{{- else -}}sizes="(min-width: 861px) 80vw,
-  90vw"{{ end }}>
+  90vw"{{ end }} {{ with .class }}class="{{ . }}"{{ end}}>
 {{ else }}
   {{ $svgContent := (resources.Get $src).Content }}
   {{ $viewBoxSizes := split (index (split (index (split $svgContent `viewBox=`) 1) `"`) 1) ` ` }}
   {{ $width := float (index $viewBoxSizes 2) }}
   {{ $height := float (index $viewBoxSizes 3) }}
-  <img src="{{ $src.RelPermalink }}" alt="{{ .alt }}" width="{{ $width }}" height="{{ $height }}" loading="{{ cond (ne .loading nil) "eager" "lazy" }}">
+  <img src="{{ $src.RelPermalink }}" alt="{{ .alt }}" width="{{ $width }}" height="{{ $height }}" loading="{{ cond (ne .loading nil) "eager" "lazy" }}" {{ with .class }}class="{{ . }}"{{ end}}>
 {{ end }}

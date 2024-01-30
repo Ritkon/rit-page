@@ -1,4 +1,5 @@
 {{ define "main" }}
+    {{ $sym := .}}
         <div class="wrapper flow">
             <h1 id="main-content"  class="hero">{{ .Title }}</h1>
             <p class="h1-tag">{{ strings.FirstUpper  (i18n "printable_version") }}</p>
@@ -14,37 +15,41 @@
                     {{ with .Params.skip_in_full_guide_print }}
                     {{ else }}
                 <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}"> -->
-                      <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
-                          <h1 class="">
-                                {{ .Title }}
-                            </h1>
-                            <!-- {{ .Content}} -->
-                            {{ .Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
-                                {{ if eq .BundleType "branch"}}
-                                    <!-- <ul class="symbol-card-box grid"> -->
-                                    <!-- try table -->
-                                    <div class="sym-table">
-                                        <!-- Ranges through content/posts/*.md -->
-                                        {{ range .Pages }}
-                                        {{ if .Params.card }}
-                                                    <div>
-                                                        <div>
-                                                            {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}
-                                                        </div>
-                                                        <div>
-                                                            {{ if .Params.symbol_image}}
-                                                                {{ partial "helpers/picture-responsive.html" (dict 
-                                                                    "src" .Params.symbol_image 
-                                                                    "alt" .Title
-                                                                ) }}
-                                                            {{ end }}
-                                                        </div>
-                                                        <div>
-                                                            {{ .Title }}
-                                                        </div>
-                                                    </div>
-                                        <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
-                                        <div class="symbol-card-image-box">
+                        {{ if eq .Params.print_last true}}
+                            {{ $sym = . }}
+                        {{ else }}
+                            <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
+                                <h1 class="">
+                                    {{ .Title }}
+                                </h1>
+                                <!-- {{ .Content}} -->
+                                {{ .Content | replaceRE "hide-on-print-full-guide" "hide-on-print hide" | safeHTML }}
+                                    {{ if eq .BundleType "branch"}}
+                                        {{ $sym = . }}
+                                    {{ end }}
+                                
+                            </article>
+                        {{ end }}
+                      
+                  <!-- </li> -->
+                      {{ end }}
+                {{ end }}
+            <!-- </ul> -->
+            <article class="flow print {{ if $sym.Params.print_full }}full-page-print{{ end }}">
+                <h1 class="">
+                    {{ $sym.Title }}
+                </h1>
+            {{ $sym.Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
+                {{ if eq .BundleType "branch"}}
+                    <div class="sym-table">
+                        <!-- Ranges through content/posts/*.md -->
+                        {{ range $sym.Pages }}
+                        {{ if .Params.card }}
+                                    <div>
+                                        <div>
+                                            {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}
+                                        </div>
+                                        <div>
                                             {{ if .Params.symbol_image}}
                                                 {{ partial "helpers/picture-responsive.html" (dict 
                                                     "src" .Params.symbol_image 
@@ -52,25 +57,14 @@
                                                 ) }}
                                             {{ end }}
                                         </div>
-                                        <div class="card-content-box">
-                                            <h2 class="">
-                                                {{ .Weight }}. {{ .Title }}
-                                            </h2> -->
-                                            <!-- {{ .Content}} -->
-                                        <!-- </div>
-                                        </li> -->
-                                        {{ end }}
-                                        {{ end }}
-                                        <!-- </ul> -->
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
                                     </div>
-                                <!-- end table  -->
-                                {{ end }}
-                            
-                      </article>
-                  <!-- </li> -->
-                      {{ end }}
-                {{ end }}
-            <!-- </ul> -->
-
+                        {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </article>
+            </div>
     </div>
 {{ end }}

@@ -664,3 +664,57 @@ Ramen finns i storlekarna från A4 och A3.
         <p>Error code: 404</p>
         {{ .Content }}
     {{ end }}
+
+
+    {{< imgh src="guides/utp/position-side.svg" alt="Placerar sin kamera/mobil felaktigt på sidan om ritningen för att ta kort">}}
+{{< imgh src="guides/utp/parallel.svg" alt="Placerar sin kamera/mobil korrekt parallelt med ritningen för att ta kort">}}
+
+
+
+
+{{ if eq .BundleType "branch"}}
+                                {{ $sym = . }}
+                                    <!-- <ul class="symbol-card-box grid"> -->
+                                    <!-- try table -->
+                                    <div class="sym-table">
+                                        <!-- Ranges through content/posts/*.md -->
+                                        {{ range .Pages }}
+                                        {{ if .Params.card }}
+                                                    <div>
+                                                        <div>
+                                                            {{ .Weight }}{{- if .Params.sym_letter -}}{{- .Params.sym_letter  -}}{{- end -}}
+                                                        </div>
+                                                        <div>
+                                                            {{ if .Params.symbol_image}}
+                                                                {{ partial "helpers/picture-responsive.html" (dict 
+                                                                    "src" .Params.symbol_image 
+                                                                    "alt" .Title
+                                                                ) }}
+                                                            {{ end }}
+                                                        </div>
+                                                        <div>
+                                                            {{ .Title }}
+                                                        </div>
+                                                    </div>
+                                        <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}">
+                                        <div class="symbol-card-image-box">
+                                            {{ if .Params.symbol_image}}
+                                                {{ partial "helpers/picture-responsive.html" (dict 
+                                                    "src" .Params.symbol_image 
+                                                    "alt" .Title
+                                                ) }}
+                                            {{ end }}
+                                        </div>
+                                        <div class="card-content-box">
+                                            <h2 class="">
+                                                {{ .Weight }}. {{ .Title }}
+                                            </h2> -->
+                                            <!-- {{ .Content}} -->
+                                        <!-- </div>
+                                        </li> -->
+                                        {{ end }}
+                                        {{ end }}
+                                        <!-- </ul> -->
+                                    </div>
+                                <!-- end table  -->
+                                {{ end }}

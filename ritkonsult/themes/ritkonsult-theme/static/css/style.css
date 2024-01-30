@@ -413,6 +413,10 @@ blockquote + figcaption
   margin-bottom: 2rem;
 } */
 
+.hide {
+  display: none;
+}
+
 .banner {
   padding: var(--scale1); /*2em*/
   border-left: 0.5em solid var(--clr-neutral-900);
@@ -631,6 +635,7 @@ blockquote + figcaption
   .flow > h1 + * {margin-top: 1.4rem;}
 
   h1, h2, h3, h4 { break-after: avoid;}
+  h2 {font-size: 1rem;}
   table, figure { break-inside: avoid;}
 
   p { max-width: none !important;}

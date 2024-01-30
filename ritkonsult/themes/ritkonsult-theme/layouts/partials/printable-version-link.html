@@ -3,5 +3,5 @@
     {{ if eq .Parent.RelPermalink .FirstSection.RelPermalink }}
         {{ $link = ( printf "%sprint.html" .Page.RelPermalink ) }}
     {{ end }}
-    <p class="hide-on-print"><a href="{{ $link }}">{{ i18n "view_a_printable_version_of_the_whole_guide"}}</a> Du kan även spara sidan som pdf-fil i utsriftsdialogen.</p>
+    <p class="hide-on-print"><a href="{{ $link }}">{{ i18n "view_a_printable_version_of_the_whole_guide"}}</a> {{ i18n "save_page_as_pdf_in_print_dialog"}}</p>
 {{ end }}

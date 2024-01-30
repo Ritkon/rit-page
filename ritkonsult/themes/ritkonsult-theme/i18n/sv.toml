@@ -88,6 +88,9 @@ other = 'lästid'
 [Ritkonsults_clients_says]
 other = 'Ritkonsults kunder säger'
 
+[save_page_as_pdf_in_print_dialog]
+other = "Du kan även spara sidan som en pdf-fil i utsriftsdialogen."
+
 [see_all]
 other = 'se alla'
 
@@ -107,7 +110,7 @@ other = 'Innehållsförteckning'
 other = 'Vi arbetar med att lägga in och uppdatera guiderna för våra produkter. Saknar du något så får du gärna höra av dig.'
 
 [view_a_printable_version_of_the_whole_guide]
-other = 'Visa utskriftsvänlig version av hela guiden'
+other = 'Visa utskriftsvänlig version av denna guide.'
 
 [You_can_find_drawings_made_by_Ritkonsult_at]
 other = 'Du kan hitta ritningar gjorda av Ritkonsult hos'

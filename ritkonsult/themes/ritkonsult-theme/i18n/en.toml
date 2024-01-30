@@ -84,6 +84,9 @@ other = 'reading time'
 [Ritkonsults_clients_says]
 other = "Ritkonsult's clients says"
 
+[save_page_as_pdf_in_print_dialog]
+other = "You can also save the page as a PDF file in the print dialog."
+
 [see_all]
 other = 'see all'
 
@@ -103,7 +106,7 @@ other = 'Table of contents'
 other = 'We are working on adding and updating all guides for our products. If you need something that is missing, please let us know.'
 
 [view_a_printable_version_of_the_whole_guide]
-other = 'View a printable version of the whole guide'
+other = 'View a printable version of this guide.'
 
 [You_can_find_drawings_made_by_Ritkonsult_at]
 other = 'You can find drawings made by Ritkonsult at'

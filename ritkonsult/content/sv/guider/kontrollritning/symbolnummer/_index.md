@@ -9,6 +9,7 @@ series: 'kontrollritnings-guide'
 toc: true
 toc_heading: 'Symboler som finns på denna sida. A-Ö'
 print_full: true
+print_last: true
 by_weight: true
 weight: 30
 _build:

@@ -1,7 +1,8 @@
 ---
 title: 'Pastellgrön'
-symbol_image: '/images/colors/insats/pg.webp'
+symbol_image: 'colors/insats/pg.webp'
 weight: 12
+card: true
 sym_letter: 'PG'
 ---
 

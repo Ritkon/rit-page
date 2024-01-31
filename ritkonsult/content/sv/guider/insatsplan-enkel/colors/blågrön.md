@@ -1,7 +1,8 @@
 ---
 title: 'Blågrön'
-symbol_image: '/images/colors/insats/bg.webp'
+symbol_image: 'colors/insats/bg.webp'
 weight: 11
+card: true
 sym_letter: 'BG'
 ---
 

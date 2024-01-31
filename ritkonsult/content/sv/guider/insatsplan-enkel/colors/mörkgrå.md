@@ -1,7 +1,8 @@
 ---
 title: 'Mörkgrå'
-symbol_image: '/images/colors/insats/mg.webp'
+symbol_image: 'colors/insats/mg.webp'
 weight: 3
+card: true
 sym_letter: 'MG'
 ---
 

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $sym := .}}
+    {{ $sym := slice }}
         <div class="wrapper flow">
             <h1 id="main-content"  class="hero">{{ .Title }}</h1>
             <p class="h1-tag">{{ strings.FirstUpper  (i18n "printable_version") }}</p>
@@ -16,7 +16,7 @@
                     {{ else }}
                 <!-- <li id="{{ anchorize .LinkTitle }}" class="symbol-card card {{ cond (ne .Params.card_color nil) .Params.card_color "" }}"> -->
                         {{ if eq .Params.print_last true}}
-                            {{ $sym = . }}
+                            {{ $sym = $sym | append . }}
                         {{ else }}
                             <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
                                 <h1 class="">
@@ -35,15 +35,16 @@
                       {{ end }}
                 {{ end }}
             <!-- </ul> -->
-            <article class="flow print {{ if $sym.Params.print_full }}full-page-print{{ end }}">
+            {{ range $sym }}
+            <article class="flow print {{ if .Params.print_full }}full-page-print{{ end }}">
                 <h1 class="">
-                    {{ $sym.Title }}
+                    {{ .Title }}
                 </h1>
-            {{ $sym.Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
+            {{ .Content | replaceRE "hide-on-print-full-guide" "hide-on-print" | safeHTML }}
                 {{ if eq .BundleType "branch"}}
                     <div class="sym-table">
                         <!-- Ranges through content/posts/*.md -->
-                        {{ range $sym.Pages }}
+                        {{ range .Pages }}
                         {{ if .Params.card }}
                                     <div>
                                         <div>
@@ -65,6 +66,7 @@
                     {{ end }}
                     {{ end }}
                 </article>
+            {{ end }}
             </div>
     </div>
 {{ end }}

@@ -1,7 +1,8 @@
 ---
 title: 'Blå'
-symbol_image: '/images/colors/insats/bl.webp'
+symbol_image: 'colors/insats/bl.webp'
 weight: 10
+card: true
 sym_letter: 'BL'
 ---
 

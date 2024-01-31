@@ -1,7 +1,8 @@
 ---
 title: 'Ljusbeige'
-symbol_image: '/images/colors/insats/lb.webp'
+symbol_image: 'colors/insats/lb.webp'
 weight: 4
+card: true
 sym_letter: 'LB'
 ---
 

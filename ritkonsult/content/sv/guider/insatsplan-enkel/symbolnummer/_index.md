@@ -5,7 +5,7 @@ description: 'Guide för hur underlaget ska se ut för Ritkonsults insatsplan'
 listHeading: 'Symbolnummer'
 list_description: ''
 translationKey: 'symbolnummer-insatsplan'
-series: 'insatsplan-guide'
+series: 'insatsplans-guide'
 toc: true
 toc_heading: 'Symboler som finns på denna sida. A-Ö'
 print_full: true

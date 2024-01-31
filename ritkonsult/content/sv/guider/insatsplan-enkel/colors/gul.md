@@ -1,7 +1,8 @@
 ---
 title: 'Gul'
-symbol_image: '/images/colors/insats/gu.webp'
+symbol_image: 'colors/insats/gu.webp'
 weight: 7
+card: true
 sym_letter: 'GU'
 ---
 

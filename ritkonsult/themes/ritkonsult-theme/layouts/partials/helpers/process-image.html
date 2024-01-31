@@ -22,7 +22,9 @@
                 {{ $height = $image.Height -}}
                 {{ $width = $image.Width -}}
             {{ end }} */}}
-
+        {{- else -}}
+            {{ $image := $src -}}
+            {{ $srcsetw = $srcsetw | append (printf "%s" $image.RelPermalink ) }}
         {{- end -}}
 	{{- end -}}
 {{- end -}}

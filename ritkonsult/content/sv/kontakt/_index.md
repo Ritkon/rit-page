@@ -12,8 +12,6 @@ cover_image: 'contact-ritkonsult.webp'
 weight: 30
 ---
 
-Vill du arbeta tillsammans med oss, har du frågor, en idé eller behöver hjälp med något? Kontakta oss gärna så hjälper vi er.
-
 ## Kontaktuppgifter
 
 {{< contact title="E-post:" >}}
@@ -31,6 +29,8 @@ Järnvägsgatan 15\
 
 [hitta hit](https://www.hitta.se/kartan!~57.18174,14.03711,14z/tr!i=H5lifYkV/search!q=J%C3%A4rnv%C3%A4gsgatan%2015%20331%2037%20V%C3%A4rnamo!b=57.16964:14.00967,57.19383:14.06456!sg=true!t=combined)
 {{< /contact >}}
+
+Vill du arbeta tillsammans med oss, har du frågor, en idé eller behöver hjälp med något? Kontakta oss gärna så hjälper vi er.
 
 {{% banner-box color="green" title="Guider" title-h="2" %}}
 I våra [produktguider](/guider) kan du få hjälp med hur underlaget ska se ut, hitta symbolnummer med mera.

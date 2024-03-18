@@ -1253,6 +1253,7 @@ nav .card a span span:first-child {
 .text-cloud > * {
   padding: .15em .4em;
   background-color: rgb(234, 231, 231);
+  color: #000;
   border-radius: .4em;
   margin-top: 0;
 }

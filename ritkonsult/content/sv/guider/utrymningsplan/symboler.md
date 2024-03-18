@@ -1,8 +1,8 @@
 ---
-title: 'Objekt och "Här är du" placering'
-linktitle: 'Objekt och "Här är du" placering'
+title: 'Objekt placering'
+linktitle: 'Objekt placering'
 description: 'Guide för utrymningsplan. Så här markerar du utt vart symbolerna ska sitta.'
-listHeading: 'Objekt och "Här är du" placering'
+listHeading: 'Objekt placering'
 list_description: ''
 translationKey: 'symbolerna'
 series: 'utrymningsplans-guide'

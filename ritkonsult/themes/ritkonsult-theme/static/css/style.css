@@ -1,5 +1,5 @@
 :root {
-  --ratio: 1.255;
+  --ratio: 1.25;
   --scale00: .5rem;
   --scale0: 1rem;
   --scale1: calc(var(--scale0)*var(--ratio));
@@ -11,7 +11,7 @@
 
   --border: 0.2em;
   --space: 1.2em;
-  --the-line: rgba(0,0,0,0.2) 0 0.2rem;
+  --the-line: rgba(0,0,0,0.2) 0 0.1rem;
   --the-line-dark: var(--clr-neutral-900) 0 0.2rem;
   
 
@@ -112,7 +112,7 @@
 
 @media (min-width:68em) {
   :root {
-    font-size: calc(1rem + .62vw + .1vh) 
+    font-size: calc(0.95rem + .62vw + .1vh) 
   }
 }
 
@@ -155,7 +155,9 @@ body {
   font-family: var(--ff-body);
   /* font-size: var(--fs-body); */
   line-height: var(--lh-400);
-  background-color: var(--clr-neutral-200);
+  background-color: #f0f3ef;
+  color:#071131;
+  /* var(--clr-neutral-200); */
 }
 
 /* A elements that don't have a class get default styles */
@@ -420,6 +422,7 @@ blockquote + figcaption
 .banner {
   padding: var(--scale1); /*2em*/
   border-left: 0.5em solid var(--clr-neutral-900);
+  border-radius: 0.25rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
@@ -493,7 +496,7 @@ blockquote + figcaption
 }
 
 .wrapper {
-  --max-width: 80ch; /* 77ch 90rem*/
+  --max-width: 87ch; /* 77ch 90rem*/
   --side-padding: 1.25em; /*.75rem;*/
   --side-gap: 1.5rem;
 
@@ -971,7 +974,7 @@ a:focus-visible {
 .card {
   --gradient:none;
   max-width: 100%;
-  border-radius: 0;
+  border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0.1875em;
   /* background-color: #ecebeb; */
   background-image: var(--gradient);
@@ -1172,6 +1175,7 @@ nav .card a span span:first-child {
   height: 100%;
   outline: 2px solid transparent;
   border-radius: inherit;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.3125rem 0.3125rem;
   transition: outline-offset 0.2s ease-in-out 0s;
   color: var(--link-color, var(--clr-secondary-400))
 }

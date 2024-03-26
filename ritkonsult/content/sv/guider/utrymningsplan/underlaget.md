@@ -12,7 +12,7 @@ by_weight: true
 weight: 1
 ---
 
-{{% include "content/sv/guider/base/underlaget-base.md" %}}
+{{< include "content/sv/guider/base/underlaget-base.md" >}}
 
 
 

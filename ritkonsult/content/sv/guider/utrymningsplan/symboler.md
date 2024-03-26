@@ -27,28 +27,3 @@ Ska flera objekt sitta på samma plats. Så skriver du kommatecken mellan siffro
 Är det trångt så dra ett streck från där du vill ha objektet till en tom yta och skriv siffran där.
 
 {{< figure src="guides/utp/symbol-3-b.svg, guides/utp/symbol-3-demo-b.svg" alt="Exempel på hur man gör när det är trångt och man ej kan skriva siffran för objektet på underlaget utan att det blir otydligt. Exemplet visar en punkt där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit siffran för det objekt man vill ha, i detta fall siffran 3 första hjälpen\e På utrymningsplanen har först hälpen placerats ut med ett blått streck med en punkt som visar var symbolen är placerad i byggnaden" >}}
-
-## "Här är du" -punkt
-
-Vid "Här är du" -punkten ska följande skrivas:
-- Nummer 1
-- Storlek (A4, A3 osv)
-- Liggande eller stående
-- Namnet på objektet
-- Namnet på plan/våning/avdelning
-- Rita en pil som pekar mot den vägg där planen ska sitta
-
-{{< figure src="guides/utp/symbol-1-b.svg, guides/utp/symbol-1-demo-b.svg" alt="Ett exempel på hur man märker ut &quot;Här är du&quot; -punkten (nr 1) på underlaget. Exemplet visar en punkt där symbolen ska vara med ett streck till en tom yta på underlaget där man sedan har skrivit informationen som ska vara med för objekt nr 1\e &quot;Här är du&quot; -punkten har placerats ut och ett blått streck visar vart i byggnaden tavlan för utrymningsplanen sitter." >}}
-
-Har alla punkter samma objektnamn, plan och storlek går det bra att skriva denna information vid en av punkterna eller tydligt någon stans på sidan. Pilen som pekar mot den vägg där planen ska sitta ska alltid vara med.
-
-Har ni beställt olika typer av produkter (tex laminat och ram). Skriv då ut detta vid "Här är du" -punkten.
-
-### Flera "Här är du" -punkter på samma sida
-
-Har ritningen/planet flera "Här är du" -punkter på samma sida så skickar vi första korrektur med alla punkter på en sida. Detta för att göra det smidigare att märka ut [eventuella ändringar](/guider/utrymningsplan/korrigering/) som du vill göra. När du har godkänt sidan för vridning (instruktioner för detta finns i mailet som kommer med korrekturen) så vrider vi alla "Här är du" -punkter till var sin sida.
-
-### Ingen här är du punkt { .hide-on-print }
-
-Ska utrymningsplanen inte ha någon "Här är du" symbol så följer du instruktionerna för [jobb utan "Här är du" symbol](/guider/utrymningsplan/jobb-utan-här-är-du-punkter/).
-{ .hide-on-print }

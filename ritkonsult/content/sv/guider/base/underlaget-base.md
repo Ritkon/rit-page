@@ -1,15 +1,19 @@
-## Fotografering av underlaget
+## Bästa alternativet
 
-Tar du kort på ritningen så ska du tänka på att centrera din kamera/mobil med mitten av ritningen. 
+En scanner med 200 DPI upplösning är bästa alternativet för att skapa bra underlag. 
 
-![Centrerar sin kamera/mobil över ritningen för att ta kort](guides/utp/position-front.svg)
+Om du istället vill använda din mobilkamera, rekommenderar vi att man använder appen [CamScanner](https://www.camscanner.com/) som automatikst ser till att vinkel på bilden blir korrekt. Scannerfunktion finns även inbyggd i många telefoners kameraapp eller via Google Drive.
 
-![Placerar sin kamera/mobil felaktigt på sidan om ritningen för att ta kort](guides/utp/position-side.svg)
 
-Tänk även på att hålla din kamera parallell med objektet du fotograferar.
+Nedan följer tips för att få till ett bra underlag som gör arbetet snabbare och lättare:
 
-![Placerar sin kamera/mobil korrekt parallelt med ritningen för att ta kort](guides/utp/parallel.svg)
+## Bildens upplösning
 
+Ha en tillräckligt hög upplösning på ritningen så att detaljer och text tydligt syns och kan läsas.
+
+![bild med för låg upplösning så man ej kan se detaljer, tex text i rum](guides/utp/lowres.webp)
+
+![Bilden på byggnaden har en bra uppösning så man kan se alla detaljer](guides/utp/highres.webp)
 
 ## Kontrast
 
@@ -19,13 +23,20 @@ Tänk på att objektet och bakgrunden har en tydlig kontrastskillnad så man kan
 
 ![Karta över en stad med korrekt kontrast så alla detaljer syns](guides/utp/correct-contrast-exampel.webp)
 
-## Bildens upplösning
+## Fotografering av underlaget
 
-Ha en tillräckligt hög upplösning på ritningen så att detaljer och text tydligt syns och kan läsas.
+Försök centrera din kamera/mobil med mitten av ritningen. 
 
-![bild med för låg upplösning så man ej kan se detaljer, tex text i rum](guides/utp/lowres.webp)
+![Centrerar sin kamera/mobil över ritningen för att ta kort](guides/utp/position-front.svg)
 
-![Bilden på byggnaden har en bra uppösning så man kan se alla detaljer](guides/utp/highres.webp)
+![Placerar sin kamera/mobil felaktigt på sidan om ritningen för att ta kort](guides/utp/position-side.svg)
+
+Håll din kamera så parallell du kan med ditt motiv.
+
+![Placerar sin kamera/mobil korrekt parallelt med ritningen för att ta kort](guides/utp/parallel.svg)
+
+
+
 
 
 

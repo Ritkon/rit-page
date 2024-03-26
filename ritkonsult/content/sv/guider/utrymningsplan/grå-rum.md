@@ -18,13 +18,13 @@ Du kan markera rum som ska färgläggas med grå färg på följande sätt med e
 
 Rita ett gult kryss i rummet.
 
-{{< figure src="guides/utp/grey-1.svg, guides/utp/grey-1-demo.svg" alt="En del från ett underlag på en byggnad där ett av rummen markerats med ett kryss\e Del av utrymningsplanen som visar hur ett rum har färglagts med grå färg" caption="" class-="hide-on-print-full-guide" >}}
+{{< figure src="guides/utp/grey-1.svg, guides/utp/grey-1-demo.svg" alt="En del från ett underlag på en byggnad där ett av rummen markerats med ett kryss\e Del av utrymningsplanen som visar hur ett rum har färglagts med grå färg" caption="" class-="hide-on-print-full-guide" class="grid" >}}
 
 ## Rita längs med ytteranten av rummet
 
 Dra den gula pennan längs med ytterkanten på rummet som ska gråläggas.
 Du kan även markera ett område på ritning som ska färgläggas grått på detta sättet.
 
-{{< figure src="guides/utp/grey-2.svg, guides/utp/grey-2-demo.svg" alt="Ett exempel där ett rum har markerat med en gul linje längs med ytterkant av området för att indikera att detta ska färgläggas grått på ritningen av utrymningsplanen\e Del av utrymningsplanen som visar hur ett rum har färglagts med grå färg" caption="" >}}
+{{< figure src="guides/utp/grey-2.svg, guides/utp/grey-2-demo.svg" alt="Ett exempel där ett rum har markerat med en gul linje längs med ytterkant av området för att indikera att detta ska färgläggas grått på ritningen av utrymningsplanen\e Del av utrymningsplanen som visar hur ett rum har färglagts med grå färg" caption="" class="grid" >}}
 
 

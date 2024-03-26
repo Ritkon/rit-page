@@ -16,6 +16,6 @@ weight: 70
 
 Texten som ska skrivas i rummet **markeras med en linje under texten**. Får texten inte plats i rummet kan ni dra en linje som visar vilket rum den tillhör.
 
-{{< figure src="guides/utp/text1.webp, guides/utp/text1-done.webp" alt="Några av rumsnamnen på ritningen har stukitsunder med en penna\e Den ritade utrymningsplanen visar rumsnamn som har skrivits ut"  >}}
+{{< figure src="guides/utp/text1.webp, guides/utp/text1-done.webp" alt="Några av rumsnamnen på ritningen har stukitsunder med en penna\e Den ritade utrymningsplanen visar rumsnamn som har skrivits ut" class="grid"  >}}
 
 

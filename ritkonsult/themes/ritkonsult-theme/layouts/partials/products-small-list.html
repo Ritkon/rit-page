@@ -4,7 +4,7 @@
     <ul class="grid clean-list card-link-list" style="--min:23rem">
         {{ range where $all "Params.front_page_banner.text" "ne" nil }}
                 <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
-                    <a class="inline-block grid" href="" style="--min:10rem; text-decoration: none; --space: 0;" href="{{ .RelPermalink }}">
+                    <a class="inline-block grid" style="--min:10rem; text-decoration: none; --space: 0;" href="{{ .RelPermalink }}">
                         <div class="card-content-box flow" style="text-align: left;">
                             <p class="h3"><strong style="text-decoration: underline;"></strong>{{ .Title }}</strong></p>
                             <p style="font-size: var(--fs-label-large);">{{ .Params.front_page_banner.text }}</p>

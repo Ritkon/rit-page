@@ -1,15 +1,34 @@
+{{ $all := where .Site.Pages "Section" ( i18n "products") }}
 <div class="wrapper flow" {{ if .IsHome }}style="margin-top:var(--scale6);"{{ end }}>
     <h2>{{ i18n "Our_products" }}</h2>
+    <ul class="grid clean-list card-link-list" style="--min:23rem">
+        {{ range where $all "Params.front_page_banner.text" "ne" nil }}
+                <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                    <a class="inline-block grid" href="" style="--min:10rem; text-decoration: none; --space: 0;" href="{{ .RelPermalink }}">
+                        <div class="card-content-box flow" style="text-align: left;">
+                            <p class="h3"><strong style="text-decoration: underline;"></strong>{{ .Title }}</strong></p>
+                            <p style="font-size: var(--fs-label-large);">{{ .Params.front_page_banner.text }}</p>
+                        </div>
+                        <div class="card-content-box">
+                            {{ partial "helpers/picture-responsive.html" (dict 
+                                "src" .Params.front_page_banner.image
+                                "alt" .Title
+                            ) }}
+                        </div>
+                    </a>
+                </li>
+        {{ end }}
+    </ul>
     <ul class="grid clean-list card-link-list">
-        {{ $all := where .Site.Pages "Section" ( i18n "products") }}
         {{ range $all}}
         {{ range where .Pages.ByTitle "Parent.RelPermalink" "eq" .FirstSection.RelPermalink }}
-       
+                {{ if and (ne (lower .Title) ( i18n "evacuation_plan")) (ne (lower .Title) "kontrollritning") }}
                 <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
                     <a class="inline-block" href="{{ .RelPermalink }}">
                         <div class="card-content-box">{{ .Title }}</div>
                     </a>
                 </li>
+                {{ end }}
                 {{ end }}
         {{ end }}
     </ul>

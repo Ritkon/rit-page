@@ -3,7 +3,7 @@ title: 'Ramar'
 description: "Vi erbjuder tre olika ramar. Aluminiumram ALF, Snäppram, Plexiglasram. Du kan köpa våra ramar via www.billigaramar.se"
 banner:
     subline: 'Vi erbjuder tre olika ramar.'
-    image: 'frames1.webp'
+    image: 'ramar.webp'
     image_alt: "3 olika ramar"
 heroBackground: 'name'
 translationKey: 'ramar'

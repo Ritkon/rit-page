@@ -1,11 +1,14 @@
 ---
 title: 'Utrymningsplan'
-description: 'Utrymningsplaner i 2D och 3D. Planerna ritas i enlighet med Svensk Standard SS-2875 eller er egen design och kan leverars färdig i ram, som pdf-fil, utskrift eller i laminat.'
+description: 'Utrymningsplaner i 2D och 3D. Planerna ritas i enlighet med Svensk Standard SS-2875 eller er egen design och kan levereras färdig i ram, som pdf-fil, utskrift eller i laminat.'
 banner:
-    subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem leverade som PDF-fil, utskrift, laminat eller färdig i ram.'
+    subline: 'Vi ritar utrymningsplaner i både 2D och 3D. Du kan få dem levererade som PDF-fil, utskrift, laminat eller färdig i ram.'
     link_text: 'Läs mer om våra utrymningsplaner'
     image: 'utrymningsplaner.webp'
     image_alt: 'utrymningsplans exempel i plexi, standardram och tryck'
+front_page_banner:
+    text: 'Ritade i 2D eller 3D och flera olika leveranssätt.'
+    image: 'utp.webp'
 heroBackground: 'name'
 translationKey: 'utrymningsplan'
 toc: true

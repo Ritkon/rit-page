@@ -5,6 +5,9 @@ banner:
     subline: 'Kontrollritningar är en del av det systematiska brandskyddsarbetet (SBA). Vi ritar idag huntratals kontrollritningar med flera olika upplägg beroende på kundens SBA-modell.'
     image: 'kontrollritning-exempel.webp'
     image_alt: 'Kontrollritning'
+front_page_banner:
+    text: 'En del av det systematiska brandskyddsarbetet.'
+    image: 'kr.webp'
 heroBackground: 'name'
 translationKey: 'kontrollritning'
 toc: true

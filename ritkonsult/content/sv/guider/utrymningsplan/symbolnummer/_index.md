@@ -11,7 +11,7 @@ toc_heading: 'Symboler som finns på denna sida. A-Ö'
 print_full: true
 print_last: true
 by_weight: true
-weight: 60
+weight: 999
 _build:
     render: true
 cascade:

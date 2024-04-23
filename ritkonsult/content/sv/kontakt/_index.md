@@ -83,7 +83,7 @@ Järnvägsgatan 15\
 331 30 Värnamo 
 { .contact }
 
-Ritningar och andra underlag ska skickas hit.
+Ritningar och andra underlag skickas hit.
 
 ||card||
 
@@ -94,17 +94,6 @@ Ritningar och andra underlag ska skickas hit.
 E-post:
 
 linus@ritkonsult.com
-{ .contact }
-
-||card||
-
-### Örebrokontoret
-
-#### Ingemar Eriksson
-
-E-post:
-
-ingemar@ritkonsult.com
 { .contact }
 {{% /card-display %}}
 

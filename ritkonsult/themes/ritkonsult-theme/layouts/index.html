@@ -8,12 +8,18 @@
     <!-- {{ $new_customer := (dict "context" . "b" "/hem" "m" "offer" )}}
     {{- partial "product-banner.html" $new_customer }}-->
     {{- partial "products-small-list.html" . -}}
-    {{- partial "why-work-with-us-cards.html" . -}}
-    <div class="wrapper grid" style="--min:20rem">
+    <div class="wrapper-test" style="--bgcolor:#fff">
+        <div class="container grids" style="--min:20rem;">
     {{ $new_customer := (dict "context" . "b" "/hem" "m" "offer" )}}
     {{- partial "banner-display.html" $new_customer }}
+        </div>
+    </div>
+    {{- partial "why-work-with-us-cards.html" . -}}
+    <div class="wrapper-test" style="--bgcolor:#fff">
+        <div class="container grids" style="--min:20rem;">
     {{ $keep_track_of_your_jobs := (dict "context" . "b" "/hem" "m" "keep_track" )}}
     {{- partial "banner-display" $keep_track_of_your_jobs -}}
+        </div>
     </div>
     {{- partial "testimonials.html" . -}}
 {{ end }}

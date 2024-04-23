@@ -1,5 +1,6 @@
 {{ $all := where .Site.Pages "Section" ( i18n "products") }}
-<div class="wrapper flow" {{ if .IsHome }}style="margin-top:var(--scale6);"{{ end }}>
+<div class="wrapper-test flow" {{ if .IsHome }}style="margin-top:var(--scale6); --bgcolor:#bbc494; color:#121502;"{{ end }}>
+<div class="container flow">
     <h2>{{ i18n "Our_products" }}</h2>
     <ul class="grid clean-list card-link-list" style="--min:23rem">
         {{ range where $all "Params.front_page_banner.text" "ne" nil }}
@@ -32,4 +33,5 @@
                 {{ end }}
         {{ end }}
     </ul>
+</div>
 </div>

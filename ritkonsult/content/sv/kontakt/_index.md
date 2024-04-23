@@ -4,7 +4,7 @@ linktitle: 'Kontakt'
 pagetitle: 'Vad kan vi hjälpa dig med?'
 description: 'Kontakta oss via telefon eller e-post om du har frågor. Du hittar även våra fakturauppgifter och adresser här.'
 cascade:
-    type: 'kontakt'
+    type: 'contact'
 translationKey: 'kontakt'
 toc: false
 cover: true

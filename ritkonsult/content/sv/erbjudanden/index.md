@@ -12,7 +12,7 @@ cover: true
 cover_right_side: true
 cover_image: 'save.webp'
 bread: true
-color:
+color: 'white'
 weight: 
 ---
 

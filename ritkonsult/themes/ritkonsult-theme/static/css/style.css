@@ -112,7 +112,7 @@
 
 @media (min-width:68em) {
   :root {
-    font-size: calc(0.95rem + .62vw + .1vh) 
+    font-size: calc(0.86rem + .62vw + .1vh) 
   }
 }
 
@@ -257,7 +257,9 @@ figcaption {margin-top: .6rem;}
 blockquote {
   quotes: """ """ "‘" "’";
   position: relative;
-  background-color: hsl(72.5, 26.1%, 82%);
+  background-color:hsl(72.5, 26.1%, 82%);
+  color:#121502;
+  /* hsl(72.5, 26.1%, 82%); */
   /* color: var(--clr-neutral-100); */
   border-radius: .5rem !important;
 }
@@ -269,7 +271,8 @@ blockquote::after {
   left: 2rem;
   width: 4rem;
   height: 1rem;
-  background-color: hsl(72.5, 26.1%, 82%);
+  background-color: hsl(72.5, 26.1%, 82%);;
+  /* hsl(72.5, 26.1%, 82%); */
   /* rgb(194, 194, 194); */
   -webkit-mask: url(/images/speechbubble2.svg) center top/contain no-repeat;
   mask: url(/images/speechbubble2.svg) center top/contain no-repeat;
@@ -420,6 +423,7 @@ blockquote + figcaption
 }
 
 .banner {
+  height: 100%;
   padding: var(--scale1); /*2em*/
   border-left: 0.5em solid var(--clr-neutral-900);
   border-radius: 0.25rem;
@@ -501,6 +505,21 @@ blockquote + figcaption
   --side-gap: 1.5rem;
 
   /* width: min(var(--max-width) - (var(--side-gap)*2), 100% - (var(--side-padding)*2) - (var(--side-gap)*2)); */
+  width: min(var(--max-width), 100% - (var(--side-padding)*2));
+  margin-inline: auto;
+}
+
+.wrapper-test {
+  --bgcolor: transparent;
+  background-color: var(--bgcolor);
+  padding: var(--scale5) 0;
+}
+
+.container {
+  --max-width: 87ch; 
+  --side-padding: 1.25em; 
+  --side-gap: 1.5rem;
+
   width: min(var(--max-width), 100% - (var(--side-padding)*2));
   margin-inline: auto;
 }

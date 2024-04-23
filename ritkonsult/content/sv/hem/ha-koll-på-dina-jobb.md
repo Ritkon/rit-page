@@ -1,7 +1,7 @@
 ---
 title: 'Som kund hos oss är det enkelt att hålla koll på dina jobb'
 type: 'keep_track'
-color: 'black'
+color: 'white'
 ---
 
 1. Vi mailar alltid en bokningsbekräftelse när vi mottagit ett jobb där det framgår precis vad ni beställt.

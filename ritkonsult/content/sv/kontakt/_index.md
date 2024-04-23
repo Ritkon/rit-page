@@ -11,7 +11,6 @@ cover: true
 cover_image: 'contact-ritkonsult.webp'
 weight: 30
 ---
-
 ## Kontaktuppgifter
 
 {{< contact title="E-post:" >}}
@@ -31,14 +30,6 @@ Järnvägsgatan 15\
 {{< /contact >}}
 
 Vill du arbeta tillsammans med oss, har du frågor, en idé eller behöver hjälp med något? Kontakta oss gärna så hjälper vi er.
-
-{{% banner-box color="green" title="Guider" title-h="2" %}}
-I våra [produktguider](/guider) kan du få hjälp med hur underlaget ska se ut, hitta symbolnummer med mera.
-{{% /banner-box %}}
-
-{{% banner-box color="white" title="Beställnings&shy;blanketter" title-h="2" %}}
-Du hittar våra [beställningsblanketter](/blanketter) här. 
-{{% /banner-box %}}
 
 ## Våra kontor
 {{% card-display %}}

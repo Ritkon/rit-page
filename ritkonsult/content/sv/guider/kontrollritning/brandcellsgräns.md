@@ -9,7 +9,7 @@ series: 'kontrollritnings-guide'
 toc: true
 toc_heading: ''
 by_weight: true
-weight: 36
+weight: 19
 ---
 
 ## Markering av brandcellsgräns

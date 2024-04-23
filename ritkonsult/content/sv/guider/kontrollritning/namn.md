@@ -1,20 +1,19 @@
 ---
-title: 'Brandcellsgränser'
-linktitle: 'Brandcellsgräns'
-description: 'Så här markerar du ut brandcellsgränser på ditt underlag'
-listHeading: 'Brandcellsgräns'
+title: 'Namn och plan'
+linktitle: 'Namn och plan'
+description: 'Ange ritningens namn och plan för din kontrollritning'
+listHeading: 'Namn och plan'
 list_description: ''
-translationKey: 'kr-fire-cell'
+translationKey: 'kr-drawing-name-and-floor'
 series: 'kontrollritnings-guide'
 toc: true
 toc_heading: ''
 by_weight: true
-weight: 36
+weight: 12
 ---
 
-## Markering av brandcellsgräns
+## Sidans namn/plan
 
-Med en **röd överstrykningspenna** drar du ett streck på de aktuella väggarna. 
-
-{{< figure src="guides/kr/brandcellsgräns-marker-och-ritad.svg" alt="Ett exempel på hur man märker ut brandcellsgräns och hur den färdiga planen ser ut." >}}
+Skriv exakt vilket namn/plan som ska stå på varje ritning. Skriv det innanför hakar längst upp på ritningen
+exempelvis: [Socialkontoret, vån 2]
 

@@ -17,10 +17,8 @@ skip_in_full_guide_print: true
 Behöver du göra någon ändring, som att lägga till symboler eller ändra på väggar. 
 Rita då ut dessa ändringar (följ samma instruktioner som innan) direkt på kontrollritningen. Ringa gärna in era ändringar så blir det tydligare att se.
 
-Skicka sedan in till korrekt email adress som du finner i mailet vi skickade till dig...
-Det finns 4 olika alternativ: Vrid, Fixa, Klar 
+{{< figure src="guides/utp/korrektur-utp.webp" alt="Utrymningsplan där en vägg har ritats ut för hand, en annan vägg har skrafferats för att markera att den ska tas bort, en av symbolerna har en pil som visar att den ska flyttas till en ny plats" caption="En vägg har skrafferats för att visa att den ska tas bort. En handbrandsläckare ska flyttas till ny position och en ny vägg ska ritas ut i ett av rummen." class-="hide-on-print-full-guide"  >}}
 
-
-...
+Följ sedan instruktionerna i mailet du fick för att skicka in dina ändringar.
 
 

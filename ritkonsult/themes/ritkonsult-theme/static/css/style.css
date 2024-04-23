@@ -526,6 +526,10 @@ blockquote + figcaption
   list-style: none;
 }
 
+.contact a {
+  box-shadow: none !important;
+}
+
 .box {
   grid-column: span 1;
 }

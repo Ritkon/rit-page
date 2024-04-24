@@ -7,7 +7,7 @@
 <ul class="grid clean-list" style="--min:17rem;">
     {{ range $content := $lister }}
     {{ if ne $content "\n" }}
-        <li class="flow card card-gradient">
+        <li class="flow card-flat card-gradient">
             <div class="inline-block">
                 <div class="card-content-box flow">
                     {{- replace $content "<ul>" "<ul role=\"list\" >" | safeHTML -}}

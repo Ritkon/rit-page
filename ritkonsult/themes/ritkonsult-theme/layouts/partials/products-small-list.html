@@ -1,21 +1,23 @@
 {{ $all := where .Site.Pages "Section" ( i18n "products") }}
-<div class="wrapper-test flow" {{ if .IsHome }}style="margin-top:var(--scale6); --bgcolor:#bbc494; color:#121502;"{{ end }}>
+<div class="wrapper-test flow" {{ if .IsHome }}style="margin-top:var(--scale6); --bgcolor:#bbc494; color:#121502; background-image:url(/images/noise_overlay.png)"{{ end }}>
 <div class="container flow">
     <h2>{{ i18n "Our_products" }}</h2>
-    <ul class="grid clean-list card-link-list" style="--min:23rem">
+    <ul class="grid clean-list card-link-list min-switch">
         {{ range where $all "Params.front_page_banner.text" "ne" nil }}
                 <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
-                    <a class="inline-block grid" style="--min:10rem; text-decoration: none; --space: 0;" href="{{ .RelPermalink }}">
+                    <a class="inline-block grid" style="--min:21rem; text-decoration: none; --space: 0;" href="{{ .RelPermalink }}">
+                        <div class="card-content-box" style="margin-bottom: 0;">
+                            {{ partial "helpers/picture-responsive.html" (dict 
+                                "src" .Params.front_page_banner.image
+                                "alt" .Title
+                                "class" "product-small-image"
+                            ) }}
+                        </div>
                         <div class="card-content-box flow" style="text-align: left;">
                             <p class="h3"><strong style="text-decoration: underline;"></strong>{{ .Title }}</strong></p>
                             <p style="font-size: var(--fs-label-large);">{{ .Params.front_page_banner.text }}</p>
                         </div>
-                        <div class="card-content-box">
-                            {{ partial "helpers/picture-responsive.html" (dict 
-                                "src" .Params.front_page_banner.image
-                                "alt" .Title
-                            ) }}
-                        </div>
+                        
                     </a>
                 </li>
         {{ end }}

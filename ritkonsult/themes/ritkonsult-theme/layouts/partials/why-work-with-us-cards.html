@@ -1,13 +1,13 @@
 {{ $headless := .Site.GetPage ( i18n "home") }}
 {{ $subpages := where $headless.Pages "Params.card" true}}
 
-<div class="wrapper-test flow" style="--bgcolor:#dfe6fd">
+<div class="wrapper-test flow" style="--bgcolor:#dfe6fd; background-image:url(/images/noise_overlay.png)">
     <div class="container flow">
     <h2>{{ i18n "Tio_skal_att_anlita_oss" }}</h2>
-    <ul class="grid clean-list" style="--min:16rem;">
+    <ul class="grid clean-list min-switch">
 
             {{ range $subpages.ByLength }}
-                <li class="card card-gradient" style="--gradient:linear-gradient(#e8d8d800 0 67%, #7891dc19)">
+                <li class="card-flat card-gradient" style="--gradient:linear-gradient(#e8d8d800 0 67%, #7891dc19)">
                     <div class="inline-block no-underline">
                         <div class="card-content-box flow">
                             <h3>{{ .Title }}</h3>

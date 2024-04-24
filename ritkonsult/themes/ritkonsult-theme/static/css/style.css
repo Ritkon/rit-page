@@ -1004,6 +1004,17 @@ a:focus-visible {
   list-style: none;
 }
 
+.card-flat {
+  --gradient:none;
+  max-width: 100%;
+  margin-top: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff;
+  /* background-image: var(--gradient); */
+  list-style: none;
+}
+
 .card-link { box-shadow: var(--the-line-dark);}
 
 .card-gradient {
@@ -1218,6 +1229,21 @@ nav .card a span span:first-child {
 .card-link-list .card-content-box {
   /* color: var(--clr-neutral-100); */
   text-align: center;
+}
+
+.min-switch {
+  --min:15rem;
+}
+
+.product-small-image {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 68em) {
+  .min-switch {
+    --min:16rem;
+  }
 }
 
 .the-grid {

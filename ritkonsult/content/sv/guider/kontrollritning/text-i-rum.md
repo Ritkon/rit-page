@@ -12,6 +12,8 @@ by_weight: true
 weight: 40
 ---
 
-{{% include "content/sv/guider/base/text-i-rum-base.md" %}}
+## Understrykes
 
-{{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
+Texten som ska skrivas i rummet **markeras med en linje under texten**. Får texten inte plats i rummet kan ni dra en linje som visar vilket rum den tillhör.
+
+{{< figure src="guides/utp/text1.webp, guides/kr/kr-text-done.webp" alt="Några av rumsnamnen på ritningen har stukitsunder med en penna\e Den ritade kontrollritningen visar rumsnamn som har skrivits ut" class="grid"  >}}

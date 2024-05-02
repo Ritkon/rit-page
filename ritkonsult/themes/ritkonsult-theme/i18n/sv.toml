@@ -82,6 +82,9 @@ other = 'Produkter'
 one = 'produkt'
 other = 'produkter'
 
+[read_more]
+other = 'läs mer'
+
 [reading_time]
 other = 'lästid'
 

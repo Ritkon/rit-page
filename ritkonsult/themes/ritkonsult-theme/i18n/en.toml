@@ -78,6 +78,9 @@ other = 'Products'
 [products]
 other = 'products'
 
+[read_more]
+other = 'read more'
+
 [reading_time]
 other = 'reading time'
 

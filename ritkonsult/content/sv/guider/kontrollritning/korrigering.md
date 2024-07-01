@@ -1,7 +1,7 @@
 ---
 title: 'Vid korrigering'
 linktitle: 'Vid korrigering'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'Behöver du göra ändringar på din kontrollritning så skickar du in en korrektur med ändringarna till mailadressen i ordermailet du fick'
 listHeading: 'Vid korrigering'
 list_description: ''
 translationKey: 'kr-order-correction'

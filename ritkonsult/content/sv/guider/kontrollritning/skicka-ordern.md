@@ -1,7 +1,7 @@
 ---
 title: 'Skicka beställningen'
 linktitle: 'Skicka beställningen'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'Skicka in din kontrollritnings beställning till Ritkonsult.'
 listHeading: 'Grå rum och hyllor'
 list_description: ''
 translationKey: 'kr-send-order'

@@ -1,7 +1,7 @@
 ---
 title: 'Byggnads underlaget'
 linktitle: 'Bild på byggnadsritning'
-description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritningar'
+description: 'Skapa det perfekt underlaget till din beställning av kontrollritning'
 listHeading: 'Byggnads underlaget'
 list_description: ''
 translationKey: 'kr-blueprint'

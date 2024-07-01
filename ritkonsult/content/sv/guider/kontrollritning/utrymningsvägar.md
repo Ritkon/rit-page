@@ -1,7 +1,7 @@
 ---
 title: 'Utrymningsvägar'
 linktitle: 'Utrymningsvägar'
-description: 'I denna del av guiden för kontrollritningar går vi igenom hur du ska markera ut utrymningsvägar'
+description: 'Så här markera du ut utrymningsvägar på kontrollritningen'
 listHeading: 'Utrymningsvägar'
 list_description: ''
 translationKey: 'kr-escape-route'

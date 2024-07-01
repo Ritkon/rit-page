@@ -1,7 +1,7 @@
 ---
 title: 'Rumsnamn och nummer'
 linktitle: 'Rumsnamn och nummer'
-description: 'I denna del av guiden för ritkonsults kontrollritningar går vi igenom hur du ska markera rum som ska gråläggas, hyllor och övrig inredning som du vill ha med på kontrollritningen.'
+description: 'Vi går igenom hur rumsnamn och nummer ska markeras för att stå med på kontrollritningen'
 listHeading: 'Namn på rum'
 list_description: ''
 translationKey: 'kr-room-names'

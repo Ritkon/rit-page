@@ -5,6 +5,7 @@ description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritni
 listHeading: 'kontrollritning'
 translationKey: 'kontrollritnings-guide'
 toc: false
+weight: 12
 outputs:
 - html
 - print

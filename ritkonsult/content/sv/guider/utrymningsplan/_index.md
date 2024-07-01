@@ -4,6 +4,7 @@ linktitle: 'Utrymningsplan'
 description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
 listHeading: 'utrymningsplan'
 translationKey: 'utrymningsplans-guide'
+weight: 10
 toc: false
 outputs:
 - html

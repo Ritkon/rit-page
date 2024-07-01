@@ -4,8 +4,8 @@ linktitle: 'Situationsplan'
 description: 'Guide för utrymningsplan. Skapa underlaget för situationsplanen.'
 listHeading: 'situationsplan'
 list_description: ''
-translationKey: 'situationsplan'
-series: 'utrymningsplans-guide'
+translationKey: 'avsökningsplan-siteplan'
+series: 'avsökningsplan-guide'
 toc: true
 toc_heading: ''
 by_weight: true

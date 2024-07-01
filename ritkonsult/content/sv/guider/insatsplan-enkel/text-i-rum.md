@@ -12,7 +12,7 @@ by_weight: true
 weight: 60
 ---
 
-{{% include "content/sv/guider/base/text-i-rum-base.md" %}}
+{{< include "content/sv/guider/base/text-i-rum-base.md" >}}
 
 {{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
 

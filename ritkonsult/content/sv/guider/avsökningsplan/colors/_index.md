@@ -12,6 +12,7 @@ print_full: false
 print_last: true
 by_weight: true
 weight: 55
+draft: true
 _build:
     render: true
 cascade:

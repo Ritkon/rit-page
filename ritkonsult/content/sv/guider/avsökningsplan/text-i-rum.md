@@ -12,9 +12,7 @@ by_weight: true
 weight: 70
 ---
 
-## Understrykes
-
-Texten som ska skrivas i rummet **markeras med en linje under texten**. Får texten inte plats i rummet kan ni dra en linje som visar vilket rum den tillhör.
+{{< include "content/sv/guider/base/text-i-rum-base.md" >}}
 
 {{< figure src="guides/utp/text1.svg, guides/utp/escape-2-demo-b.svg" alt="" >}}
 

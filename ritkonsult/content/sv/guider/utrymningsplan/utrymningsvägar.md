@@ -1,7 +1,7 @@
 ---
 title: 'Utrymningsvägar'
 linktitle: 'Utrymningsvägar'
-description: 'I denna del av guiden för ritkonsults utrymningsplaner går vi igenom hur du ska markera rum som ska gråläggas, hyllor och övrig inredning som du vill ha med på utrymningsplanen.'
+description: 'Märk ut vart utrymningsvägarna ska vara på din utrymningsplan'
 listHeading: 'Utrymningsvägar'
 list_description: ''
 translationKey: 'escape-route'
@@ -33,6 +33,6 @@ Om utrmning sker via fönster så ange det med text intill pilen du har ritat.
 
 ## Funktionsanpassad utrymning
 
-Utrymning som är anpassade för personer med funktionsvariationer markeras ut med siffrorna 12 (Utrymningsplats) eller 13 (Nödutgång för personer med rörelsenedsättning). [Här kan du se hur symboler ska markeras ut](/guider/utrymningsplan/symboler) och du hittar våra [symbolnnummer här.](/guider/utrymningsplan/symbolnummer)
+Utrymning som är anpassade för personer med funktionsvariationer markeras ut med siffrorna 12 (Utrymningsplats) eller 13 (Nödutgång för personer med rörelsenedsättning). [Här kan du se hur symboler ska markeras ut](/guider/utrymningsplan/objekt-placering) och du hittar våra [symbolnnummer här.](/guider/utrymningsplan/symbolnummer)
 
 

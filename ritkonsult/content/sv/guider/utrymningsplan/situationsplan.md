@@ -1,7 +1,7 @@
 ---
 title: 'Sitautionsplan'
 linktitle: 'Situationsplan'
-description: 'Guide för utrymningsplan. Skapa underlaget för situationsplanen.'
+description: 'Lär dig skapa underlag för din situationsplanen.'
 listHeading: 'situationsplan'
 list_description: ''
 translationKey: 'situationsplan'

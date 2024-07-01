@@ -1,7 +1,7 @@
 ---
 title: '"Här är du" -punkten'
 linktitle: '"Här är du" -punkten'
-description: 'Guide för utrymningsplan. Så här markerar du utt vart symbolerna ska sitta.'
+description: 'Placering av här är du plasten på utrymningstavlan'
 listHeading: '"Här är du" -punkten'
 list_description: ''
 translationKey: 'here-are-you-symbol'

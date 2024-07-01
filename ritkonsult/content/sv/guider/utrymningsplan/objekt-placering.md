@@ -1,7 +1,7 @@
 ---
 title: 'Objekt placering'
 linktitle: 'Objekt placering'
-description: 'Guide för utrymningsplan. Så här markerar du utt vart symbolerna ska sitta.'
+description: 'Så här markerar du utt vart det olia objekten som handbrandsläckare ska sitta på din utrymningsplan.'
 listHeading: 'Objekt placering'
 list_description: ''
 translationKey: 'symbolerna'

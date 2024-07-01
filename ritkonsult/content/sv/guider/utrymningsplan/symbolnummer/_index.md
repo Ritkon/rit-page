@@ -1,7 +1,7 @@
 ---
 title: 'Symbolnummer för utrymningsplan'
 linktitle: 'Symbolnummer'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'Hitta symbolnummer för handbrandsläckare etc som används till våra utrymningsplaner'
 listHeading: 'Symbolnummer'
 list_description: ''
 translationKey: 'symbolnummer'

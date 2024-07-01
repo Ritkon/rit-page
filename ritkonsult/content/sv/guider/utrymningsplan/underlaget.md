@@ -1,7 +1,7 @@
 ---
 title: 'Byggnads underlaget'
 linktitle: 'Bild på byggnadsritning'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'Ta fram ett bra underlag för din utrymningsplansbeställning'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
 translationKey: 'underlaget'

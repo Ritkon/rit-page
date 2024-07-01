@@ -1,7 +1,7 @@
 ---
 title: 'Grå rum/områden'
 linktitle: 'Grå rum/områden'
-description: 'I denna del av guiden för ritkonsults utrymningsplaner går vi igenom hur du ska markera rum som ska gråläggas, hyllor och övrig inredning som du vill ha med på utrymningsplanen.'
+description: 'Vi går igenom hur du ska markera rum för färgläggning med grå färg på din utrymningsplan'
 listHeading: 'Grå rum och hyllor'
 list_description: ''
 translationKey: 'grå-rum-och-hyllor'

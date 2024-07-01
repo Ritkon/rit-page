@@ -1,7 +1,7 @@
 ---
 title: 'Upphängning av ram'
 linktitle: 'Upphängning av ram'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'PDF mall för upphängning av ram'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
 translationKey: 'upphängning-av-ram'

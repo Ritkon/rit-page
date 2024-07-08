@@ -1,7 +1,7 @@
 ---
 title: 'Symbolnummer för avsökningsplan'
 linktitle: 'Symbolnummer'
-description: 'Guide för hur underlaget ska se ut för ritkonsults utrymningsplan'
+description: 'Hitta symbolnummer för handbrandsläckare etc som används till våra avsökningsplaner'
 listHeading: 'Symbolnummer'
 list_description: ''
 translationKey: 'avsökningsplan-symbolnummer'

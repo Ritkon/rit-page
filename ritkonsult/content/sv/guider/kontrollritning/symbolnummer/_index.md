@@ -1,7 +1,7 @@
 ---
 title: 'Symbolnummer för kontrollritning'
 linktitle: 'Symbolnummer'
-description: 'Guide för hur underlaget ska se ut för ritkonsults kontrollritning'
+description: 'Hitta symbolnummer för handbrandsläckare etc som används till våra kontrollritningar'
 listHeading: 'Symbolnummer'
 list_description: ''
 translationKey: 'kr-symbols'

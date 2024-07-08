@@ -1,7 +1,7 @@
 ---
 title: 'Objekt/Symbol placering'
 linktitle: 'Objekt/Symbol placering'
-description: 'Guide för insatsplan - enkel. Så här markerar du ut vart symbolerna ska sitta.'
+description: 'Så här markerar du ut vart objekt/symbolerna ska sitta på insatsplanen.'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
 translationKey: 'symbolerna'
@@ -12,7 +12,7 @@ by_weight: true
 weight: 30
 ---
 
-Vår mall bygger på att varje objekt som röklucka, riskkälla mm markeras med ett nummer. [Se våra symbolnummer.](/guider/insatsplan/symbolnummer)
+Vår mall bygger på att varje objekt som röklucka, riskkälla mm markeras med ett nummer. [Se våra symbolnummer.](/guider/insatsplan-enkel/symbolnummer)
 
 ## Placering av objekt
 

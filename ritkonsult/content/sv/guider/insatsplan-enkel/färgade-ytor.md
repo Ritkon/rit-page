@@ -16,7 +16,7 @@ Har inte ytan markerat med någon information utgår vi från att den ska vara l
 
 ## Markera område
 
-Använd en överstrykningspenna längs områdets ytterkant i valfri färg för att markera området. Ange vilken färg som ska användas genom att skriva [bokstavskombinationen/färgens namn](#färger) för önskad färg i området eller om det är trångt dra ett streck från området till en tom yta och skriva bokstavskombination där.
+Använd en överstrykningspenna längs områdets ytterkant i valfri färg för att markera området. Ange vilken färg som ska användas genom att skriva [bokstavskombinationen/färgens namn](/guider/insatsplan-enkel/färger) för önskad färg i området eller om det är trångt dra ett streck från området till en tom yta och skriva bokstavskombination där.
 
 {{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
 
@@ -25,12 +25,3 @@ Använd en överstrykningspenna längs områdets ytterkant i valfri färg för a
 Trappor och trapphus färgläggs med grönfärg när vi ritar och behövs ej markeras om det är tydligt på underlaget hur det ska se ut.
 
 {{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
-
-## Färger
-
-{{< insats-colors "guider/insatsplan/colors" "page-content" >}}
-
-
-
-
-

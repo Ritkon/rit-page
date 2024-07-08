@@ -14,6 +14,6 @@ weight: 70
 
 {{< include "content/sv/guider/base/text-i-rum-base.md" >}}
 
-{{< figure src="guides/utp/text1.svg, guides/utp/escape-2-demo-b.svg" alt="" >}}
+{{< figure src="guides/utp/text1.webp, guides/utp/text1-done.webp" alt="Några av rumsnamnen på ritningen har strukits under med en penna\e Del av en avsökningsplanen visar rumsnamn som har skrivits ut" class="grid"  >}}
 
 

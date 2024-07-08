@@ -16,7 +16,7 @@ weight: 50
 
 Använd en överstrykningspenna längs områdets ytterkant i valfri färg för att markera området. Gör sedan ett streck från området till en tom yta och ange en siffra som indikerar vilket område den tillhör. 
 
-{{< figure src="guides/avsökningsplan/avsökningsplan-markering-av-område.webp, guides/avsökningsplan/avsökningsplan-markering-av-område-färglagt.webp" alt="En del av ritningen har markerats med en röd överstrykningspenna, den andra delen med en blå.\e En avsökningsplan som visar byggnaden uppdelad i två färgade områden enligt markeringarn på förra bilden." >}}
+{{< figure src="guides/avsökningsplan/avsökningsplan-markering-av-område.webp, guides/avsökningsplan/avsökningsplan-markering-av-område-färglagt.webp" alt="En del av ritningen har markerats med en röd överstrykningspenna, den andra delen med en blå.\e En avsökningsplan som visar byggnaden uppdelad i två färgade områden enligt markeringarn på förra bilden." class="grid">}}
 
 
 

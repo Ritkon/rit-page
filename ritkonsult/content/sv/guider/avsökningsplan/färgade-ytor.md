@@ -16,7 +16,7 @@ weight: 50
 
 Använd en överstrykningspenna längs områdets ytterkant i valfri färg för att markera området. Gör sedan ett streck från området till en tom yta och ange en siffra som indikerar vilket område den tillhör. 
 
-{{< figure src="/images/guides/utp/text1.svg" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
+{{< figure src="guides/avsökningsplan/avsökningsplan-markering-av-område.webp" alt="En bit av underlaget där det är ritat ett grönt streck från mellan." src2="/images/guides/utp/escape-2-demo-b.svg" >}}
 
 
 

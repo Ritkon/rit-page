@@ -112,7 +112,7 @@
 
 @media (min-width:68em) {
   :root {
-    font-size: calc(0.86rem + .62vw + .1vh) 
+    font-size: calc(0.86rem + .51vw + .1vh) 
   }
 }
 
@@ -500,7 +500,7 @@ blockquote + figcaption
 }
 
 .wrapper {
-  --max-width: 87ch; /* 77ch 90rem*/
+  --max-width: 89ch; /* 77ch 90rem*/
   --side-padding: 1.25em; /*.75rem;*/
   --side-gap: 1.5rem;
 

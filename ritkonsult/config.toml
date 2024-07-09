@@ -6,7 +6,7 @@ theme = 'ritkonsult-theme'
 copyright = 'Copyright © :YEAR: Ritkonsult'
 pluralizeListTitles = false
 sectionPagesMenu = 'main'
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 [params]
     tel = '0522-829 98' 
     email = 'info@ritkonsult.se'

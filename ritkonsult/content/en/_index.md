@@ -3,7 +3,7 @@ title: 'Ritkonsult'
 linkTitle: 'Home'
 description: 'site'
 cover: true
-cover_image: 'sktech-banner-rit-web-paths.webp'
+cover_image: 'ritkonsult-hjälper-dig-rita.webp'
 hero_tagline: 'Welcome to Ritkonsult!'
 hero_title: 'We help you draw things'
 outputs:

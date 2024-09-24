@@ -398,9 +398,13 @@ button {
 ,.flow > .h1-tag + *  { margin-top: var(--scale4);}
 
 .flow > p + p
+,.flow > h3 + h4
+,.flow > h3 + p
 ,.flow > .contact + p
 ,.flow > p + figure
 ,.card .flow > * + *   {margin-top: var(--scale1);}
+
+.flow > h4 + p {margin-top: var(--scale0);}
 
 .flow > h2 + p
 ,.card .flow > * + h4
@@ -1040,6 +1044,7 @@ a:focus-visible {
   --gradient: linear-gradient(#e8d8d800 0 67%, #dfdfdf99);
 }
 
+
 /* move to correct spot */
 .footer-div {
   background: rgb(148,50,33);
@@ -1051,6 +1056,7 @@ body > footer {
   /* margin: 6rem 0 0;  */
   /*padding: 4.8rem 0 6rem; */
   background-color: var(--clr-neutral-100);
+  padding-bottom: 2rem;
 }
 body > footer > :first-child { padding-top: 2.4rem; box-shadow: /*rgba(0, 0, 0, 0.2) 0 -0.1875em;*/}
 .end-footer > * {
@@ -1168,8 +1174,9 @@ body > footer > :first-child { padding-top: 2.4rem; box-shadow: /*rgba(0, 0, 0, 
   text-align: center; */
   height: 100%;
   color: var(--clr-neutral-900);
-  background-color: var(--clr-primary-o14);
+  background-color: var(--clr-text-c20);
   overflow: hidden;
+  border-radius: 0.1rem;
 }
 
 /* .article-navigation {

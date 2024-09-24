@@ -26,7 +26,7 @@
         {{ range $all}}
         {{ range where .Pages.ByTitle "Parent.RelPermalink" "eq" .FirstSection.RelPermalink }}
                 {{ if and (ne (lower .Title) ( i18n "evacuation_plan")) (ne (lower .Title) "kontrollritning") }}
-                <li class="card card-link {{ cond (ne .Params.color nil) (printf "bg-symbol-%s" .Params.color) "bg-symbol-white" }}">
+                <li class="card card-link bg-symbol-white" style="background-color: #ffffffb0;">
                     <a class="inline-block" href="{{ .RelPermalink }}">
                         <div class="card-content-box">{{ .Title }}</div>
                     </a>

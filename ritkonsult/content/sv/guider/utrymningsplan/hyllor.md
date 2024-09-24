@@ -4,7 +4,7 @@ linktitle: 'Hyllor/inredning'
 description: 'Instruktioner för hur du markerar hyllor och övrig inredning som du vill ha med på utrymningsplanen'
 listHeading: 'Indikera vilka hyllor/inredning som ska vara med'
 list_description: ''
-translationKey: 'grey-shelfs'
+translationKey: 'utp-grey-shelfs'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

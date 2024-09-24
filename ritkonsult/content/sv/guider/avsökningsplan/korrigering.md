@@ -4,7 +4,7 @@ linktitle: 'Vid korrigering'
 description: 'Behöver du göra ändringar på din avsökningsplan så skickar du in en korrektur med ändringarna till mailadressen i order mailet du fick'
 listHeading: 'Vid korrigering'
 list_description: ''
-translationKey: 'avsökningsplan-order-correction'
+translationKey: 'avp-order-correction'
 series: 'avsökningsplan-guide'
 toc: true
 toc_h1: true

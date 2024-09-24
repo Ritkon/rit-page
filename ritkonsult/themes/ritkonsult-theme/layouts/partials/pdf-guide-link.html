@@ -1,0 +1,9 @@
+{{ if (.Resources.GetMatch "*.pdf")}}
+    {{ if and (eq .Type "guider") (ne .Title (strings.FirstUpper (i18n "guides"))) }}
+        <p class="hide-on-print">
+            {{- $link := (printf "%s%s" .RelPermalink (.Resources.GetMatch "*.pdf")) -}}
+            {{ i18n "download_a_summary_of_this_guide"  (dict "link" $link) | safeHTML}}
+        </p>
+    {{ end }}
+{{ end }}
+

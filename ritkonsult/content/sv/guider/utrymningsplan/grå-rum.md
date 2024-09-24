@@ -4,7 +4,7 @@ linktitle: 'Grå rum/områden'
 description: 'Vi går igenom hur du ska markera rum för färgläggning med grå färg på din utrymningsplan'
 listHeading: 'Grå rum och hyllor'
 list_description: ''
-translationKey: 'grå-rum-och-hyllor'
+translationKey: 'utp-grey-rooms'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

@@ -4,7 +4,7 @@ linktitle: 'Områdesindelning'
 description: 'Markera ut det olika ansvarsområden genom att markera områdena med en överstrykspenna och ange en siffra för varje enskilt område.'
 listHeading: 'Områdesindelning'
 list_description: ''
-translationKey: 'avsöknings-colored-areas'
+translationKey: 'avp-colored-areas'
 series: 'avsökningsplan-guide'
 toc: true
 toc_heading: ''

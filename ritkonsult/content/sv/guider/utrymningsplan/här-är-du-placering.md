@@ -4,7 +4,7 @@ linktitle: '"Här är du" -punkten'
 description: 'Placering av här är du plasten på utrymningstavlan'
 listHeading: '"Här är du" -punkten'
 list_description: ''
-translationKey: 'here-are-you-symbol'
+translationKey: 'utp-here-are-you-symbol'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

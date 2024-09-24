@@ -4,7 +4,7 @@ linktitle: 'Upphängning av ram'
 description: 'PDF mall för upphängning av ram'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
-translationKey: 'upphängning-av-ram'
+translationKey: 'utp-upphängning-av-ram'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

@@ -14,6 +14,20 @@
                                 <li><a href="{{ .RelPermalink }}" download>{{- if (in .MediaType.Suffixes "pdf") -}}<img class="icon" src="/images/icons/pdf-file.svg" alt="">{{- else if (intersect .MediaType.Suffixes (slice "doc" "docx")) -}}<img class="icon"  src="/images/icons/word-file.svg" alt="">{{- end -}}{{- replace .Name "forms/" "" -}}</a></li>
                                 {{ end }}
                             {{ end }}
+                            
+                            {{ $guides := where .Site.Pages "Section" (i18n "guides") }}
+                            {{ $T := .Title }}
+                            {{ range $guides}}
+                                {{ range where .Pages "Parent.RelPermalink" "eq" .FirstSection.RelPermalink }}
+                                    {{ if eq (lower .Title) (printf "guide för %s" (lower $T)) }}
+                                        <li style="margin-top: var(--scale0);">
+                                            <a href="{{ .RelPermalink }}">
+                                                {{- .Title -}}
+                                            </a>
+                                        </li>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
                         </ul>
                         <!-- <div class="flow">
                             <a href="{{ (printf "%s/" ( relLangURL (i18n "guides"))) }}{{ lower .Title }}">Så här fyller du i blanketten</a>

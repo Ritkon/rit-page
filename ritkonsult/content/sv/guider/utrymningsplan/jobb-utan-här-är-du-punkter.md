@@ -4,7 +4,7 @@ linktitle: 'Jobb utan "Här är du" symbol'
 description: 'När du beställer jobb utan "Här är du" symbol så ska du göra så här'
 listHeading: 'Jobb utan "Här är du" symbol'
 list_description: ''
-translationKey: 'no_here_are_you'
+translationKey: 'utp-no_here_are_you'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

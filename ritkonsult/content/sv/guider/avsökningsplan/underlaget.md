@@ -4,7 +4,7 @@ linktitle: 'Bild på byggnadsritning'
 description: 'Guide för hur underlaget ska se ut för ritkonsults avsökningsplan'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
-translationKey: 'underlaget'
+translationKey: 'avp-blueprint'
 series: 'avsökningsplan-guide'
 toc: true
 toc_heading: ''

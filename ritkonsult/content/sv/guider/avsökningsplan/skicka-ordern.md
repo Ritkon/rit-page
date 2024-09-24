@@ -4,7 +4,7 @@ linktitle: 'Skicka beställningen'
 description: 'Skicka in din avsökningsplans beställning till Ritkonsult.'
 listHeading: 'Grå rum och hyllor'
 list_description: ''
-translationKey: 'avsökningsplan-send-order'
+translationKey: 'avp-send-order'
 series: 'avsökningsplan-guide'
 toc: true
 toc_h1: true

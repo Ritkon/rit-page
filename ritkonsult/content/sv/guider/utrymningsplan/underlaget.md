@@ -4,7 +4,7 @@ linktitle: 'Bild på byggnadsritning'
 description: 'Ta fram ett bra underlag för din utrymningsplansbeställning'
 listHeading: 'Objekt/Symbol placering'
 list_description: ''
-translationKey: 'underlaget'
+translationKey: 'utp-underlaget'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

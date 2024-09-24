@@ -13,6 +13,9 @@ other = 'contact'
 [custom_product_banner]
 other = 'If you think we can help you draw something that is not listed in our products, you are more than welcome to <a href="{{ .link }}">contact us</a>.'
 
+[download_a_summary_of_this_guide]
+other = 'Download a summary of this <a href="{{ .link }}"><img class="icon" src="/images/icons/pdf-file.svg" alt="">guide in pdf format</a>.'
+
 [evacuation_plan]
 other = 'evacutaion plan'
 

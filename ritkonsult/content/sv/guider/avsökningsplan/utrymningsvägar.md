@@ -4,7 +4,7 @@ linktitle: 'Utrymningsvägar'
 description: 'Så här markera du var utrymningsvägarna går'
 listHeading: 'Utrymningsvägar'
 list_description: ''
-translationKey: 'avsökningsplan-escape-route'
+translationKey: 'avp-escape-route'
 series: 'avsökningsplan-guide'
 toc: true
 toc_h1: true

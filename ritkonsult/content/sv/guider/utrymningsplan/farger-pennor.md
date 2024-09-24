@@ -4,7 +4,7 @@ linktitle: 'Färger och pennor'
 description: 'I denna del av guiden för ritkonsults utrymningsplaner går vi igenom hur du ska markera rum som ska gråläggas, hyllor och övrig inredning som du vill ha med på utrymningsplanen.'
 listHeading: 'Färger och pennor'
 list_description: ''
-translationKey: 'color-pens'
+translationKey: 'utp-color-pens'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

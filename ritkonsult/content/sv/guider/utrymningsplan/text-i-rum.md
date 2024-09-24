@@ -4,7 +4,7 @@ linktitle: 'Rumsnamn och nummer'
 description: 'Vi går igenom hur rumsnamn och nummer ska markeras för att stå med på utrymningsplanen'
 listHeading: 'Namn på rum'
 list_description: ''
-translationKey: 'room-names'
+translationKey: 'utp-room-names'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

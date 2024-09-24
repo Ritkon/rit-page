@@ -1303,7 +1303,7 @@ nav .card a span span:first-child {
 .products li {
   margin-bottom: var(--scale5); 
   padding-bottom: var(--scale3);
-  box-shadow: var(--the-line);
+  box-shadow: var(--clr-text-c20) 0 .18rem;
   max-width: 100%;
 }
 

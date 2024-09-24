@@ -4,7 +4,7 @@ linktitle: 'Objekt placering'
 description: 'Så här markerar du utt vart symbolerna ska sitta.'
 listHeading: 'Objekt placering'
 list_description: ''
-translationKey: 'avsöknings-symbol-placment'
+translationKey: 'avp-symbol-placment'
 series: 'avsökningsplan-guide'
 toc: true
 toc_heading: ''

@@ -4,7 +4,7 @@ linktitle: 'Situationsplan'
 description: 'Lär dig skapa underlag för din situationsplanen.'
 listHeading: 'situationsplan'
 list_description: ''
-translationKey: 'situationsplan'
+translationKey: 'utp-siteplan'
 series: 'utrymningsplans-guide'
 toc: true
 toc_heading: ''

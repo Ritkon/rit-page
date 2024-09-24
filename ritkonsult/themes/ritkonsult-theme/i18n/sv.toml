@@ -16,6 +16,9 @@ other = 'kontakt'
 [custom_product_banner]
 other = 'Tror du att vi kan hjälpa dig rita något som ej finns listat i våra produkter så är du varmt välkommen att <a href="{{ .link }}">höra av dig.</a>'
 
+[download_a_summary_of_this_guide]
+other = 'Ladda hem en sammanfattning av denna <a href="{{ .link }}"><img class="icon" src="/images/icons/pdf-file.svg" alt="">guide i pdf format</a>.'
+
 [evacuation_plan]
 other = 'utrymningsplan'
 

@@ -4,7 +4,7 @@ linktitle: 'Situationsplan'
 description: 'Skapa underlag för situationsplanen.'
 listHeading: 'situationsplan'
 list_description: ''
-translationKey: 'avsökningsplan-siteplan'
+translationKey: 'avp-siteplan'
 series: 'avsökningsplan-guide'
 toc: true
 toc_heading: ''

@@ -4,7 +4,7 @@ linktitle: 'Skicka beställningen'
 description: 'Skicka in din utrymnigsplansbeställning till Ritkonsult.'
 listHeading: 'Skicka beställningen'
 list_description: ''
-translationKey: 'send-order'
+translationKey: 'utp-send-order'
 series: 'utrymningsplans-guide'
 toc: true
 toc_h1: true

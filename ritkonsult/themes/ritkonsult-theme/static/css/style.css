@@ -457,6 +457,7 @@ blockquote + figcaption
   font-size: 1.75em;
   font-weight: 600;
   align-self: center;
+  max-width: 33ch;
 }
 
 .banner-content {

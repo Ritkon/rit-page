@@ -1,5 +1,4 @@
 ---
-draft: true
 title: 'Ritkonsult'
 linkTitle: 'Home'
 description: 'site'

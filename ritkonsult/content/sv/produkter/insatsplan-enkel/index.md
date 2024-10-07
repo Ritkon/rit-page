@@ -21,6 +21,8 @@ Insatsplan-enkel är en **enklare, snabbare och billigare** version av insatspla
 
 Vi erbjuder två olika versioner av vår insatsplan-enkel. 
 
+{{< figure src="insatsplan-enkel-byggnad.webp, insatsplan-enkel-lantbruk.webp" alt="Ritkonsult insatsplan-enkel byggnad\e Ritkonsult insatsplan-enkel lantbruk" caption="Insatsplan-enkel version: Byggnad, Lantbruk." class="grid" >}}
+
 ### För byggnader
 Insatsplan-enkel för byggnader består av ett planritningsblad som innehäller själva planritningen, teckenförklaring och eventuell situationsplan. Plus en valfri objektsinformationssida. 
 

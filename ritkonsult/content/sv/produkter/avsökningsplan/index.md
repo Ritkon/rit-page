@@ -3,9 +3,9 @@ title: 'Avsökningsplan'
 description: 'Avsökningsplaner i 2D och 3D. Ett bra stöd till utrymningsledarna'
 banner:
     subline: 'Som stöd till utrymningsledare tar vi fram särskilda avsökningsplaner som visar vilket område respektive utrymningsledare har ansvar för.'
-    image: 'avsökningsplan-exempel.webp'
+    image: 'avsökningsplaner.webp'
     image_alt: 'Två olika delar av asvökningsplan. Den ena är ritad i 2D den andra i 3D'
-    page_banner: false
+    page_banner: true
 heroBackground: 'name'
 translationKey: 'avsökningsplan'
 order_form: true
@@ -21,14 +21,10 @@ På stora arbetsplatser, så som industrier, kontor, hotell, konferensanläggnin
 Byggnaden kan ritas i antingen 2D eller 3D. Sedan delar vi in  
 byggnaden olika färgade områden enligt er önskan och sätter ut eventuella symboler för handbrandsläckare osv. 
 
-{{< figure src="avsökningsplan-3D.webp, avsökningsplan-2D.webp" alt="Avsöknings plan ritad i 3D, byggnaden har delats upp i 2 zoner med olika färger\e Avsöknings plan ritad i 2D, byggnaden har delats upp i 3 zoner med olika färger" caption="" class="grid" >}}
-
 Avsökningsplanen kommer som standrad med en generell instruktion för utrymningsledare. 
 
 
 Du kan även välja att ta med en situationsplan som visar var återsamlingsplatsen ligger. 
-
-bild>
 
 Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad.
 

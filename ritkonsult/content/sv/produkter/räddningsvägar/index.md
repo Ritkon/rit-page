@@ -7,7 +7,7 @@ banner:
     image_alt: 'Ritning för räddningsvägar'
 heroBackground: 'name'
 translationKey: 'Räddningsvägar'
-toc: true
+toc: false
 toc_heading: ''
 color:
 tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."

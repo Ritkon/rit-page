@@ -8,7 +8,7 @@ banner:
     image_alt: 'brandlarmsritning'
 heroBackground: 'name'
 translationKey: 'brandlarmsritning'
-toc: true
+toc: false
 toc_heading: ''
 color: 'red'
 tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."

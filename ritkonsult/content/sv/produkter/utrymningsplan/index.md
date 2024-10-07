@@ -26,7 +26,6 @@ Våra planer ritas i enlighet med [Svensk Standard SS-2875](https://www.sis.se/p
 
 Har ni tidigare använt en speciell design för era planer kan vi fortsätta att rita med samma utseende eller ifall ni önskar kan vi även ta fram en ny unik design just för er.
 
-{{< figure src="plexi-utrymningsplan-3d-exempel.webp" alt="Ritkonsult utrymningsplan för plexiglasram ritad i 3D" caption="Design för plexiglasram" class="grid" >}}
 
 ## Sortiment
 

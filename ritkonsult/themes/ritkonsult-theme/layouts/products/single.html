@@ -10,17 +10,18 @@
                         "sizes" "(min-width: 861px) 98vw, 98vw"
                     ) }}
                 </div>
+                {{ if .Params.tldr }}
+                <div class="product-wrapper- flow lead-box">
+                    <h2>{{ strings.FirstUpper (i18n "summary") }}</h2>
+                    <p>{{ .Params.tldr | markdownify }}</p>
+                </div>
+                {{ end }}
                 <div class="sidebar-sticky">
                     {{ $context := (dict "Page" $ "Listed" . )}}
                     {{- partial "toc-p.html" $context -}}
                 </div>
             </div>
-            {{ if .Params.tldr }}
-            <div class="product-wrapper- flow lead-box">
-                <h2>{{ strings.FirstUpper (i18n "summary") }}</h2>
-                <p>{{ .Params.tldr | markdownify }}</p>
-            </div>
-            {{ end }}
+
             <div class="product-wrapper- flow">
             {{ if .Content }}
                 {{ .Content }}

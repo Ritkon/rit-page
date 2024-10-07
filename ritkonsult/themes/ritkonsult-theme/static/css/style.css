@@ -128,7 +128,7 @@
 
 @media (min-width:68em) {
   :root {
-    font-size: calc(0.86rem + .51vw + .1vh) 
+    font-size: calc(0.82rem + .51vw + .1vh) 
   }
 }
 

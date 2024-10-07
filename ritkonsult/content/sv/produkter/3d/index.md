@@ -32,13 +32,13 @@ En ide du vill visaullisera i 3d. Bilder du kan använda för manualer..
 
 ## Butiksplaner
 
-![](Shop_s.png)
+![](butik.jpg)
 
 Hyllor och butiks inredning kan göras i 3D. 
 
 ## Hotellplaner
 
-![](HotelResort_s.png)
+![](hotell.webp)
 
 Överskådliga Hotelplaner i 3D med rumsnummer som gör att gäster lättare hittar sitt rum.
 

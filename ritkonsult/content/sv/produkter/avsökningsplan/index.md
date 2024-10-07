@@ -8,6 +8,7 @@ banner:
     page_banner: true
 heroBackground: 'name'
 translationKey: 'avsökningsplan'
+toc: true
 order_form: true
 color:
 tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** PDF, laminat eller utskrift. **Design:** Ritkonsults mall eller er egen design."
@@ -33,7 +34,7 @@ Vill ni ha med er logotyp på ritningen ingår det utan extra kostnad.
 Priset avgörs av hur ni önskar få dem utförda samt hur många som vi ska rita. 
 Skicka ett mail till hans@ritkonsult.se så tar han kontakt med er för vidare diskussion.
 
-{{% banner-box color="white" title="Exempel på avsökningsplaner " title-h="3" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" %}}
 -  [\\pdf\\Group Solution](<{{< relpermalink >}}Group Solution.pdf>)
 -  [\\pdf\\Skogsbrynets skola](<{{< relpermalink >}}Skogsbrynets skola.pdf>)
 { .text-cloud .cluster }

@@ -8,7 +8,7 @@ banner:
     image_alt: 'Vektorisering av handritad brandsläckarfigur och en hand ritat text. En pixelerad logga och ett foto på en romersk soldat har också vektoriserats'
 heroBackground: 'name'
 translationKey: 'vektorisering'
-toc: true
+toc: false
 toc_heading: ''
 color: 
 tldr: "**Leveranstid:** varierar. **Sortiment:** cdr, eps, PDF, svg."

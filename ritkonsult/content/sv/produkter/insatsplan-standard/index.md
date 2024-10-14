@@ -50,6 +50,13 @@ Vill du göra några anpassningar eller ta bort någon av sidorna ovan så kan v
 
 Skicka ett mail till prislista@ritkonsult.se för vidare diskussion.
 
+{{% banner-box color="white" title="Exempel" title-h="2" link_icon=true %}}
+-  [\\pdf\\Bäckgården - med text sida](<{{< relpermalink >}}Bäckgården Insatsplan-enkel.pdf>)
+-  [\\pdf\\Fårbo](<{{< relpermalink >}}Fårbo Insatsplan-enkel.pdf>)
+-  [\\pdf\\Nefab](<{{< relpermalink >}}Nefab Insatsplan-enkel.pdf>)
+{ .text-cloud .cluster }
+{{% /banner-box %}}
+
 ## Våran arbetsmodell { .h1 }
 
 Arbetsprocessen innebär att ni besöker slutkunden och projekterar ritningen enligt vår mall för projektering. [Guiden](/guider/insatsplan-standard) anger hur Angreppsvägar, riskkällor osv ska markeras. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#insatsplan-standard) där ni som kund fyller i uppgifter som storlek, textinformation mm.

@@ -3,7 +3,7 @@ title: '3D'
 description: ''
 banner:
     subline: 'Förutom våra 3D utrymningsplaner erbjuder vi också olika typer av 3D visualliseringar, från byggnader, butiksplaner till installations exempel av produkter.'
-    image: '/images/utp.jpg'
+    image: '3d-bilder.webp'
     image_alt: 'utrymningsplans exempel i 2D utförande'
 heroBackground: 'name'
 translationKey: '3d'
@@ -13,10 +13,7 @@ color:
 weight: 70
 ---
 
-Vi har arbetat med [utrymningsplaner i 3D](/produkter/utrymningsplan) sedan 2006 och erbjuder även andra tjänster inom 3D och 3D visualisering. Vi ritar i **Sketchup** och **Blender**. 
-
-Du kan få din 3D model levererat som en bild eller 3D-fil. 
-Om du vill kan vi hjälpa dig ta fram bilder.. manualer/installationer&navigerings kartor
+Vi har arbetat med [utrymningsplaner i 3D](/produkter/utrymningsplan) sedan 2006 och erbjuder även andra tjänster inom 3D och 3D visualisering. Vi ritar i **Sketchup**.  
 
 ## Byggnader
 
@@ -24,7 +21,9 @@ Om du vill kan vi hjälpa dig ta fram bilder.. manualer/installationer&navigerin
 
 ## Objekt
 
-En ide du vill visaullisera i 3d. Bilder du kan använda för manualer..
+{{< figure src="objekt-installation.jpg, objekt-klämma.jpg" alt="Installation av brandskydd för kabelgenomföring\e En klämma som används för brandskydd av kabelgenomföringar" caption="" class="grid" >}}
+
+Olika objekt som kan användas för tex installationsmanualer
 
 ## Planritningar
 

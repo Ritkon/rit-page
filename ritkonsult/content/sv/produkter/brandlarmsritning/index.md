@@ -8,7 +8,7 @@ banner:
     image_alt: 'brandlarmsritning'
 heroBackground: 'name'
 translationKey: 'brandlarmsritning'
-toc: false
+toc: true
 toc_heading: ''
 color: 'red'
 tldr: "**Leveranstid:** inom 7 dagar. **Sortiment:** PDF eller utskrift. **Design:** Ritkonsults mall eller er egen design."
@@ -29,9 +29,15 @@ Följande saker gäller för brandlarmsritngar:
 
 Priset beror på antalet symboler på varje ritning och **börjar på 490 kr**.
 
-{{% banner-box color="white" title="Exempel på brandlarmsritningar" title-h="3" %}}
+{{% banner-box color="white" title="Exempel" title-h="2" %}}
 -  [\\pdf\\Björnen](<{{< relpermalink >}}brandlarmsritning Bjornen.pdf>)
 -  [\\pdf\\Frälsningsarmén](<{{< relpermalink >}}Frälsningsarmén Brandlarmsritning.pdf>)
 -  [\\pdf\\Tegeltornet](<{{< relpermalink >}}brandlarmsritning Tegeltornet.pdf>)
 { .text-cloud .cluster }
 {{% /banner-box %}}
+
+## Våran arbetsmodell { .h1 }
+
+Vi har tagit fram en [guide](/guider/brandlarmsritning) som sparar mycket tid för både er som kund och för oss när vi ritar. Givetvis måste inte mallen följas till varje pris men syftet är att spara tid för båda parter. Till varje jobb finns också en [beställningsblankett](/blanketter#avsökningsplan) där ni som kund fyller i uppgifter som storlek, larmnummer mm.
+
+Inom sju arbetsdagar från att vi fått underlaget mailar vi ett korrektur till er. När ni godkänt korrekturet skickar vi avsökningsplanen till er.

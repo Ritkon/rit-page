@@ -10,7 +10,7 @@ translationKey: 'erbjudande'
 toc: false
 cover: true
 cover_right_side: true
-cover_image: 'save.webp'
+cover_image: 'erbjudanden-ritkonsult.webp'
 bread: true
 color: 'white'
 weight: 

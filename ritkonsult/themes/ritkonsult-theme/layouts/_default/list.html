@@ -12,7 +12,7 @@
                     {{- partial "toc.html" $context -}}
                 </div>
                 <div class="not-sidebar">
-                    <ol class="symbol-card-box clean-list grid" style="--animation-loop:2;">
+                    <ol class="symbol-card-box clean-list grid" style="--animation-loop:2; --min:12.5rem;">
                         {{ range  (cond (ne .Params.by_weight false) .Pages.ByWeight .Pages.ByTitle) }}
                             {{ .Render "li" }}
                         {{ end }}

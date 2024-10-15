@@ -121,14 +121,20 @@
   --lh-1000: calc(0.82*var(--ratio));
   /* 1.1; */
 
-  font-size: calc(1.06rem + .62vw) 
+  font-size: calc(1rem + .62vw) 
   /* calc(1rem + .65vw)  */
   /* calc(1rem + .75vw)  */
 }
 
 @media (min-width:68em) {
   :root {
-    font-size: calc(0.82rem + .51vw + .1vh) 
+    font-size: calc(1rem + .33vw + .1vh) 
+  }
+}
+
+@media (max-width:56em) {
+  :root {
+    font-size: calc(1.03rem + .62vw + .1vh) 
   }
 }
 
@@ -303,6 +309,10 @@ blockquote p::after {
 
 figure > figcaption > cite {
   display: inline-block;
+}
+
+figure .grid {
+  --min: 19rem;
 }
 
 button {
